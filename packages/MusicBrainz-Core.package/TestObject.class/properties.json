@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
