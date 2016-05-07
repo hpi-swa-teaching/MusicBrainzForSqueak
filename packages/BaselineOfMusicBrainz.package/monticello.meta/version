@@ -1,1 +1,1 @@
-(name 'BaselineOfMusicBrainz-nt.1' message 'added baseline' id 'd5ac671e-87b7-4f4d-a675-8f1ce5397d5b' date '7 May 2016' time '3:07:53.980305 pm' author 'nt' ancestors () stepChildren ())
+(name 'BaselineOfMusicBrainz-mv.2' message 'correct baseline' id '031abf24-245e-fe49-bdf9-1ee9a4f6b90a' date '7 May 2016' time '3:16:05.550493 pm' author 'mv' ancestors ((name 'BaselineOfMusicBrainz-nt.1' message 'added baseline' id 'd5ac671e-87b7-4f4d-a675-8f1ce5397d5b' date '7 May 2016' time '3:07:53.980305 pm' author 'nt' ancestors () stepChildren ())) stepChildren ())
