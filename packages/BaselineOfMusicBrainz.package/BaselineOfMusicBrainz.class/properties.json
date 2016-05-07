@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMusicBrainz",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMusicBrainz",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
