@@ -3,7 +3,8 @@ getReleaseIDNamed: aString
 
 	| reply resp xmldoc |
 	
-	resp := WebClient new httpGet: 'http://musicbrainz.org/ws/2/release/?query=', aString do: [:req | req headerAt: 'User-Agent' put:  'squeakMuB / 0.1'.].
+	"resp := WebClient new httpGet: 'http://musicbrainz.org/ws/2/release/?query=', aString do: [:req | req headerAt: 'User-Agent' put:  'squeakMuB / 0.1'.]."
+	resp := WebClient httpGet: 'http://mb.mvoelker.me/ws/2/release/?query=', aString.
 	resp isSuccess ifFalse:[^self error: resp status].
 	"Process the content from the response"
 	reply := resp content.

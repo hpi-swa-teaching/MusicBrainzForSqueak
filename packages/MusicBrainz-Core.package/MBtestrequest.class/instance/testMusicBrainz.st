@@ -4,7 +4,7 @@ testMusicBrainz
 
 	| reply resp xmldoc |
 	
-	resp := WebClient new httpGet: 'http://musicbrainz.org/ws/2/release/?query=Devils' do: [:req | req headerAt: 'User-Agent' put:  'squeakMB / 0.1'.].
+	resp := WebClient new httpGet: 'http://mb.mvoelker.me/ws/2/release/?query=Devils' do: [:req | req headerAt: 'User-Agent' put:  'squeakMB / 0.1'.].
 	resp isSuccess ifFalse:[^self error: resp status].
 	"Process the content from the response"
 	reply := resp content.
