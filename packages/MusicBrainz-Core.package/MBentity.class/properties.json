@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"EntityName" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MBlookup",
+		"mbid" ],
+	"name" : "MBentity",
 	"pools" : [
 		 ],
-	"super" : "MBrequest",
+	"super" : "Object",
 	"type" : "normal" }

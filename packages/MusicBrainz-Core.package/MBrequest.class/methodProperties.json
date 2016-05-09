@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"baseURL" : "mv 5/7/2016 23:23",
+		"baseURL" : "mv 5/9/2016 18:45",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
-		 } }
+		"browseFor:by:withMbid:" : "mv 5/9/2016 22:34",
+		"getMBIDforAlbumNamed:" : "mv 5/9/2016 22:31",
+		"sendQuery:forEntity:" : "mv 5/9/2016 18:51" } }

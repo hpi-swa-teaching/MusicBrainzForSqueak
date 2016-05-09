@@ -1,4 +1,4 @@
 as yet unclassified
 baseURL
 
-	^ 'http://musicbrainz.org/ws/2/'
+	^ 'http://mb.mvoelker.me/ws/2/'

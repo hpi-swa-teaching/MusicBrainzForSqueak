@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MBquery",
+	"name" : "MBalbum",
 	"pools" : [
 		 ],
-	"super" : "MBrequest",
+	"super" : "MBentity",
 	"type" : "normal" }
