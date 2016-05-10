@@ -1,8 +1,7 @@
 {
 	"class" : {
 		"baseURL" : "mv 5/9/2016 18:45",
-		"standardUserAgent" : "mv 5/7/2016 23:24",
-		"testXML" : "mv 5/7/2016 18:10" },
+		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
 		"browseFor:by:withMBID:" : "mv 5/10/2016 11:23",
 		"getDetailsForA:withMBID:" : "mv 5/10/2016 11:59",
