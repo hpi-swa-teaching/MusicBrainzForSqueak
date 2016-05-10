@@ -3,6 +3,9 @@
 		"baseURL" : "mv 5/9/2016 18:45",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
-		"browseFor:by:withMbid:" : "mv 5/9/2016 22:34",
+		"browseFor:by:withMBID:" : "mv 5/10/2016 11:23",
+		"getDetailsForA:withMBID:" : "mv 5/10/2016 11:59",
+		"getDetailsForA:withMBID:about:" : "mv 5/10/2016 12:02",
 		"getMBIDforAlbumNamed:" : "mv 5/9/2016 22:31",
-		"sendQuery:forEntity:" : "mv 5/9/2016 18:51" } }
+		"getReleaseIDNamed:" : "mv 5/10/2016 11:35",
+		"sendQuery:forEntity:" : "mv 5/10/2016 11:46" } }

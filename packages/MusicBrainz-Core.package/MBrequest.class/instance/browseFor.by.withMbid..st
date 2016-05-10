@@ -1,10 +1,9 @@
 as yet unclassified
-browseFor: aString by: anotherString withMbid: andanotherString
+browseFor: aString by: anotherString withMBID: andAnotherString
 
 	| reply resp xmldoc requestURL |
 	
-	requestURL := MBrequest baseURL, aString, '?', anotherString, '=', andanotherString.
-	"Transcript show: 'Requesting: ', requestURL."
+	requestURL := MBrequest baseURL, aString, '?', anotherString, '=', andAnotherString.
 	resp := WebClient httpGet: requestURL.
 	resp isSuccess ifFalse:[^self error: resp status].
 	reply := resp content.
