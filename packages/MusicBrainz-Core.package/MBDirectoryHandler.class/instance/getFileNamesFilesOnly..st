@@ -1,11 +1,9 @@
 as yet unclassified
 getFileNamesFilesOnly: isActive 
-	| filenames |
+	| filenames files |
 	isActive
-		ifTrue: [filenames := entries
-						select: [:entry | entry isDirectory not];
-						collect: [:entry | entry name]]
-		ifFalse: [filenames := entries
-						select: [:entry | entry isDirectory];
-						collect: [:entry | entry name]].
+		ifTrue: [files := self entries select: [:entry | entry isDirectory not].
+				filenames := files collect: [:entry | entry name]]
+		ifFalse: [files := self entries select: [:entry | entry isDirectory].
+				filenames := files collect: [:entry | entry name]].
 	^ filenames
