@@ -1,0 +1,15 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentDirectory",
+		"entries" ],
+	"name" : "MBDirectoryHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
