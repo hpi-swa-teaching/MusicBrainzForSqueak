@@ -1,5 +1,5 @@
 as yet unclassified
-getReleaseIDNamed: aString
+getMBIDForReleaseNamed: aString FetchFirst: anInteger
 
 	| request mbids count |
 	
@@ -7,7 +7,7 @@ getReleaseIDNamed: aString
 	mbids := OrderedCollection new.
 	count := 0.
 	request tagsNamed: #release do: [:each | 
-		(count <= 10)
+		(count < anInteger)
 		ifTrue: [
 			mbids add: (each attributeAt: 'id').
 			count := count+1]

@@ -4,7 +4,5 @@ testArtists
 	| artists  compareValue |
 	
 	artists := self album getArtists.
-	compareValue := Set new.
-	compareValue add: 'London Grammar';
-		add: 'Disclosure'.
+	compareValue := OrderedCollection newFrom: #('London Grammar' 'Disclosure').
 	self assert: (artists = compareValue )

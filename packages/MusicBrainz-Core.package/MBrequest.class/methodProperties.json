@@ -4,10 +4,8 @@
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
 		"browseFor:by:withMBID:" : "mv 5/10/2016 11:23",
-		"getAlbumsNamed:" : "mv 5/16/2016 14:13",
+		"getAlbumsNamed:FetchFirst:" : "mv 5/16/2016 18:48",
 		"getDetailsForA:withMBID:" : "mv 5/10/2016 11:59",
 		"getDetailsForA:withMBID:about:" : "mv 5/10/2016 12:02",
-		"getFirstReleaseIDNamed:" : "mv 5/16/2016 13:22",
-		"getMBIDforAlbumNamed:" : "tm 5/10/2016 19:51",
-		"getReleaseIDNamed:" : "mv 5/16/2016 13:41",
+		"getMBIDForReleaseNamed:FetchFirst:" : "mv 5/16/2016 18:39",
 		"sendQuery:forEntity:" : "mv 5/10/2016 11:46" } }
