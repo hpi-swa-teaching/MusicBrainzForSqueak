@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"artists",
+		"title",
+		"tracklist" ],
 	"name" : "MBalbum",
 	"pools" : [
 		 ],

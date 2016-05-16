@@ -1,15 +1,15 @@
 as yet unclassified
-getReleaseIDNamed: aString
+getAlbumsNamed: aString
 
-	| request mbids count |
+	| request albums count |
 	
 	request := self sendQuery: aString forEntity: 'release'.
-	mbids := OrderedCollection new.
+	albums := OrderedCollection new.
 	count := 0.
 	request tagsNamed: #release do: [:each | 
 		(count <= 10)
 		ifTrue: [
-			mbids add: (each attributeAt: 'id').
+			albums add: (MBalbum new setMBID: (each attributeAt: 'id')).
 			count := count+1]
 		].
-	^ mbids
+	^ albums

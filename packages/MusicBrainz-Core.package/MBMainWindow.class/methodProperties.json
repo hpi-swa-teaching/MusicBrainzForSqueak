@@ -4,5 +4,8 @@
 	"instance" : {
 		"albums" : "JR 5/12/2016 13:34",
 		"allTracks" : "JR 5/13/2016 16:59",
-		"buildWith:" : "JR 5/13/2016 16:47",
+		"buildWith:" : "mv 5/16/2016 14:20",
+		"getAlbumName:" : "mv 5/16/2016 14:26",
+		"getMBalbums" : "mv 5/16/2016 14:14",
+		"getTracklistForAlbum:" : "mv 5/16/2016 14:22",
 		"tracksForAlbum:" : "JR 5/13/2016 17:01" } }

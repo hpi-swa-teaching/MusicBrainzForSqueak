@@ -2,6 +2,12 @@
 	"class" : {
 		"entityName" : "mv 5/9/2016 19:03" },
 	"instance" : {
-		"getArtists" : "mv 5/10/2016 11:17",
-		"getTitle" : "mv 5/10/2016 12:01",
-		"getTracklist" : "mv 5/10/2016 11:28" } }
+		"artists" : "mv 5/16/2016 14:30",
+		"artists:" : "mv 5/16/2016 14:30",
+		"getArtists" : "mv 5/16/2016 14:34",
+		"getTitle" : "mv 5/16/2016 14:33",
+		"getTracklist" : "mv 5/16/2016 14:33",
+		"title" : "mv 5/16/2016 14:30",
+		"title:" : "mv 5/16/2016 14:30",
+		"tracklist" : "mv 5/16/2016 14:30",
+		"tracklist:" : "mv 5/16/2016 14:30" } }
