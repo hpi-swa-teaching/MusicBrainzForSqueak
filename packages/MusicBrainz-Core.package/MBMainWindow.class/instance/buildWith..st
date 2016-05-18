@@ -1,7 +1,7 @@
 as yet unclassified
 buildWith: builder
 
-| windowSpec treeSpec listSpec albumSpec |
+| windowSpec treeSpec listSpec albumSpec albumListSpec |
 
 windowSpec:= builder pluggableWindowSpec new.
 windowSpec 
@@ -29,10 +29,16 @@ listSpec:= builder pluggableListSpec new.
 listSpec 
 		model:self;
 		list: #allTracks;
-		frame: (0@0.5 corner:1@1).
+		frame: (0@0.5 corner:0.5@1).
 
+albumListSpec:= builder pluggableListSpec new.
+albumListSpec 
+		model:self;
+		list: #albums;
+		frame: (0.5@0.5 corner:1@1).
 
 windowSpec children add: treeSpec.
 windowSpec children add: listSpec.
 windowSpec children add: albumSpec.
+windowSpec children add: albumListSpec.
 ^ builder build: windowSpec.
