@@ -5,3 +5,4 @@ getTracklistForAlbum: aString
 	ifTrue: [	^ aString getTracklist]
 	ifFalse: [^ OrderedCollection new]
 	
+	
