@@ -6,5 +6,5 @@ getTitle
 			| request |
 			request := MBrequest new getDetailsForA: (self class entityName) withMBID: (self mbid).
 			self
-				title: (request firstTagNamed: #title) contentString
+				title: (request firstTagNamed: #title) contentString;
 				title]
