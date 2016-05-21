@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedDirectory" ],
+		"selectedDirectory",
+		"selectedFiles" ],
 	"name" : "MBFileSelectionWindow",
 	"pools" : [
 		 ],
