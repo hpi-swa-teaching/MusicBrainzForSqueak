@@ -2,5 +2,7 @@ as yet unclassified
 getAlbumName: aString
 
 	(aString class = MBalbum)
-	ifTrue: [^ (aString getTitle, ' - ', aString getArtists first) ]
-	ifFalse: [^ aString]
+	ifTrue: [^ (aString getTitle, ' - ', aString getArtists first) ].
+	(aString class = MBtrack)
+	ifTrue: [^ (aString getTitle)].
+	^ aString
