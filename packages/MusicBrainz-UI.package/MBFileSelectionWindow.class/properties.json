@@ -1,15 +1,14 @@
 {
-	"category" : "MusicBrainz-Core",
+	"category" : "MusicBrainz-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentDirectory",
-		"entries" ],
-	"name" : "MBDirectoryHandler",
+		"selectedDirectory" ],
+	"name" : "MBFileSelectionWindow",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }

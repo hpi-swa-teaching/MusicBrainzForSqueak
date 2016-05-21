@@ -2,6 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "tm 5/10/2016 19:42",
-		"testGetFileNamesFilesOnly" : "tm 5/10/2016 19:47",
-		"testShowFileNames" : "tm 5/16/2016 13:09" } }
+		 } }
