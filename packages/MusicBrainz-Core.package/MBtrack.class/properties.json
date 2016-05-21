@@ -1,0 +1,18 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"artists",
+		"title",
+		"albumentity",
+		"filepath",
+		"tags" ],
+	"name" : "MBtrack",
+	"pools" : [
+		 ],
+	"super" : "MBentity",
+	"type" : "normal" }

@@ -1,10 +1,8 @@
 as yet unclassified
-getTitle
+getLength
 
-	^ self title ifNil:
+	^ self tags at: #length ifAbsent:
 		[
 			| request |
 			request := MBrequest new getDetailsForA: (self class entityName) withMBID: (self mbid).
-			self
-				title: (request firstTagNamed: #title) contentString
-				title]
+			^ self tags at: #length put: (request firstTagNamed: #length) contentString].
