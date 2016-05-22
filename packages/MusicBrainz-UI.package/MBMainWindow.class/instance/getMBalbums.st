@@ -1,4 +1,4 @@
-as yet unclassified
+albumTreeView
 getMBalbums
 	| requestObject |
 	requestObject := MBrequest new.

@@ -1,4 +1,4 @@
-as yet unclassified
-fileNames 
-
-	^ self files collect: [:entry | entry name]
+file and directory accessing
+fileNames
+	^ self files
+		collect: [:entry | entry name]

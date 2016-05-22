@@ -1,8 +1,5 @@
-as yet unclassified
-files 
-
-	^ self selectedDirectory 
-		ifNil: 
-			[#()]
-		ifNotNil:
-			[self collectFiles: (self selectedDirectory)]
+file and directory accessing
+files
+	^ self selectedDirectory
+		ifNil: [#()]
+		ifNotNil: [self collectFiles: self selectedDirectory]

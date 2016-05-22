@@ -1,4 +1,3 @@
-as yet unclassified
+accessing
 rootDirectory
-
 	^ {FileDirectory on: ''}

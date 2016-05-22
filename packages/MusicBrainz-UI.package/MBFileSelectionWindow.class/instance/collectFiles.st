@@ -1,6 +1,6 @@
-as yet unclassified
+file and directory accessing
 collectFiles
-
-	^ self selectedDirectory 
+	^ self selectedDirectory
 		ifNil: [#()]
-		ifNotNil: [:d | d entries select: [:entry | entry isDirectory not]]
+		ifNotNil: [:d | d entries
+				select: [:entry | entry isDirectory not]]

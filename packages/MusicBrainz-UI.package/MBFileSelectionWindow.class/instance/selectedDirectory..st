@@ -1,6 +1,5 @@
 accessing
-selectedDirectory: anObject
-	
+selectedDirectory: anObject 
 	selectedDirectory := anObject.
 	self changed: #selectedDirectory.
-	self changed: #fileNames.
+	self changed: #fileNames

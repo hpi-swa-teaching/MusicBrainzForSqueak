@@ -1,7 +1,7 @@
-as yet unclassified
-showFileNamesFor: aDirectory
-
+file and directory accessing
+showFileNamesFor: aDirectory 
 	^ aDirectory entries
-		select: [:entry | ([entry asFileDirectory entries. true] on: Error do: [false])]
+		select: [:entry | [entry asFileDirectory entries. true]
+				on: Error
+				do: [false]]
 		thenCollect: [:entry | entry asFileDirectory]
-	

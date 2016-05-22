@@ -1,4 +1,4 @@
-as yet unclassified
+albumTreeView
 getTracklistForAlbum: aString
 
 	(aString class = MBalbum)
