@@ -3,12 +3,11 @@
 		"open" : "tm 5/16/2016 12:35" },
 	"instance" : {
 		"buildFileListView" : "TM 5/22/2016 16:12",
-		"buildFileTreeView" : "TM 5/22/2016 16:12",
+		"buildFileTreeView" : "TM 5/24/2016 14:21",
 		"buildWindow" : "TM 5/22/2016 16:09",
-		"buildWith:" : "TM 5/22/2016 16:10",
+		"buildWith:" : "TM 5/24/2016 14:17",
 		"builder" : "TM 5/22/2016 16:08",
 		"builder:" : "TM 5/22/2016 16:08",
-		"collectFiles" : "TM 5/22/2016 16:13",
 		"collectFiles:" : "TM 5/22/2016 16:13",
 		"fileNames" : "TM 5/22/2016 16:14",
 		"files" : "TM 5/22/2016 16:14",
@@ -16,4 +15,4 @@
 		"rootDirectory" : "TM 5/22/2016 16:14",
 		"selectedDirectory" : "JR 5/21/2016 11:33",
 		"selectedDirectory:" : "TM 5/22/2016 16:11",
-		"showFileNamesFor:" : "TM 5/22/2016 16:15" } }
+		"showFolderNamesFor:" : "TM 5/24/2016 14:21" } }

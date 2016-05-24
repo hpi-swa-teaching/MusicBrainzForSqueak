@@ -1,5 +1,5 @@
 file and directory accessing
-showFileNamesFor: aDirectory 
+showFolderNamesFor: aDirectory 
 	^ aDirectory entries
 		select: [:entry | [entry asFileDirectory entries. true]
 				on: Error
