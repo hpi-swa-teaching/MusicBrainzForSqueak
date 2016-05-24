@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"track" ],
+	"name" : "MBtrackTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
