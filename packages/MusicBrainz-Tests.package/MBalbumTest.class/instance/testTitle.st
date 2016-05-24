@@ -1,8 +1,10 @@
 as yet unclassified
 testTitle
 
-	| tracklist  compareValue |
+	| title  |
 	
-	tracklist := self album getTitle.
-	compareValue := 'If You Wait'.
-	self assert: (tracklist = compareValue )
+	title := self album getTitle.
+	self
+		assert: 'If You Wait'
+		equals: title
+		description: 'The title of album does not match'

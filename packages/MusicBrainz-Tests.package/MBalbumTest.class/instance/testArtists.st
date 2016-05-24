@@ -1,8 +1,10 @@
 as yet unclassified
 testArtists
 
-	| artists  compareValue |
+	| artists |
 	
 	artists := self album getArtists.
-	compareValue := OrderedCollection newFrom: #('London Grammar' 'Disclosure').
-	self assert: (artists = compareValue )
+	self
+		assert: (OrderedCollection newFrom: #('London Grammar' 'Disclosure'))
+		equals: artists
+		description: 'The artists of album do not match'
