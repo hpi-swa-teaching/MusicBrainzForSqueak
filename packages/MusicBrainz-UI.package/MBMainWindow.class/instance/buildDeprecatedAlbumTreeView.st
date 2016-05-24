@@ -1,7 +1,7 @@
 building
 buildDeprecatedAlbumTreeView
 	| treeSpec |
-	treeSpec:= self builder pluggableTreeSpec new.
+	treeSpec := self builder pluggableTreeSpec new.
 	^ treeSpec 
 		model:self;
 		getChildren: #tracksForAlbum:;

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: methods
 testFileNames
 	self fileSelectionWindow selectedDirectory: (FileDirectory on: Smalltalk imagePath). 
-	self assert: (self fileSelectionWindow fileNames class = OrderedCollection)
+	self assert: self fileSelectionWindow fileNames class = OrderedCollection

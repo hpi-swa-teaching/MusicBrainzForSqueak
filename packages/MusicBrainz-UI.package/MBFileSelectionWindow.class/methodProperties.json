@@ -2,10 +2,10 @@
 	"class" : {
 		"open" : "tm 5/16/2016 12:35" },
 	"instance" : {
-		"buildFileListView" : "TM 5/22/2016 16:12",
+		"buildFileListView" : "TM 5/24/2016 19:21",
 		"buildFileTreeView" : "TM 5/24/2016 14:21",
-		"buildWindow" : "TM 5/22/2016 16:09",
-		"buildWith:" : "TM 5/24/2016 14:17",
+		"buildWindow" : "TM 5/24/2016 19:08",
+		"buildWith:" : "TM 5/24/2016 19:03",
 		"builder" : "TM 5/22/2016 16:08",
 		"builder:" : "TM 5/22/2016 16:08",
 		"collectFiles:" : "TM 5/22/2016 16:13",

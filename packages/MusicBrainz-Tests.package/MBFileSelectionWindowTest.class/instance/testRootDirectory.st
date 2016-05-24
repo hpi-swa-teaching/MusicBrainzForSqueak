@@ -1,4 +1,3 @@
-as yet unclassified
+TESTING: methods
 testRootDirectory
-
-	self assert: (self fileSelectionWindow rootDirectory = {FileDirectory on: ''})
+	self assert: self fileSelectionWindow rootDirectory = {FileDirectory on: ''}

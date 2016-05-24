@@ -1,7 +1,7 @@
 albumTreeView
-getAlbumName: aString 
-	aString class = MBalbum
-		ifTrue: [^ aString getTitle , ' - ' , aString getArtists first].
-	aString class = MBtrack
-		ifTrue: [^ aString getTitle].
-	^ aString
+getAlbumName: anObject
+	anObject class = MBalbum
+		ifTrue: [^ anObject getTitle , ' - ' , anObject getArtists first].
+	anObject class = MBtrack
+		ifTrue: [^ anObject getTitle].
+	^ anObject

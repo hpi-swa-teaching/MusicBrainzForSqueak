@@ -1,6 +1,5 @@
 metadataView
 getMetadataAlbum
-	"REFACTOREN"
 	| metadata artists artistCollection |
 	artistCollection := self selectedEntity getArtists.
 	artists := ''.

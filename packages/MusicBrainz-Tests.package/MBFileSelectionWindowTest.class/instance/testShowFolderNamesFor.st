@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: methods
 testShowFolderNamesFor
 
 	| folderNames |
