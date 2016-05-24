@@ -6,7 +6,8 @@ baseline: spec
         do: [ 
             spec
                 package: 'MusicBrainz-Core';
+		    package: 'MusicBrainz-UI';	
                 package: 'MusicBrainz-Tests' with: [ spec requires: #('default') ].
             spec
-                group: 'default' with: #('MusicBrainz-Core');
+                group: 'default' with: #('MusicBrainz-Core' 'MusicBrainz-UI');
                 group: 'Tests' with: #('MusicBrainz-Tests') ]
