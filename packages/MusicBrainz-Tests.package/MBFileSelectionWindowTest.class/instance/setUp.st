@@ -1,4 +1,6 @@
 as yet unclassified
 setUp
+	| window |
 	super setUp.
-	self fileSelectionWindow: MBFileSelectionWindow new
+	window := MBFileSelectionWindow new.
+	self fileSelectionWindow: window
