@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"selectedEntity",
-		"builder" ],
+		"builder",
+		"mbAlbums" ],
 	"name" : "MBMainWindow",
 	"pools" : [
 		 ],

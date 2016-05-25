@@ -1,5 +1,10 @@
 albumTreeView
 getMBalbums
-	| requestObject |
+	| requestObject albums|
+	albums := MBSTONHandler loadFromLocalSTON.
+	albums ifNotNil: [^albums].
 	requestObject := MBrequest new.
-	^ requestObject getAlbumsNamed: 'Devils' FetchFirst: 10
+	albums := requestObject getAlbumsNamed: 'Love' FetchFirst: 10.
+	self mbAlbums addAll: albums.
+	^ albums
+	
