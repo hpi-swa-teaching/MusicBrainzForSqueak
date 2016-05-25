@@ -1,5 +1,5 @@
 as yet unclassified
-safeSTONOf: anObject
+saveSTONOf: anObject
 	|stonString fileDirectory|
 		fileDirectory := MBSTONHandler path.
 		stonString := STON toString: anObject.

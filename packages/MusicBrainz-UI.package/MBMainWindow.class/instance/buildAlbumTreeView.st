@@ -9,5 +9,5 @@ buildAlbumTreeView
 		label: #getAlbumName:;
 		getSelected: #selectedEntity;
 		setSelected: #selectedEntity:;
-		frame: (0.3@0 corner: 0.65@1)
+		frame: (0.35@0 corner: 0.65@1)
 

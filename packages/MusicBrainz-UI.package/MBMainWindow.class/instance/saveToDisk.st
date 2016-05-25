@@ -1,3 +1,3 @@
-accessing
+im&ex-porting
 saveToDisk
-	MBSTONHandler safeSTONOf: self importedAlbums
+	MBSTONHandler saveSTONOf: self importedAlbums

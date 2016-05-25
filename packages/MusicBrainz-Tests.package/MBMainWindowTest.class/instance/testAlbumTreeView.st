@@ -11,4 +11,4 @@ testAlbumTreeView
 		assert: treeSpec label = 'getAlbumName:';
 		assert: treeSpec getSelected = 'selectedEntity';
 		assert: treeSpec setSelected = 'selectedEntity:';
-		assert: treeSpec frame = (0.3@0 corner: 0.65@1)
+		assert: treeSpec frame = (0.35@0 corner: 0.65@1)
