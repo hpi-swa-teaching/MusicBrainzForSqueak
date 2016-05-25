@@ -8,7 +8,8 @@
 	"instvars" : [
 		"artists",
 		"title",
-		"tracklist" ],
+		"tracklist",
+		"trackCollection" ],
 	"name" : "MBalbum",
 	"pools" : [
 		 ],

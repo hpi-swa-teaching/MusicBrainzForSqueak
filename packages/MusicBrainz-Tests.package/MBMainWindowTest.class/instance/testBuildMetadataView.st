@@ -7,4 +7,4 @@ testBuildMetadataView
 		assert: listSpec class = PluggableListSpec;
 		assert: listSpec model class = MBMainWindow;
 		assert: listSpec list = 'getMetadata';
-		assert: listSpec frame = (0.65@0 corner: 1@0.8)
+		assert: listSpec frame = (0.65@0 corner: 1@1)

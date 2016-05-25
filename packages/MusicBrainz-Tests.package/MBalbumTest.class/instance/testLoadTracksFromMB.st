@@ -1,5 +1,5 @@
 as yet unclassified
-testTracks
+testLoadTracksFromMB
 
 	| tracks compareListWithMBIDs i |
 	

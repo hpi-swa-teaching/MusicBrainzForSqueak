@@ -2,7 +2,7 @@ albumTreeView
 getTracklistForAlbum: aString
 
 	(aString class = MBalbum)
-	ifTrue: [	^ aString getTracks]
+	ifTrue: [	^ aString loadTracksFromMB]
 	ifFalse: [^ OrderedCollection new]
 	
 	
