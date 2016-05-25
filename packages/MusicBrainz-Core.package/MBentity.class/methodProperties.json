@@ -5,6 +5,7 @@
 	"instance" : {
 		"asString" : "mv 5/9/2016 16:48",
 		"checkValidMBID:" : "mv 5/24/2016 21:24",
+		"getStringRepresentation" : "pb 5/25/2016 17:09",
 		"mbid" : "mv 5/9/2016 16:17",
 		"mbid:" : "mv 5/9/2016 16:17",
 		"setMBID:" : "mv 5/9/2016 22:29" } }
