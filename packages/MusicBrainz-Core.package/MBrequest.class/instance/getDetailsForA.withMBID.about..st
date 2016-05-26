@@ -2,7 +2,6 @@ as yet unclassified
 getDetailsForA: aString withMBID: anotherString about: andAnotherString
 
 	| reply resp xmldoc requestURL |
-	
 	(andAnotherString isNil)
 		ifTrue: [requestURL := MBrequest baseURL, aString, '/', anotherString]
 		ifFalse: [requestURL := MBrequest baseURL, aString, '/', anotherString, '?inc=', andAnotherString].
