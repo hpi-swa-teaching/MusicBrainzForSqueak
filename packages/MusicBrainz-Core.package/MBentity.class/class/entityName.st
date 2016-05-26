@@ -1,3 +1,3 @@
 accessing
 entityName
-	^ EntityName
+	^ self subclassResponsibility 
