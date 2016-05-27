@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mv 5/24/2016 19:36",
+		"setUp" : "tm 5/27/2016 16:42",
 		"testConvertMilliSecToMinutes" : "tm 5/24/2016 16:43",
 		"testGetArtists" : "mv 5/24/2016 19:47",
 		"testGetLength" : "mv 5/24/2016 19:49",

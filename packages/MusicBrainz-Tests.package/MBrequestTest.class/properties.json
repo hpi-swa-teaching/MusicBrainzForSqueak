@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"request" ],
-	"name" : "MBrequestTest",
+	"name" : "MBRequestTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

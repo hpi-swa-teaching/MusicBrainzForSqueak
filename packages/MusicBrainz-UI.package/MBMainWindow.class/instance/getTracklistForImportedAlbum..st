@@ -1,5 +1,5 @@
 im&ex-porting
-getTracklistForImportedAlbum: aString
-	aString class = MBalbum
-		ifTrue: [^ aString trackCollection]
+getTracklistForImportedAlbum: anObject
+	anObject class = MBAlbum
+		ifTrue: [^ anObject trackCollection]
 		ifFalse: [^ OrderedCollection new]

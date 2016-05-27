@@ -3,7 +3,7 @@ browseFor: aString by: anotherString withMBID: andAnotherString
 
 	| reply resp xmldoc requestURL |
 	
-	requestURL := MBrequest baseURL, aString, '?', anotherString, '=', andAnotherString.
+	requestURL := MBRequest baseURL, aString, '?', anotherString, '=', andAnotherString.
 	resp := WebClient httpGet: requestURL.
 	resp isSuccess ifFalse:[^self error: resp status].
 	reply := resp content.

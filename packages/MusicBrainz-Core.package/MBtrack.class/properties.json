@@ -11,8 +11,8 @@
 		"albumentity",
 		"filepath",
 		"tags" ],
-	"name" : "MBtrack",
+	"name" : "MBTrack",
 	"pools" : [
 		 ],
-	"super" : "MBentity",
+	"super" : "MBEntity",
 	"type" : "normal" }

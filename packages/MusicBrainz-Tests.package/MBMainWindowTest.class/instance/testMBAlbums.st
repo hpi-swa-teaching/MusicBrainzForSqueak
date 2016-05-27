@@ -5,6 +5,6 @@ testMBAlbums
 	self 
 		assert: (mbalbums size = 10);
 		assert: (mbalbums do: [ :album | 
-			album class = MBalbum 
+			album class = MBAlbum 
 				ifTrue: [^true] 
 				ifFalse: [^false]])

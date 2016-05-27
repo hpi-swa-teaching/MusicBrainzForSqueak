@@ -10,8 +10,8 @@
 		"title",
 		"tracklist",
 		"trackCollection" ],
-	"name" : "MBalbum",
+	"name" : "MBAlbum",
 	"pools" : [
 		 ],
-	"super" : "MBentity",
+	"super" : "MBEntity",
 	"type" : "normal" }

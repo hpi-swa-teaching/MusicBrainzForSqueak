@@ -1,7 +1,7 @@
 TESTING: methods
 testGetMetadataAlbum
 	| anMBalbum |
-	anMBalbum := MBalbum new.
+	anMBalbum := MBAlbum new.
 	anMBalbum 
 		artists: #('Artist1' 'Artist2');
 		title: 'Testalbum'.

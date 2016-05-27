@@ -6,5 +6,5 @@ getAlbumsNamed: aString FetchFirst: anInteger
 	
 	request := self getMBIDForReleaseNamed: aString FetchFirst: anInteger.
 	albums := OrderedCollection new.
-	request do: [:each | albums add: (MBalbum new setMBID: each)].
+	request do: [:each | albums add: (MBAlbum new setMBID: each)].
 	^ albums

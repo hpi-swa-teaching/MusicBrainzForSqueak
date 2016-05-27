@@ -1,7 +1,7 @@
 metadataView
 getMetadata
-	self selectedEntity class = MBalbum
+	self selectedEntity class = MBAlbum
 		ifTrue: [^ self getMetadataAlbum].
-	self selectedEntity class = MBtrack
+	self selectedEntity class = MBTrack
 		ifTrue: [^ self getMetadataTrack]
 		ifFalse: [^ #()]

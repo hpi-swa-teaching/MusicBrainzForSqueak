@@ -1,5 +1,5 @@
 TESTING: methods
 testGetAlbumName
 	self 
-		assert: (self mainWindow getAlbumName: MBalbum new class = MBalbum);
-		assert: (self mainWindow getAlbumName: MBtrack new class = MBtrack)
+		assert: (self mainWindow getAlbumName: MBAlbum new class = MBAlbum);
+		assert: (self mainWindow getAlbumName: MBTrack new class = MBTrack)

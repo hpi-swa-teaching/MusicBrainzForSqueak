@@ -1,7 +1,7 @@
 TESTING: methods
 testMetadataAlbum
-	| aMBtrack anMBalbum |
-	anMBalbum := MBalbum new.
+	| anMBalbum |
+	anMBalbum := MBAlbum new.
 	anMBalbum 
 		artists: #('Artist1' 'Artist2');
 		title: 'Testalbum'.
@@ -10,4 +10,4 @@ testMetadataAlbum
 		mainWindow selectedEntity: anMBalbum;
 		assert: (self mainWindow getMetadataAlbum = #('Albumname: Testalbum' 'Interpreten: Artist1, Artist2') asOrderedCollection).
 	
-	self mainWindow selectedEntity: aMBtrack.
+	self mainWindow selectedEntity: anMBalbum.

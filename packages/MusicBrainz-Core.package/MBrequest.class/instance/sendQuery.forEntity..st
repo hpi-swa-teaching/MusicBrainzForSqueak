@@ -3,7 +3,7 @@ sendQuery: aString forEntity: anotherString
 
 	| reply resp xmldoc requestURL |
 	
-	requestURL := MBrequest baseURL, anotherString, '/?query=', (aString encodeForHTTP).
+	requestURL := MBRequest baseURL, anotherString, '/?query=', (aString encodeForHTTP).
 	resp := WebClient httpGet: requestURL.
 	resp isSuccess ifFalse:[^self error: resp status].
 	reply := resp content.

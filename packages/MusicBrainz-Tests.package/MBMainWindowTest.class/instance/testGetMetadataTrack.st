@@ -1,7 +1,7 @@
 TESTING: methods
 testGetMetadataTrack
 	| aMBtrack |
-	aMBtrack := MBtrack new.
+	aMBtrack := MBTrack new.
 	aMBtrack
 		artists: #('Artist1' 'Artist2');
 		title: 'Testtrack'.
