@@ -1,0 +1,16 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"track",
+		"id3size" ],
+	"name" : "MBMP3Parser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
