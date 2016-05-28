@@ -1,8 +1,8 @@
 albumTreeView
-getTracklistForAlbum: aString
+getTracklistForAlbum: anObject
 
-	(aString class entityName = 'release')
-	ifTrue: [	^ aString loadTracksFromMB]
+	(anObject class entityName = 'release')
+	ifTrue: [	^ anObject loadTracksFromMB]
 	ifFalse: [^ OrderedCollection new]
 	
 	
