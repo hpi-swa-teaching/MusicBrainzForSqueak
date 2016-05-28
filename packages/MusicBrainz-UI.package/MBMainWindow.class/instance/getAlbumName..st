@@ -1,7 +1,7 @@
 albumTreeView
 getAlbumName: anObject
-	anObject class = MBAlbum
+	anObject class entityName = 'release'
 		ifTrue: [^ anObject getTitle , ' - ' , anObject getArtists first].
-	anObject class = MBTrack
+	anObject class entityName = 'recording'
 		ifTrue: [^ anObject getTitle].
 	^ anObject
