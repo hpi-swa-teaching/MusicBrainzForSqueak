@@ -1,4 +1,4 @@
-as yet unclassified
+saving and loading
 loadFromLocalSTON
 	| fileStream |
 	fileStream := SwaLint

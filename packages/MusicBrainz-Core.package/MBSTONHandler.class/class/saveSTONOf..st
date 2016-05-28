@@ -1,4 +1,4 @@
-as yet unclassified
+saving and loading
 saveSTONOf: anObject 
 	| stonString fileDirectory |
 	fileDirectory := MBSTONHandler path.
