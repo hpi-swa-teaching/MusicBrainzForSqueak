@@ -9,6 +9,6 @@
 		"getDetailsForA:withMBID:" : "mv 5/10/2016 11:59",
 		"getDetailsForA:withMBID:about:" : "tm 5/27/2016 16:23",
 		"getFrontcoverFor:" : "mv 5/30/2016 19:07",
-		"getFrontcoverFor:size:" : "mv 5/30/2016 19:11",
+		"getFrontcoverFor:size:" : "mv 5/30/2016 19:25",
 		"getMBIDForReleaseNamed:FetchFirst:" : "mv 5/16/2016 18:39",
 		"sendQuery:forEntity:" : "tm 5/27/2016 16:23" } }
