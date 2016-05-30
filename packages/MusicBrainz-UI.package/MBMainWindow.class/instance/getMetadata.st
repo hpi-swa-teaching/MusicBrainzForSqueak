@@ -1,7 +1,11 @@
 metadataView
 getMetadata
+	self coverView: (self builder widgetAt: #coverView).
 	self selectedEntity class = MBAlbum
-		ifTrue: [^ self getMetadataAlbum].
+		ifTrue: [
+			(self coverView) morph image: self selectedEntity getFrontcover.
+			self coverView setScrollDeltas.
+			^ self getMetadataAlbum].
 	self selectedEntity class = MBTrack
 		ifTrue: [^ self getMetadataTrack]
 		ifFalse: [^ #()]

@@ -1,11 +1,14 @@
 {
 	"class" : {
 		"baseURL" : "tm 5/26/2016 16:34",
+		"coverBaseURL" : "mv 5/30/2016 19:07",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
 		"browseFor:by:withMBID:" : "tm 5/27/2016 16:23",
 		"getAlbumsNamed:FetchFirst:" : "tm 5/27/2016 16:23",
 		"getDetailsForA:withMBID:" : "mv 5/10/2016 11:59",
 		"getDetailsForA:withMBID:about:" : "tm 5/27/2016 16:23",
+		"getFrontcoverFor:" : "mv 5/30/2016 19:07",
+		"getFrontcoverFor:size:" : "mv 5/30/2016 19:11",
 		"getMBIDForReleaseNamed:FetchFirst:" : "mv 5/16/2016 18:39",
 		"sendQuery:forEntity:" : "tm 5/27/2016 16:23" } }

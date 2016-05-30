@@ -9,5 +9,6 @@ buildWith: aBuilder
 		add: self buildMetadataView;
 		add: self buildImportedAlbumTreeView;
 		add: self buildLoadButton;
-		add: self buildSaveButton.
+		add: self buildSaveButton;
+		add: self buildCoverView.
 	^ self builder build: windowSpec

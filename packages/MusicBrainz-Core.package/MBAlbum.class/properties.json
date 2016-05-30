@@ -9,7 +9,8 @@
 		"artists",
 		"title",
 		"tracklist",
-		"trackCollection" ],
+		"trackCollection",
+		"cover" ],
 	"name" : "MBAlbum",
 	"pools" : [
 		 ],

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"selectedEntity",
 		"builder",
-		"importedAlbums" ],
+		"importedAlbums",
+		"coverView" ],
 	"name" : "MBMainWindow",
 	"pools" : [
 		 ],
