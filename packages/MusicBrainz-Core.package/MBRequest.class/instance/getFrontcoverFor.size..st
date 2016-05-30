@@ -11,8 +11,6 @@ getFrontcoverFor: aString size: anotherString
 "	resp := WebClient httpGet: requestURL."
 	resp := (WebClient) new httpGet: requestURL.
 	resp isSuccess
-		ifFalse: [self inform: 'no cover found!'.
-			^ PNGReadWriter formFromFileNamed: (FileDirectory uri: defaultFile) fullName.
-		].
+		ifFalse: [^ PNGReadWriter formFromFileNamed: (FileDirectory uri: defaultFile) fullName].
 	stream := RWBinaryOrTextStream with: resp content.
 	^ JPEGReadWriter2 formFromStream: stream

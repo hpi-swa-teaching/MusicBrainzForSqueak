@@ -10,7 +10,10 @@
 		"title",
 		"tracklist",
 		"trackCollection",
-		"cover" ],
+		"cover",
+		"year",
+		"labels",
+		"media" ],
 	"name" : "MBAlbum",
 	"pools" : [
 		 ],

@@ -1,14 +1,12 @@
 metadataView
 getMetadataAlbum
-	| metadata artists artistCollection |
-	artistCollection := self selectedEntity getArtists.
-	artists := ''.
-	artistCollection
-		do: [:artist | artists = ''
-				ifTrue: [artists := artist]
-				ifFalse: [artists := artists , ', ' , artist]].
+	| metadata |
 	metadata := OrderedCollection new.
 	metadata 
 		add: 'Albumname: ' , self selectedEntity getTitle;
-		add: 'Interpreten: ' , artists.
+		add: 'Interpreten: ' , self selectedEntity getArtists asCommaString;
+		add: 'Jahr: ', self selectedEntity getYear;
+		add: 'Label: ', self selectedEntity getLabels asCommaString;
+		add: 'Medium: ', self selectedEntity getMedia asCommaString;
+		add: 'MBID: ', self selectedEntity mbid.
 	^ metadata
