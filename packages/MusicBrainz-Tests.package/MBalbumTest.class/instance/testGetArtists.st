@@ -1,5 +1,5 @@
 as yet unclassified
-testArtists
+testGetArtists
 
 	| artists |
 	

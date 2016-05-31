@@ -1,5 +1,5 @@
 as yet unclassified
-testTitle
+testGetTitle
 
 	| title  |
 	

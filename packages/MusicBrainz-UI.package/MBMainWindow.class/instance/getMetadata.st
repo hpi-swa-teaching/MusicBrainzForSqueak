@@ -1,6 +1,5 @@
 metadataView
 getMetadata
-	self coverView: (self builder widgetAt: #coverView).
 	self selectedEntity class = MBAlbum
 		ifTrue: [
 			(self coverView) morph image: self selectedEntity getFrontcover.

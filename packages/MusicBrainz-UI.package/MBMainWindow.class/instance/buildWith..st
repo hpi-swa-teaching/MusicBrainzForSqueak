@@ -1,6 +1,6 @@
 building
 buildWith: aBuilder 
-	| windowSpec |
+	| windowSpec build |
 	self builder: aBuilder.
 	windowSpec := self buildWindow.
 	
@@ -11,4 +11,6 @@ buildWith: aBuilder
 		add: self buildLoadButton;
 		add: self buildSaveButton;
 		add: self buildCoverView.
-	^ self builder build: windowSpec
+	build := self builder build: windowSpec.
+	self coverView: (self builder widgetAt: #coverView).
+	^ build
