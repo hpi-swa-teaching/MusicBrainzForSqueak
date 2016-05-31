@@ -1,7 +1,5 @@
 saving and loading
 loadFromLocalSTON
 	| fileStream |
-	fileStream := SwaLint
-				try: [MBSTONHandler path readOnlyFileNamed: 'albums.ston']
-				catch: [^ nil].
-	^ STON fromString: fileStream contents
+	fileStream := MBSTONHandler path readOnlyFileNamed: 'albums.ston'.
+	[^ STON fromString: fileStream contents] on: Exception do: [ ^ nil]
