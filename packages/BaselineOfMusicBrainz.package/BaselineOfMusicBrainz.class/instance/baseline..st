@@ -1,13 +1,19 @@
 baseline
 baseline: spec
     <baseline>
-    spec
+	spec
         for: #common
-        do: [ 
+        do: [
             spec
                 package: 'MusicBrainz-Core';
 		    package: 'MusicBrainz-UI';	
                 package: 'MusicBrainz-Tests' with: [ spec requires: #('default') ].
             spec
                 group: 'default' with: #('MusicBrainz-Core' 'MusicBrainz-UI');
-                group: 'Tests' with: #('MusicBrainz-Tests') ]
+                group: 'Tests' with: #('MusicBrainz-Tests') ].
+
+	spec project: 'Ston' with: [
+		spec
+		    className: 'ConfigurationOfSton';
+		    versionString: #'stable';
+		    repository: 'github://GsDevKit/ston:gemstone/repository' ].

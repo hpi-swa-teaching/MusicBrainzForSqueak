@@ -11,10 +11,9 @@
 		"testBuildWindow" : "TM 5/24/2016 19:45",
 		"testBuildWith" : "TM 5/24/2016 19:43",
 		"testGetAlbumName" : "nt 5/28/2016 16:39",
-		"testGetMetadata" : "tm 5/27/2016 16:40",
-		"testGetMetadataAlbum" : "tm 5/27/2016 16:40",
+		"testGetMetadata" : "TM 5/31/2016 20:27",
+		"testGetMetadataAlbum" : "TM 5/31/2016 20:33",
 		"testGetMetadataTrack" : "tm 5/27/2016 16:40",
 		"testGetTracklistForAlbum" : "nt 5/28/2016 16:48",
 		"testMBAlbums" : "tm 5/27/2016 16:40",
-		"testMetadataAlbum" : "tm 5/27/2016 16:41",
 		"testOpen" : "TM 5/24/2016 19:43" } }

@@ -1,6 +1,6 @@
-accessing
+as yet unclassified
 mockUpData
-"Just for testing purposes
+"Just for testing purposes"
 	| eins col track t c zwei |
 	eins := MBAlbum new.
 	eins title: 'The Inevitable End'.
@@ -32,5 +32,4 @@ mockUpData
 	c := OrderedCollection new.
 	c add: eins.
 	c add: zwei.
-	importedAlbums := c.
-	^ importedAlbums"
+	^ c

@@ -4,4 +4,4 @@ loadFromDisk
 	albums := MBSTONHandler loadFromLocalSTON.
 	albums ifNotNil: 
 		[self importedAlbums: albums].
-	self changed: #importedAlbums.
+	self changed: #importedAlbums

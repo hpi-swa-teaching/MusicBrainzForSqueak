@@ -1,6 +1,7 @@
 metadataView
 getMetadataAlbum
 	| metadata |
+	self getMetadataImage.
 	metadata := OrderedCollection new.
 	metadata 
 		add: 'Albumname: ' , self selectedEntity getTitle;

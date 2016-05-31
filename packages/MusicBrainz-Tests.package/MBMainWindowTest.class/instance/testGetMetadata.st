@@ -2,13 +2,12 @@ TESTING: methods
 testGetMetadata
 	| anMBalbum aMBtrack |
 	anMBalbum := MBAlbum new.
-	anMBalbum 
-		artists: #('Artist1' 'Artist2');
-		title: 'Testalbum'.
+	anMBalbum
+		mbid: 'f92168f3-d1e9-4961-a9c5-06301ebe8258'.
 	
-	self 
+	self
 		mainWindow selectedEntity: anMBalbum;
-		assert: (self mainWindow getMetadata = #('Albumname: Testalbum' 'Interpreten: Artist1, Artist2') asOrderedCollection).
+		assert: (self mainWindow getMetadata = #('Albumname: Devils' 'Interpreten: The 69 Eyes' 'Jahr: 2005' 'Label: EMI Finland' 'Medium: Digital Media' 'MBID: f92168f3-d1e9-4961-a9c5-06301ebe8258') asOrderedCollection).
 		
 	aMBtrack := MBTrack new.
 	aMBtrack
