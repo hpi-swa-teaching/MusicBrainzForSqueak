@@ -2,7 +2,7 @@ accessing
 path
 	| fileDirectory |
 	fileDirectory := FileDirectory on: Smalltalk imagePath.
-	SwaLint
-		try: [fileDirectory createDirectory: 'albums']
-		catch: [].
+	[fileDirectory createDirectory: 'albums']
+	on: Error
+	do: [].
 	^ fileDirectory on: 'albums'
