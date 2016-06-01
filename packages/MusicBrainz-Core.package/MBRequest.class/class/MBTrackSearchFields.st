@@ -4,4 +4,6 @@ MBTrackSearchFields
 	^ Dictionary newFrom: {
 		#Title -> 'recording'.
 		#Length -> 'dur'.
-		#Album -> 'release'}
+		#Album -> 'release'.
+		#Composer -> 'artistname'.
+		#'Track Number'-> 'tnum'}
