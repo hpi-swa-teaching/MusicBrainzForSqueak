@@ -12,7 +12,7 @@ buildWith: aBuilder
 		add: self buildImportButton;
 		add: self buildCoverView.
 	
-	headerViews:= self getHeaderViews.
+	headerViews := self buildHeaderViews.
 	windowSpec children addAll: headerViews.
 	build := self builder build: windowSpec.
 	self coverView: (self builder widgetAt: #coverView).
