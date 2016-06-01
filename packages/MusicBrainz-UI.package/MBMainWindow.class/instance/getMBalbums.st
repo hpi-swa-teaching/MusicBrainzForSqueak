@@ -1,6 +1,5 @@
 albumTreeView
 getMBalbums
-	| requestObject |
-	requestObject := MBRequest new.
-	^ requestObject getAlbumsNamed: 'Devils' FetchFirst: 10
+
+	^ MBRequest getAlbumsNamed: 'Devils' FetchFirst: 10
 
