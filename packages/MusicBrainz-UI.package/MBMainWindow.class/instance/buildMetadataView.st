@@ -5,5 +5,5 @@ buildMetadataView
 	^ metadataSpec 
 		model: self;
 		list: #getMetadata;
-		frame: (0.65@0.5 corner: 1@1)
+		frame: (0.65@0.60 corner: 1@1)
 		
