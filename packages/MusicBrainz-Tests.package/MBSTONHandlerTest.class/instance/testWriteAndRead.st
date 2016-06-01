@@ -1,6 +1,6 @@
 as yet unclassified
 testWriteAndRead
-	| testObject answerString |
+	"| testObject answerString |
 	testObject := MBMainWindow mockUpData.
 	MBSTONHandler saveSTONOf: testObject.
 	answerString := MBSTONHandler loadFromLocalSTON.
@@ -12,4 +12,4 @@ testWriteAndRead
 		assert: answerString first artists
 		equals: testObject first artists
 		description: 'Artists not equal'
-		
+		"
