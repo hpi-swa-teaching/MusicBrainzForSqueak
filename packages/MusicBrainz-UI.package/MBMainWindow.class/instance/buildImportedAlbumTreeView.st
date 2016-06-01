@@ -5,7 +5,7 @@ buildImportedAlbumTreeView
 	^ treeSpec
 		model: self;
 		getChildren: #getTracklistForImportedAlbum:;
-		roots: #importedAlbums;
+		roots: #albums;
 		label: #getAlbumName:;
-		frame: (0@0.05 corner: 0.35@0.9)
+		frame: (0@0 corner: 0.35@0.9)
 

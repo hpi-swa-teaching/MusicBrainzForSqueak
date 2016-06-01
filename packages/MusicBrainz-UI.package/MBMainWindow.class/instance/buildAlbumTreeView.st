@@ -5,9 +5,9 @@ buildAlbumTreeView
 	^ treeSpec
 		model: self;
 		getChildren: #getTracklistForAlbum:;
-		roots: #getMBalbums;
+		roots: #albums;
 		label: #getAlbumName:;
 		getSelected: #selectedEntity;
 		setSelected: #selectedEntity:;
-		frame: (0.35@0.05 corner: 0.65@1)
+		frame: (0@0 corner: 0.65@0.9)
 

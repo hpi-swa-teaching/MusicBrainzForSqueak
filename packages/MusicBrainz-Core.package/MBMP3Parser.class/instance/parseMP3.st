@@ -6,4 +6,5 @@ parseMP3
 		ifFalse: [self error: 'Invalid ID3 Version'].
 	flags := self stream next.
 	self setID3Size.
-	self parseFrames
+	self parseFrames.
+	self stream close

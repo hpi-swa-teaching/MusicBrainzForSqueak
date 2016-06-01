@@ -4,7 +4,7 @@ textFrames
 		#ALB -> #'Album'.
 		#BPM -> #'Beats per Minute'.
 		#COM -> #'Composer'.
-		#CON -> #'Conductor'.
+		#CON -> #'Genre'.
 		#EXT -> #'Lyricist'.
 		#FLT -> #'File type'.
 		#IME -> #'Time'.
@@ -14,7 +14,7 @@ textFrames
 		#LAN -> #'Language'.
 		#LEN -> #'Length'.
 		#ORY -> #'Original release year'.
-		#PE1 -> #'Lead Performer'.
+		#PE1 -> #'Interpret'.
 		#PE2 -> #'Band'.
 		#PE3 -> #'Conductor'.
 		#PE4 -> #'Modified by'.

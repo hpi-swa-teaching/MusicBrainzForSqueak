@@ -9,5 +9,5 @@ collectFiles: aDirectory
 					subDirectoryFiles
 						ifNotEmpty: [files addAll: subDirectoryFiles]]
 				ifFalse: [entry extension = 'mp3'
-						ifTrue: [files add: entry]]].
+						ifTrue: [files add: entry fullName]]].
 	^ files

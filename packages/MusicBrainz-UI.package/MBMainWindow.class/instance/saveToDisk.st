@@ -1,3 +1,3 @@
 im&ex-porting
 saveToDisk
-	MBSTONHandler saveSTONOf: self importedAlbums
+	MBSTONHandler saveSTONOf: self albums

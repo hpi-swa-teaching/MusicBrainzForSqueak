@@ -1,5 +1,5 @@
 albumTreeView
 getMBalbums
 
-	^ MBRequest getAlbumsNamed: 'Devils' FetchFirst: 10
+	^ OrderedCollection new"MBRequest getAlbumsNamed: 'Devils' FetchFirst: 10"
 

@@ -7,9 +7,9 @@ buildWith: aBuilder
 	windowSpec children 
 		add: self buildAlbumTreeView;
 		add: self buildMetadataView;
-		add: self buildImportedAlbumTreeView;
 		add: self buildLoadButton;
 		add: self buildSaveButton;
+		add: self buildImportButton;
 		add: self buildCoverView.
 	
 	headerViews:= self getHeaderViews.

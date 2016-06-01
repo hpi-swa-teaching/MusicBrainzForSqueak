@@ -2,7 +2,7 @@ albumTreeView
 getTracklistForAlbum: anObject
 
 	(anObject class entityName = 'release')
-	ifTrue: [	^ anObject loadTracksFromMB]
+	ifTrue: [	^ anObject tracklist]
 	ifFalse: [^ OrderedCollection new]
 	
 	
