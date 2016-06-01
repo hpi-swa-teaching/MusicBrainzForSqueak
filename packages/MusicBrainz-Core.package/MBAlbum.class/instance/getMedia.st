@@ -1,7 +1,7 @@
 as yet unclassified
 getMedia
 
-	^ self media ifNil:
+	^ self metadata at: #Media ifAbsent:
 		[
 		| request media |
 		request := MBRequest getDetailsForA: (self class entityName) withMBID: (self mbid) about: 'media'.

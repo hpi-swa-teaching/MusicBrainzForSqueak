@@ -5,7 +5,7 @@ addTrack: aMBTrack
 	aMBTrack albumentity: nil.
 	
 	self albums do: [:each | 
-		(each title = (aMBTrack tags at: #Album))
+		(each getTitle = (aMBTrack metadata at: #Album))
 		ifTrue: [
 			(each tracklist) add: aMBTrack.
 			aMBTrack albumentity: each.
@@ -17,8 +17,7 @@ addTrack: aMBTrack
 			newalbum := MBAlbum new.
 			newalbum tracklist add: aMBTrack.
 			aMBTrack albumentity: newalbum.
-			newalbum title: (aMBTrack tags at: #Album).
-			newalbum artists: OrderedCollection new.
-			newalbum artists add: (aMBTrack tags at: #Interpret).
+			newalbum metadata at: #Title put: (aMBTrack metadata at: #Album).
+			newalbum metadata at: #Artist put: (aMBTrack metadata at: #Artist).
 			self albums add: newalbum.
 			]

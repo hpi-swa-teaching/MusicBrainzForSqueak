@@ -1,7 +1,7 @@
 as yet unclassified
 getLength
 
-	^ self tags at: #length ifAbsent:
+	^ self metadata at: #Length ifAbsent:
 		[
 			| request |
 			request := MBRequest getDetailsForA: (self class entityName) withMBID: (self mbid).

@@ -1,7 +1,7 @@
 as yet unclassified
 getLabels
 
-	^ self labels ifNil:
+	^ self metadata at: #Label ifAbsent:
 		[
 		| request labels |
 		request := MBRequest browseFor: 'label' by: (self class entityName) withMBID: (self mbid).

@@ -6,7 +6,8 @@
 		"EntityName" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mbid" ],
+		"mbid",
+		"metadata" ],
 	"name" : "MBEntity",
 	"pools" : [
 		 ],

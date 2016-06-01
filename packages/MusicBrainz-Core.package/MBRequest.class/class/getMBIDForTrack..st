@@ -3,7 +3,7 @@ getMBIDForTrack: aMBTrack
 
 	| response responseXML requestURL|
 	requestURL := MBRequest baseURL, 'recording/?query='.
-	aMBTrack tags keysAndValuesDo: [:key :value |
+	aMBTrack metadata keysAndValuesDo: [:key :value |
 		| mbField |
 		mbField := (MBRequest MBTrackSearchFields at: (key asSymbol) ifAbsent: nil).
 		mbField ifNotNil: 

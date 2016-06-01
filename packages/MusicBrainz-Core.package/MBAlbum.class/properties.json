@@ -6,13 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"artists",
-		"title",
 		"tracklist",
-		"trackCollection",
 		"cover",
-		"year",
-		"labels",
 		"media" ],
 	"name" : "MBAlbum",
 	"pools" : [

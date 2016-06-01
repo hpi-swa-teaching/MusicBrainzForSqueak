@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 getYear
 
-	^ self year ifNil:
+	^ self metadata at: #Year ifAbsent:
 		[
 			| request |
 			request := MBRequest getDetailsForA: (self class entityName) withMBID: (self mbid).

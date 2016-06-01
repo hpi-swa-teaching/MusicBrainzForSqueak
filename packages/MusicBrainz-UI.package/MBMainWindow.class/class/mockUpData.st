@@ -8,13 +8,13 @@ mockUpData
 	col := OrderedCollection new.
 	track := MBTrack new.
 	track title: 'Skulls'.
-	track tags at: #length put: 200000.
+	track metadata at: #length put: 200000.
 	t := MBTrack new.
 	t title: 'Monument'.
-	t tags at: #length put: 235165.
+	t metadata at: #length put: 235165.
 	col add: track.
 	col add: t.
-	eins trackCollection: col.
+	eins tracklist col.
 	
 	zwei := MBAlbum new.
 	zwei title: 'Junior'.
@@ -22,10 +22,10 @@ mockUpData
 	col := OrderedCollection new.
 	track := MBTrack new.
 	track title: 'Happy Up Here'.
-	track tags at: #length put: 165154.
+	track metadata at: #length put: 165154.
 	t := MBTrack new.
 	t title: 'Vision One'.
-	t tags at: #length put: 143645.
+	t metadata at: #length put: 143645.
 	col add: track.
 	col add: t.
 	zwei trackCollection: col.

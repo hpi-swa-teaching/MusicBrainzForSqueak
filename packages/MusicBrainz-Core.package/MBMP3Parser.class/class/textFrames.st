@@ -14,11 +14,11 @@ textFrames
 		#LAN -> #'Language'.
 		#LEN -> #'Length'.
 		#ORY -> #'Original release year'.
-		#PE1 -> #'Interpret'.
+		#PE1 -> #'Artist'.
 		#PE2 -> #'Band'.
 		#PE3 -> #'Conductor'.
 		#PE4 -> #'Modified by'.
-		#PUB -> #'Publisher'.
+		#PUB -> #'Label'.
 		#RCK -> #'Track Number'.
 		#RDA -> #'Recording Dates'.
 		#SIZ -> #'Size'.
