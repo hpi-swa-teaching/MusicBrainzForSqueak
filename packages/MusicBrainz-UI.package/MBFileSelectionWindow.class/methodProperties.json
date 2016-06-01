@@ -2,17 +2,18 @@
 	"class" : {
 		"open" : "tm 5/27/2016 16:18" },
 	"instance" : {
-		"buildFileListView" : "tm 5/27/2016 16:18",
-		"buildFileTreeView" : "tm 5/27/2016 16:18",
+		"buildFileListView" : "tm 6/2/2016 00:27",
+		"buildFileTreeView" : "tm 6/2/2016 00:29",
 		"buildWindow" : "TM 5/24/2016 19:08",
 		"buildWith:" : "tm 5/27/2016 15:45",
 		"builder" : "TM 5/22/2016 16:08",
 		"builder:" : "TM 5/22/2016 16:08",
 		"collectFiles:" : "pb 6/1/2016 21:33",
 		"fileNames" : "TM 5/22/2016 16:14",
+		"fileNamesLocal:" : "tm 6/2/2016 00:27",
 		"files" : "TM 5/22/2016 16:14",
 		"labelFor:" : "TM 5/22/2016 16:14",
-		"rootDirectory" : "tm 5/26/2016 16:27",
+		"rootDirectory" : "tm 6/2/2016 00:29",
 		"selectedDirectory" : "JR 5/21/2016 11:33",
 		"selectedDirectory:" : "TM 5/22/2016 16:11",
-		"showFolderNamesFor:" : "TM 5/24/2016 14:21" } }
+		"showSubFolderNamesFor:" : "tm 6/2/2016 00:29" } }

@@ -1,8 +1,10 @@
 building
 buildFileListView
-	| listSpec |
-	listSpec := self builder pluggableListSpec new.
-	^ listSpec 
+	"Right hand view"
+	| treeSpec |
+	treeSpec := self builder pluggableTreeSpec new.
+	^ treeSpec 
 		model: self;
-		list: #fileNames;
+		roots: #fileNames;
+		label: #fileNamesLocal:;
 		frame: (0.5@0 corner: 1@1)

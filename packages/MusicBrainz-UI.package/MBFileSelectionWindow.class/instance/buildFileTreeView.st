@@ -5,7 +5,7 @@ buildFileTreeView
 	^ treeSpec 
 		model: self;
 		roots: #rootDirectory;
-		getChildren: #showFolderNamesFor:;
+		getChildren: #showSubFolderNamesFor:;
 		label: #labelFor:;
 		getSelected: #selectedDirectory;
 		setSelected: #selectedDirectory:;
