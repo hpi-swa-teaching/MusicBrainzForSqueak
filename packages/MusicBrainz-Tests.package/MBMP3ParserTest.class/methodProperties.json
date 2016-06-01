@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parser" : "mv 6/1/2016 19:16:25.130193",
+		"parser:" : "mv 6/1/2016 19:16:25.130193",
+		"setUp" : "mv 6/1/2016 19:16:25.130193",
+		"testGetFrameSize" : "mv 6/1/2016 19:16:25.130193",
+		"testNextFrameTag" : "mv 6/1/2016 19:16:25.130193",
+		"testParseFrames" : "mv 6/1/2016 19:16:25.130193",
+		"testSeekID3" : "nt 6/2/2016 00:30",
+		"testSetID3Size" : "mv 6/1/2016 19:16:25.130193",
+		"testSkipFrame" : "mv 6/1/2016 19:16:25.130193",
+		"testValidVersion" : "mv 6/1/2016 19:16:25.130193" } }
