@@ -1,0 +1,4 @@
+loadFromMB
+findMBID
+	^ self subclassResponsibility
+	

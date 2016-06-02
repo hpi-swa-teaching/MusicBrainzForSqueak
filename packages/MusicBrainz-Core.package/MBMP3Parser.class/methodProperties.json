@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"newFrom:" : "pb 6/1/2016 23:07",
-		"textFrames" : "mv 6/2/2016 00:13" },
+		"textFrames" : "mv 6/2/2016 00:57" },
 	"instance" : {
 		"getFrameSize" : "pb 6/1/2016 18:31",
 		"id3size" : "pb 5/28/2016 17:18",
@@ -11,7 +11,7 @@
 		"openStreamOn:" : "pb 6/1/2016 18:31",
 		"parseFrames" : "pb 6/1/2016 19:41",
 		"parseMP3" : "pb 6/1/2016 22:57",
-		"readTextFrom:With:" : "mv 6/2/2016 00:31",
+		"readTextFrom:With:" : "mv 6/2/2016 01:11",
 		"seekID3" : "pb 6/1/2016 18:34",
 		"setID3Size" : "pb 6/1/2016 18:31",
 		"skipFrame:" : "pb 6/1/2016 18:31",

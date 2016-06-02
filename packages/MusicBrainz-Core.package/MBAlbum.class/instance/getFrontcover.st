@@ -1,7 +1,7 @@
-as yet unclassified
+loadFromMB
 getFrontcover
 
 	^ self cover ifNil:
-		[self cover: (MBRequest getFrontcoverFor: self mbid size: #small).
+		[self cover: (MBRequest getFrontcoverFor: self getMBID size: #small).
 		self cover
 		]

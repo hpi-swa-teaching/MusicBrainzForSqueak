@@ -1,11 +1,11 @@
 as yet unclassified
-getMBIDForTrack: aMBTrack
+getMBIDForAlbum: aMBAlbum
 
 	| response responseXML requestURL|
-	requestURL := MBRequest baseURL, 'recording/?query='.
-	aMBTrack metadata keysAndValuesDo: [:key :value |
+	requestURL := MBRequest baseURL, 'release/?query='.
+	aMBAlbum metadata keysAndValuesDo: [:key :value |
 		| mbField encodedValue |
-		mbField := (MBRequest MBTrackSearchFields at: (key asSymbol) ifAbsent: nil).
+		mbField := (MBRequest MBAlbumSearchFields at: (key asSymbol) ifAbsent: nil).
 		mbField ifNotNil: 
 			[encodedValue := value encodeForHTTP.
 			encodedValue :=  encodedValue copyReplaceAll: '%00' with: ''.
@@ -15,4 +15,4 @@ getMBIDForTrack: aMBTrack
 	response isSuccess ifFalse:[^self error: response status].
 	response := response content.
 	responseXML := XMLDOMParser parseDocumentFrom: response readStream.
-	^ (responseXML firstTagNamed: #recording) attributeAt: 'id'	
+	^ (responseXML firstTagNamed: #release) attributeAt: 'id'	

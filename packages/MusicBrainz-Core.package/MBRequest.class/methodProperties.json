@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"MBAlbumSearchFields" : "mv 6/2/2016 03:06",
 		"MBTrackSearchFields" : "mv 6/1/2016 20:56",
 		"baseURL" : "tm 5/26/2016 16:34",
 		"browseFor:by:withMBID:" : "mv 6/1/2016 19:02",
@@ -8,9 +9,10 @@
 		"getDetailsForA:withMBID:" : "mv 6/1/2016 19:05",
 		"getDetailsForA:withMBID:about:" : "mv 6/1/2016 19:02",
 		"getFrontcoverFor:" : "mv 6/1/2016 19:08",
-		"getFrontcoverFor:size:" : "mv 6/1/2016 19:03",
+		"getFrontcoverFor:size:" : "mv 6/2/2016 04:26",
+		"getMBIDForAlbum:" : "mv 6/2/2016 03:08",
 		"getMBIDForReleaseNamed:FetchFirst:" : "mv 6/1/2016 19:11",
-		"getMBIDForTrack:" : "mv 6/1/2016 23:57",
+		"getMBIDForTrack:" : "mv 6/2/2016 03:08",
 		"sendQuery:forEntity:" : "mv 6/1/2016 19:03",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {

@@ -15,9 +15,10 @@ textFrames
 		#LEN -> #'Length'.
 		#ORY -> #'Original release year'.
 		#PE1 -> #'Artist'.
-		#PE2 -> #'Band'.
+		#PE2 -> #'Artist'. "WAS BAND"
 		#PE3 -> #'Conductor'.
 		#PE4 -> #'Modified by'.
+		#POS -> #'Part of set'.
 		#PUB -> #'Label'.
 		#RCK -> #'Track Number'.
 		#RDA -> #'Recording Dates'.
