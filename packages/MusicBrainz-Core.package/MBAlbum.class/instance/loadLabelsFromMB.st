@@ -1,5 +1,5 @@
 loadFromMB
-loadLabels
+loadLabelsFromMB
 	
 	| request labels |
 	self mbid ifNil: 

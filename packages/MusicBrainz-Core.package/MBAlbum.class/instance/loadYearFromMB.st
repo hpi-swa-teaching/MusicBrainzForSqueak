@@ -1,5 +1,5 @@
 loadFromMB
-loadYear
+loadYearFromMB
 	
 	| request year |
 	self mbid ifNil: 

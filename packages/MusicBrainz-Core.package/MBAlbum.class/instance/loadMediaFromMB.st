@@ -1,5 +1,5 @@
 loadFromMB
-loadMedia
+loadMediaFromMB
 
 	| request media |
 	self mbid ifNil: 
