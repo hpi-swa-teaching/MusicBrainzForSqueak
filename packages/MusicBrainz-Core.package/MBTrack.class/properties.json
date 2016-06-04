@@ -9,7 +9,8 @@
 		"artists",
 		"title",
 		"albumentity",
-		"filepath" ],
+		"filepath",
+		"cover" ],
 	"name" : "MBTrack",
 	"pools" : [
 		 ],
