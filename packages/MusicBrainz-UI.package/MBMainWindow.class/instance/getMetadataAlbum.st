@@ -3,7 +3,7 @@ getMetadataAlbum
 	| metadata |
 	metadata := OrderedCollection new.
 	metadata 
-		add: 'Title:' , self selectedEntity getTitle;
+		add: 'Album: ' , self selectedEntity getTitle;
 		add: 'Artist: ' , self selectedEntity getArtists asCommaString;
 		add: 'Year: ', (self selectedEntity metadata at: #Year ifAbsent: ['']);
 		add: 'Label: ', self selectedEntity getLabels asCommaString;
