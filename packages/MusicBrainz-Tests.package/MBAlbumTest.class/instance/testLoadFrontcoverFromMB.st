@@ -1,5 +1,6 @@
 as yet unclassified
 testLoadFrontcoverFromMB
+<timeout:5>
 
 	self
 		assert: self album getCover class

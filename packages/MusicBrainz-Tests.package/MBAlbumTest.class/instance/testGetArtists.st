@@ -1,10 +1,7 @@
 as yet unclassified
 testGetArtists
-
-	| artists |
 	
-	artists := self album getArtists.
 	self
-		assert: (OrderedCollection newFrom: #('London Grammar' 'Disclosure'))
-		equals: artists
+		assert: (OrderedCollection newFrom: #('Testartist1' 'Testartist2'))
+		equals: self album getArtists asOrderedCollection
 		description: 'The artists of album do not match'

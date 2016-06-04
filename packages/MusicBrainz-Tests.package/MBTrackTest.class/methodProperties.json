@@ -4,10 +4,10 @@
 	"instance" : {
 		"setUp" : "mv 6/4/2016 15:35",
 		"testConvertMilliSecToMinutes" : "tm 5/24/2016 16:43",
-		"testGetArtists" : "mv 5/24/2016 19:47",
+		"testGetArtists" : "mv 6/4/2016 17:13",
 		"testGetLength" : "mv 5/24/2016 19:49",
 		"testGetLengthInMinutes" : "mv 5/24/2016 19:56",
-		"testGetTitle" : "mv 5/24/2016 19:48",
+		"testGetTitle" : "mv 6/4/2016 17:14",
 		"testLoadArtistsFromMB" : "mv 6/4/2016 15:47",
 		"testLoadLength" : "mv 6/4/2016 15:32",
 		"testLoadTitleFromMB" : "mv 6/4/2016 15:48",

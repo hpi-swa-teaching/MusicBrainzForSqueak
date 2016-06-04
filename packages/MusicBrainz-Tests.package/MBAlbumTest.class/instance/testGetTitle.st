@@ -1,10 +1,7 @@
 as yet unclassified
 testGetTitle
 
-	| title  |
-	
-	title := self album getTitle.
 	self
-		assert: 'If You Wait'
-		equals: title
+		assert: 'Testalbum'
+		equals: self album getTitle 
 		description: 'The title of album does not match'

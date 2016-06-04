@@ -1,5 +1,6 @@
 as yet unclassified
 testGetCover
+<timeout:5>
 
 	self
 		assert: self album getCover class

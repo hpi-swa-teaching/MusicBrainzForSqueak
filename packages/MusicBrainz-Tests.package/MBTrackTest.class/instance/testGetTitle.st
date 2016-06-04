@@ -3,5 +3,5 @@ testGetTitle
 
 	self
 		assert: self track getTitle
-		equals: 'Hey Now'
+		equals: 'Testtrack'
 		description: 'The title of track does not match'
