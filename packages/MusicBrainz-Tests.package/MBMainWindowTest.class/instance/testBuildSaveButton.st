@@ -1,10 +1,11 @@
-TESTING: opening and building
+as yet unclassified
 testBuildSaveButton
 	| buttonSpec |
 	self mainWindow builder: MorphicToolBuilder new.
 	buttonSpec := self mainWindow buildSaveButton.
-	self
-		assert: buttonSpec label = 'Save';
+	self 
+		assert: buttonSpec class = PluggableButtonSpec;
+		assert: buttonSpec model class = MBMainWindow;
 		assert: buttonSpec frame = (0.2@0.9 corner: 0.3@1);
+		assert: buttonSpec label = 'Save';
 		assert: buttonSpec action = 'saveToDisk'
-		

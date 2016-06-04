@@ -1,23 +1,18 @@
-TESTING: opening and building
+as yet unclassified
 testBuildHeaderViews
-	
-	| albumTreeSpec tracksForAlbumSpec headerViews |
-	
+	| headerViews |
 	self mainWindow builder: MorphicToolBuilder new.
 	headerViews := self mainWindow buildHeaderViews.
-	albumTreeSpec := headerViews first.
-	tracksForAlbumSpec := headerViews second.
-	Transcript show: albumTreeSpec.
-	Transcript show: tracksForAlbumSpec.
-	
-	
-	self
-		assert: albumTreeSpec frame = (0@0 corner: 0.65@0.05);
-		assert: albumTreeSpec label = 'labelTextForAlbumTree';
-		assert: albumTreeSpec enabled = false.
-	
-	self
-		assert: tracksForAlbumSpec frame = (0.65@0 corner: 1@0.05);
-		assert: tracksForAlbumSpec label = 'labelTextForCoverView';
-		assert: tracksForAlbumSpec enabled = false.
-	
+	self 
+		assert: headerViews class = OrderedCollection;
+		assert: headerViews first class = PluggableButtonSpec;
+		assert: headerViews first model class = MBMainWindow;
+		assert: headerViews first frame = (0@0 corner: 0.65@0.05);
+		assert: headerViews first label = 'labelTextForAlbumTree';
+		assert: headerViews first enabled = false;
+		
+		assert: headerViews second class = PluggableButtonSpec;
+		assert: headerViews second model class = MBMainWindow;
+		assert: headerViews second frame = (0.65@0 corner: 1@0.05);
+		assert: headerViews second label = 'labelTextForCoverView';
+		assert: headerViews second enabled = false

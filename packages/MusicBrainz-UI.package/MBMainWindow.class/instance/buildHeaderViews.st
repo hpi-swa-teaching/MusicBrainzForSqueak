@@ -1,25 +1,25 @@
 building
 buildHeaderViews
 	
-	| albumTreeSpec tracksForAlbumSpec headerViews |
+	| headerViews albumButtonSpec metadataButtonSpec |
 	headerViews := OrderedCollection new.
 	
-	albumTreeSpec := self builder pluggableButtonSpec new.
-	albumTreeSpec 
+	albumButtonSpec := self builder pluggableButtonSpec new.
+	albumButtonSpec 
 		model: self;
 		frame: (0@0 corner: 0.65@0.05);
 		label: #labelTextForAlbumTree;
 		enabled: false.
 	
-	tracksForAlbumSpec:= self builder pluggableButtonSpec new.	
-	tracksForAlbumSpec
+	metadataButtonSpec:= self builder pluggableButtonSpec new.	
+	metadataButtonSpec
 		model: self;
 		frame: (0.65@0 corner: 1@0.05);
 		label: #labelTextForCoverView;
 		enabled: false.	
 		
 	headerViews
-		add: albumTreeSpec;
-		add: tracksForAlbumSpec.
+		add: albumButtonSpec;
+		add: metadataButtonSpec.
 		
 	^ headerViews

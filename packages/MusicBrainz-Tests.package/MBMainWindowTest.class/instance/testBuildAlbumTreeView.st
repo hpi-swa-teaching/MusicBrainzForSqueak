@@ -1,4 +1,4 @@
-TESTING: opening and building
+as yet unclassified
 testBuildAlbumTreeView
 	| treeSpec |
 	self mainWindow builder: MorphicToolBuilder new.
@@ -7,7 +7,6 @@ testBuildAlbumTreeView
 		assert: treeSpec class = PluggableTreeSpec;
 		assert: treeSpec model class = MBMainWindow;
 		assert: treeSpec roots = 'albums';
-		assert: treeSpec getChildren = 'getTracklistForAlbum:';
 		assert: treeSpec label = 'getAlbumName:';
 		assert: treeSpec getSelected = 'selectedEntity';
 		assert: treeSpec setSelected = 'selectedEntity:';

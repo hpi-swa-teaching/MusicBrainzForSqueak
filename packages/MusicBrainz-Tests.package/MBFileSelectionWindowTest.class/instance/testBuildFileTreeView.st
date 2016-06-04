@@ -7,8 +7,8 @@ testBuildFileTreeView
 		assert: treeSpec class = PluggableTreeSpec;
 		assert: treeSpec model class = MBFileSelectionWindow;
 		assert: treeSpec roots = 'rootDirectory';
-		assert: treeSpec getChildren = 'showFolderNamesFor:';
+		assert: treeSpec getChildren = 'showSubFolderNamesFor:';
 		assert: treeSpec label = 'labelFor:';
 		assert: treeSpec getSelected = 'selectedDirectory';
 		assert: treeSpec setSelected = 'selectedDirectory:';
-		assert: treeSpec frame = (0@0 corner: 0.5@1)
+		assert: treeSpec frame = (0@0.1 corner: 0.5@1)

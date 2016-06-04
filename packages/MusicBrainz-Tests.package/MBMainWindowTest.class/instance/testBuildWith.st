@@ -1,6 +1,5 @@
-TESTING: opening and building
+as yet unclassified
 testBuildWith
-	"The intention was to control the start up of the window, but the test fails, because it takes too long"
-	"| window |
+	| window |
 	window := self mainWindow buildWith: MorphicToolBuilder new.
-	self assert: window class = PluggableSystemWindow"
+	self assert: window class = PluggableSystemWindow

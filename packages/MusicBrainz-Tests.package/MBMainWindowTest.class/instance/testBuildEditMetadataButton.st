@@ -1,10 +1,12 @@
-TESTING: opening and building
+as yet unclassified
 testBuildEditMetadataButton
 	| buttonSpec |
 	self mainWindow builder: MorphicToolBuilder new.
 	buttonSpec := self mainWindow buildEditMetadataButton.
-	self
+	self 
+		assert: buttonSpec class = PluggableButtonSpec;
+		assert: buttonSpec model class = MBMainWindow;
+		assert: buttonSpec frame = (0.5@0.9 corner: 0.6@1);
 		assert: buttonSpec label = 'Edit Metadata';
-		assert: buttonSpec action = #editMetaData;
-		assert: buttonSpec frame = (0.5@0.9 corner: 0.6@1)
-		
+		assert: buttonSpec enabled = 'isActive';
+		assert: buttonSpec action = 'editMetaData'.
