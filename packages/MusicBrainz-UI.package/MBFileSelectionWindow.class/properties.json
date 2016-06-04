@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"selectedDirectory",
-		"builder" ],
+		"builder",
+		"mainWindow" ],
 	"name" : "MBFileSelectionWindow",
 	"pools" : [
 		 ],

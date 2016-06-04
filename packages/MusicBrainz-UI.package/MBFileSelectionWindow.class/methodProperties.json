@@ -1,19 +1,24 @@
 {
 	"class" : {
-		"open" : "tm 5/27/2016 16:18" },
+		"open" : "tm 5/27/2016 16:18",
+		"openFrom:" : "tm 6/4/2016 13:16" },
 	"instance" : {
 		"buildFileListView" : "tm 6/2/2016 00:27",
-		"buildFileTreeView" : "tm 6/2/2016 00:29",
+		"buildFileTreeView" : "tm 6/4/2016 12:56",
+		"buildImportButton" : "tm 6/4/2016 12:58",
 		"buildWindow" : "TM 5/24/2016 19:08",
-		"buildWith:" : "tm 5/27/2016 15:45",
+		"buildWith:" : "tm 6/4/2016 12:56",
 		"builder" : "TM 5/22/2016 16:08",
 		"builder:" : "TM 5/22/2016 16:08",
-		"collectFiles:" : "pb 6/1/2016 21:33",
+		"collectFiles:" : "tm 6/4/2016 14:17",
 		"fileNames" : "TM 5/22/2016 16:14",
-		"fileNamesLocal:" : "tm 6/2/2016 00:27",
+		"fileNamesLocal:" : "tm 6/4/2016 14:03",
 		"files" : "TM 5/22/2016 16:14",
+		"importFiles" : "tm 6/4/2016 13:35",
 		"labelFor:" : "TM 5/22/2016 16:14",
-		"rootDirectory" : "tm 6/2/2016 00:29",
+		"mainWindow" : "tm 6/4/2016 13:08",
+		"mainWindow:" : "tm 6/4/2016 13:08",
+		"rootDirectory" : "tm 6/4/2016 14:18",
 		"selectedDirectory" : "JR 5/21/2016 11:33",
 		"selectedDirectory:" : "TM 5/22/2016 16:11",
-		"showSubFolderNamesFor:" : "tm 6/2/2016 00:29" } }
+		"showSubFolderNamesFor:" : "tm 6/4/2016 14:00" } }

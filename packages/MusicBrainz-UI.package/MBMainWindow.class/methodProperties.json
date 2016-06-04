@@ -35,7 +35,7 @@
 		"getMetadataTrack" : "JR 6/4/2016 13:10",
 		"getTracklistForAlbum:" : "pb 6/1/2016 22:59",
 		"getTracklistForImportedAlbum:" : "mv 6/1/2016 23:52",
-		"importFiles:" : "pb 6/1/2016 22:57",
+		"importFiles:" : "tm 6/4/2016 13:34",
 		"importWindow" : "pb 6/1/2016 22:18",
 		"importWindow:" : "pb 6/1/2016 22:18",
 		"labelTextForAlbumTree" : "JR 6/1/2016 21:29",
@@ -48,4 +48,4 @@
 		"selectedEntity:" : "TM 5/31/2016 20:10",
 		"selectedMetadatum" : "JR 6/4/2016 12:18",
 		"selectedMetadatum:" : "JR 6/4/2016 12:48",
-		"toggleImportWindow" : "pb 6/1/2016 23:28" } }
+		"toggleImportWindow" : "tm 6/4/2016 13:37" } }

@@ -9,4 +9,4 @@ buildFileTreeView
 		label: #labelFor:;
 		getSelected: #selectedDirectory;
 		setSelected: #selectedDirectory:;
-		frame: (0@0 corner:0.5@1)
+		frame: (0@0.1 corner:0.5@1)
