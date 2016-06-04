@@ -10,6 +10,7 @@ buildWith: aBuilder
 		add: self buildLoadButton;
 		add: self buildSaveButton;
 		add: self buildImportButton;
+		add: self buildEditMetadataButton;
 		add: self buildCoverView;
 		add: self buildMetadataButton.
 	

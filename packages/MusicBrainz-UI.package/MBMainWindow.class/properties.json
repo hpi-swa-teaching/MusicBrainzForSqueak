@@ -10,7 +10,8 @@
 		"builder",
 		"coverView",
 		"importWindow",
-		"albums" ],
+		"albums",
+		"selectedMetadatum" ],
 	"name" : "MBMainWindow",
 	"pools" : [
 		 ],
