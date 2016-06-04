@@ -31,4 +31,7 @@ addTrack: aMBTrack
 			aMBTrack metadata at: #Artist ifPresent:
 				[:artist | newalbum metadata at: #Artist put: artist].
 			self albums add: newalbum.
-			]
+			].
+		
+	(aMBTrack cover isNil not and: aMBTrack albumentity cover isNil)
+		ifTrue: [	aMBTrack albumentity cover: aMBTrack cover]
