@@ -6,6 +6,6 @@ testBuildWindow
 	self 
 		assert: windowSpec class = PluggableWindowSpec;
 		assert: windowSpec model class = MBMainWindow;
-		assert: windowSpec extent = (700@500);
+		assert: windowSpec extent = (763@512);
 		assert: windowSpec label = 'MusicBrainz';
 		assert: windowSpec children = OrderedCollection new
