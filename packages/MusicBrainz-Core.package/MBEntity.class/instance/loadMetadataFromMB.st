@@ -2,6 +2,6 @@ loadFromMB
 loadMetadataFromMB
 
 	(self getArtists isEmpty)
-		ifTrue: [self metadata at: #Artist put: self loadArtists].
+		ifTrue: [self metadata at: #Artist put: self loadArtistsFromMB].
 	(self getTitle isEmpty)
-		ifTrue: [self metadata at: #Title put: self loadTitle].
+		ifTrue: [self metadata at: #Title put: self loadTitleFromMB].

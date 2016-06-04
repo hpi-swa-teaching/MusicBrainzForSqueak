@@ -4,8 +4,18 @@
 	"instance" : {
 		"album" : "mv 5/10/2016 10:59",
 		"album:" : "mv 5/10/2016 10:59",
-		"setUp" : "tm 5/27/2016 16:39",
+		"setUp" : "mv 6/4/2016 14:55",
 		"testGetArtists" : "mv 5/31/2016 12:19",
+		"testGetCover" : "mv 6/4/2016 14:43",
+		"testGetLabels" : "mv 6/4/2016 14:55",
+		"testGetMedia" : "mv 6/4/2016 14:56",
 		"testGetTitle" : "mv 5/31/2016 12:19",
-		"testGetTracks" : "mv 5/31/2016 12:19",
-		"testLoadTracksFromMB" : "TM 5/25/2016 23:12" } }
+		"testGetTracks" : "mv 6/4/2016 15:04",
+		"testLoadArtistsFromMB" : "mv 6/4/2016 15:46",
+		"testLoadCoverFromDirectory" : "mv 6/4/2016 15:11",
+		"testLoadFrontcoverFromMB" : "mv 6/4/2016 15:11",
+		"testLoadLabelsFromMB" : "mv 6/4/2016 15:13",
+		"testLoadMediaFromMB" : "mv 6/4/2016 15:15",
+		"testLoadTitleFromMB" : "mv 6/4/2016 15:44",
+		"testLoadTracksFromMB" : "mv 6/4/2016 15:17",
+		"testLoadYearFromMB" : "mv 6/4/2016 15:19" } }

@@ -4,6 +4,8 @@
 	"instance" : {
 		"entity" : "mv 5/24/2016 20:23",
 		"entity:" : "mv 5/24/2016 20:23",
-		"setUp" : "tm 5/27/2016 16:39",
+		"setUp" : "mv 6/4/2016 15:37",
 		"testCheckValidMBID" : "mv 5/24/2016 20:32",
+		"testGetArtists" : "mv 6/4/2016 15:38",
+		"testGetTitle" : "mv 6/4/2016 15:37",
 		"testSetMBID" : "mv 5/24/2016 21:37" } }

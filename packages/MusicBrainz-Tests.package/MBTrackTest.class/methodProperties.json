@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "tm 5/27/2016 16:42",
+		"setUp" : "mv 6/4/2016 15:35",
 		"testConvertMilliSecToMinutes" : "tm 5/24/2016 16:43",
 		"testGetArtists" : "mv 5/24/2016 19:47",
 		"testGetLength" : "mv 5/24/2016 19:49",
 		"testGetLengthInMinutes" : "mv 5/24/2016 19:56",
 		"testGetTitle" : "mv 5/24/2016 19:48",
+		"testLoadArtistsFromMB" : "mv 6/4/2016 15:47",
+		"testLoadLength" : "mv 6/4/2016 15:32",
+		"testLoadTitleFromMB" : "mv 6/4/2016 15:48",
 		"track" : "tm 5/24/2016 16:39",
 		"track:" : "tm 5/24/2016 16:39" } }

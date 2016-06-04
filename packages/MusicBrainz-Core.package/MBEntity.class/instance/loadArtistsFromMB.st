@@ -1,5 +1,5 @@
 loadFromMB
-loadArtists
+loadArtistsFromMB
 
 	| request artists |
 	self mbid ifNil: 

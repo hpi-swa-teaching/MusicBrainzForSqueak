@@ -1,5 +1,5 @@
 loadFromMB
-loadTitle
+loadTitleFromMB
 
 	| request |		
 	self mbid ifNil: 
