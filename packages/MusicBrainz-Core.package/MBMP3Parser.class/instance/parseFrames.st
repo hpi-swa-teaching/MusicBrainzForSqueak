@@ -2,7 +2,7 @@ parsing
 parseFrames
 	[
 	|tag tagmethod frameSize |
-		((self id3size+9 <= self stream position) or: (self stream peekFor: (Character null)))
+		((self id3size+9 <= self stream position) or: (self stream peekFor: 0))
 			ifTrue: [^true].
 		tag := self nextFrameTag.
 		frameSize := self getFrameSize.

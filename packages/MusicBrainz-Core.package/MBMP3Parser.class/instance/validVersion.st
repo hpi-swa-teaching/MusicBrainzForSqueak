@@ -1,6 +1,6 @@
 parsing
 validVersion
 	| response |
-	response := 3 = self stream next asciiValue.
+	response := 3 = self stream next.
 	self stream next.
 	^ response

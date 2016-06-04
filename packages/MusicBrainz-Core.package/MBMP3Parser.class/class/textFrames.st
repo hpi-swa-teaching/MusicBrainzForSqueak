@@ -3,8 +3,10 @@ textFrames
 	^ Dictionary newFrom:{
 		#ALB -> #'Album'.
 		#BPM -> #'Beats per Minute'.
+		#CMP -> #'iTunes Compilation Flag'.
 		#COM -> #'Composer'.
 		#CON -> #'Genre'.
+		#ENC -> #'Encoded by'.
 		#EXT -> #'Lyricist'.
 		#FLT -> #'File type'.
 		#IME -> #'Time'.

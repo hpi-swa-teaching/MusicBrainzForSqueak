@@ -2,8 +2,8 @@ parsingFrames
 readUTF8
 	| content |
 	
-	content := self stream next.
+	content := ''.
 	
-	[ (content last = 0)
-		ifTrue: [ ^content].
-	content := content, self stream next] repeat
+	[ (self stream peekFor: 0)
+		ifTrue: [	^content].
+	content := content, self stream next asCharacter] repeat
