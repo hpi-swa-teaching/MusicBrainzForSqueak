@@ -17,5 +17,6 @@ buildWith: aBuilder
 	headerViews := self buildHeaderViews.
 	windowSpec children addAll: headerViews.
 	build := self builder build: windowSpec.
+"	Transcript show: (build submorphs findByClass: PluggableButtonMorphPlus"
 	self coverView: (self builder widgetAt: #coverView).
 	^ build
