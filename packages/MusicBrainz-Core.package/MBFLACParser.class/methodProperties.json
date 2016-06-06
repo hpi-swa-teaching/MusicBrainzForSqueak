@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newFrom:" : "pb 6/7/2016 00:05" },
+	"instance" : {
+		"getLittleEndianInteger" : "pb 6/7/2016 00:03",
+		"initialize" : "pb 6/7/2016 00:04",
+		"openStreamOn:" : "pb 6/7/2016 00:04",
+		"parseFLAC" : "pb 6/7/2016 00:04",
+		"parseVorbisBlock" : "pb 6/7/2016 00:04",
+		"seekFLAC" : "pb 6/7/2016 00:04",
+		"seekVorbisBlock" : "pb 6/7/2016 00:04",
+		"stream" : "pb 6/7/2016 00:03",
+		"stream:" : "pb 6/7/2016 00:03",
+		"track" : "pb 6/7/2016 00:03",
+		"track:" : "pb 6/7/2016 00:03" } }
