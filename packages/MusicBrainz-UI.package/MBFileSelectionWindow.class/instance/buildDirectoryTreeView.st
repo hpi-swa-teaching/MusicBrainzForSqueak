@@ -1,5 +1,5 @@
 building
-buildFileTreeView
+buildDirectoryTreeView
 	| treeSpec |
 	treeSpec:= self builder pluggableTreeSpec new.
 	^ treeSpec 

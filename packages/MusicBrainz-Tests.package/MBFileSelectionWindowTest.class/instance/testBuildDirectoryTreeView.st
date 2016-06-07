@@ -1,8 +1,8 @@
 TESTING: opening and building
-testBuildFileTreeView
+testBuildDirectoryTreeView
 	| treeSpec |
 	self fileSelectionWindow builder: MorphicToolBuilder new.
-	treeSpec := self fileSelectionWindow buildFileTreeView.
+	treeSpec := self fileSelectionWindow buildDirectoryTreeView.
 	self 
 		assert: treeSpec class = PluggableTreeSpec;
 		assert: treeSpec model class = MBFileSelectionWindow;

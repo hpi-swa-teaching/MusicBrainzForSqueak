@@ -8,7 +8,9 @@
 	"instvars" : [
 		"selectedDirectory",
 		"builder",
-		"mainWindow" ],
+		"mainWindow",
+		"files",
+		"shownDirectory" ],
 	"name" : "MBFileSelectionWindow",
 	"pools" : [
 		 ],

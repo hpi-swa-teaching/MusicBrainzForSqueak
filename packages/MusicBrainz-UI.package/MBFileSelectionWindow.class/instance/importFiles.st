@@ -2,9 +2,13 @@ building
 importFiles
 	self files = #()
 		ifFalse: [
-			self mainWindow importFiles: self files. 
-			self mainWindow importWindow: nil.
-			self dependents do: [:each | each delete]
+			self selectedDirectory = self shownDirectory
+				ifTrue: [
+					self notifyMainWindowAndDelete
+					]
+				ifFalse: [
+					self inform: 'You don''t really want to import from this folder!'
+					]
 			]
 		ifTrue: [
 			self inform: 'Please select a folder with mp3-files'
