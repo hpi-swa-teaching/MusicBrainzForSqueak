@@ -6,8 +6,6 @@
 		"getBigEndianInteger" : "pb 6/7/2016 18:25",
 		"getLittleEndianInteger" : "pb 6/7/2016 00:03",
 		"getUTF8String:" : "pb 6/7/2016 18:06",
-		"initialize" : "pb 6/7/2016 00:04",
-		"openStreamOn:" : "mv 6/7/2016 19:00",
 		"parseAudio" : "mv 6/7/2016 19:05",
 		"parsePictureBlock" : "pb 6/7/2016 18:49",
 		"parseVorbisBlock" : "pb 6/7/2016 18:52",

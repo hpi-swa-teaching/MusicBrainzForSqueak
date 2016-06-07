@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"newFrom:" : "mv 6/7/2016 19:01" },
+		"newFrom:" : "mv 6/7/2016 19:01",
+		"textFrames" : "TM 6/7/2016 21:00" },
 	"instance" : {
+		"initialize" : "TM 6/7/2016 21:24",
+		"openStreamOn:" : "TM 6/7/2016 21:22",
 		"parseAudio" : "mv 6/7/2016 19:04",
 		"stream" : "mv 6/7/2016 19:03",
 		"stream:" : "mv 6/7/2016 19:03",
