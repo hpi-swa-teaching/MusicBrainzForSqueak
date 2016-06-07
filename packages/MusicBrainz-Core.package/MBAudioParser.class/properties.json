@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id3size" ],
-	"name" : "MBMP3Parser",
+		"stream",
+		"track" ],
+	"name" : "MBAudioParser",
 	"pools" : [
 		 ],
-	"super" : "MBAudioParser",
+	"super" : "Object",
 	"type" : "normal" }

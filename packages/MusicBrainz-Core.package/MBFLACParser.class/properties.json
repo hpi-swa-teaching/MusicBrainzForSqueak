@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stream",
-		"track" ],
+		 ],
 	"name" : "MBFLACParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MBAudioParser",
 	"type" : "normal" }

@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"newFrom:" : "pb 6/4/2016 12:08",
 		"textFrames" : "pb 6/4/2016 16:33" },
 	"instance" : {
 		"getFrameSize" : "pb 6/4/2016 12:47",
@@ -9,8 +8,8 @@
 		"initialize" : "pb 5/28/2016 16:45",
 		"nextFrameTag" : "pb 6/4/2016 12:47",
 		"openStreamOn:" : "pb 6/4/2016 12:44",
+		"parseAudio" : "mv 6/7/2016 19:06",
 		"parseFrames" : "pb 6/4/2016 12:46",
-		"parseMP3" : "pb 6/1/2016 22:57",
 		"readAPIC:" : "pb 6/4/2016 15:20",
 		"readTextFrom:With:" : "pb 6/4/2016 15:28",
 		"readUTF16" : "pb 6/4/2016 14:48",
@@ -18,8 +17,4 @@
 		"seekID3" : "pb 6/4/2016 12:44",
 		"setID3Size" : "pb 6/4/2016 12:46",
 		"skipFrame:" : "pb 6/1/2016 18:31",
-		"stream" : "pb 5/28/2016 12:05",
-		"stream:" : "pb 5/28/2016 12:05",
-		"track" : "pb 5/28/2016 16:45",
-		"track:" : "pb 5/28/2016 16:45",
 		"validVersion" : "pb 6/4/2016 12:45" } }

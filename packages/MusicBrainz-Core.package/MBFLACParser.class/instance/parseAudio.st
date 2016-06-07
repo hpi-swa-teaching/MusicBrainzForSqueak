@@ -1,5 +1,5 @@
 parsing
-parseFLAC
+parseAudio
 
 	self
 		seekFLAC;

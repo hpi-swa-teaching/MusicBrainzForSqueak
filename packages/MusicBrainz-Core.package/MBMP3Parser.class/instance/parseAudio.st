@@ -1,5 +1,5 @@
 parsing
-parseMP3
+parseAudio
 	| flags |
 	self seekID3.
 	self validVersion
