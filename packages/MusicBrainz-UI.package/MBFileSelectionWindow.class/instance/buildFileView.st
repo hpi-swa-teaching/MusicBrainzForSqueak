@@ -1,6 +1,5 @@
 building
-buildFileListView
-	"Right hand view"
+buildFileView
 	| treeSpec |
 	treeSpec := self builder pluggableTreeSpec new.
 	^ treeSpec 

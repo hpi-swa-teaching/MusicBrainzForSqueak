@@ -1,3 +1,3 @@
 file and directory accessing
-fileNamesLocal: aFileName
-	^ (aFileName findBetweenSubStrs: #('\')) last
+fileNamesLocal: aFile
+	^ aFile name

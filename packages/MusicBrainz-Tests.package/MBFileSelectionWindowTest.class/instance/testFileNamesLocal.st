@@ -1,8 +1,8 @@
 TESTING: opening and building
 testFileNamesLocal
-	| fullPath |
-	fullPath := 'C:\Users\Benutzer\Desktop\Datei.mp3'.
+	| file |
+	file := DirectoryEntryFile new setDirectory: 'C:/Users/Beispiel/Desktop' name: 'Datei.mp3' creationTime: 0 modificationTime: 0 fileSize: 0.
 	self 
-		assert: (self fileSelectionWindow fileNamesLocal: fullPath)
+		assert: (self fileSelectionWindow fileNamesLocal: file)
 		equals: 'Datei.mp3'
 		description: 'Local file name does not match'

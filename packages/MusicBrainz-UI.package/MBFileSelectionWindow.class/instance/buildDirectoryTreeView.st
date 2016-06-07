@@ -1,7 +1,7 @@
 building
 buildDirectoryTreeView
 	| treeSpec |
-	treeSpec:= self builder pluggableTreeSpec new.
+	treeSpec := self builder pluggableTreeSpec new.
 	^ treeSpec 
 		model: self;
 		roots: #rootDirectory;

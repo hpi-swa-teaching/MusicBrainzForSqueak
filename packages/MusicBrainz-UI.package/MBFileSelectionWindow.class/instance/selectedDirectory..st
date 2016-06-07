@@ -1,4 +1,7 @@
 accessing
 selectedDirectory: anObject 
 	selectedDirectory := anObject.
-	self changed: #selectedDirectory
+	self 
+		files: #();
+		changed: #selectedDirectory;
+		changed: #files

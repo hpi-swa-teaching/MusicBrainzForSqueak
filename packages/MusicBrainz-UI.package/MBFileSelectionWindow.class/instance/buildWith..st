@@ -6,7 +6,7 @@ buildWith: aBuilder
 	windowSpec := self buildWindow.
 	windowSpec children 
 		add: self buildDirectoryTreeView;
-		add: self buildFileListView;
+		add: self buildFileView;
 		add: self buildImportButton;
 		add: self buildShowFilesButton.
 	^ self builder build: windowSpec

@@ -9,8 +9,7 @@
 		"selectedDirectory",
 		"builder",
 		"mainWindow",
-		"files",
-		"shownDirectory" ],
+		"files" ],
 	"name" : "MBFileSelectionWindow",
 	"pools" : [
 		 ],
