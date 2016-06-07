@@ -1,7 +1,6 @@
 parsing
 parseVorbisBlock
-	|vendorCommentLength numberOfComments commentLength comment comments|
-	comments := OrderedCollection new.
+	|vendorCommentLength numberOfComments commentLength comment|
 	vendorCommentLength := self getLittleEndianInteger.
 	self stream position: self stream position +vendorCommentLength.
 	
@@ -10,7 +9,6 @@ parseVorbisBlock
 	numberOfComments timesRepeat: [
 		comment := ''.
 		commentLength := self getLittleEndianInteger.
-		commentLength timesRepeat: [comment := comment, self stream next asCharacter.].
-		comments add: comment
+		comment := self getUTF8String:  commentLength.
+		self addCommentToTrack: comment.
 		].
-	^ comments

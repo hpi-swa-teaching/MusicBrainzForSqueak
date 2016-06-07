@@ -2,7 +2,6 @@ parsing
 parsePictureBlock
 	| type MIMELength MIME descriptionLength pictureLength imageStream|
 	imageStream := RWBinaryOrTextStream on: OrderedCollection new.
-	self halt.
 	
 	type := self getBigEndianInteger.
 	MIMELength := self getBigEndianInteger.

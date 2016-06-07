@@ -2,14 +2,15 @@
 	"class" : {
 		"newFrom:" : "pb 6/7/2016 00:05" },
 	"instance" : {
+		"addCommentToTrack:" : "pb 6/7/2016 18:49",
 		"getBigEndianInteger" : "pb 6/7/2016 18:25",
 		"getLittleEndianInteger" : "pb 6/7/2016 00:03",
 		"getUTF8String:" : "pb 6/7/2016 18:06",
 		"initialize" : "pb 6/7/2016 00:04",
 		"openStreamOn:" : "pb 6/7/2016 00:04",
 		"parseFLAC" : "pb 6/7/2016 18:17",
-		"parsePictureBlock" : "pb 6/7/2016 18:26",
-		"parseVorbisBlock" : "pb 6/7/2016 00:04",
+		"parsePictureBlock" : "pb 6/7/2016 18:49",
+		"parseVorbisBlock" : "pb 6/7/2016 18:52",
 		"seekFLAC" : "pb 6/7/2016 00:04",
 		"seekParseableBlocks" : "pb 6/7/2016 18:28",
 		"stream" : "pb 6/7/2016 00:03",
