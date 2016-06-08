@@ -1,5 +1,7 @@
 building
 isActive
-	self selectedMetadatum 
-		ifNil: [ ^ false]
-		ifNotNil: [ ^ true]
+	self selectedMetadata
+		ifNil: [^ false]
+		ifNotNil: [(self selectedMetadata ~= '' and: self selectedMetadata ~= 'More: ')
+				ifTrue: [^ true]
+				ifFalse: [^ false]]

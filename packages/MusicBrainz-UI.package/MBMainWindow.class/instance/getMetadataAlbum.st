@@ -7,6 +7,6 @@ getMetadataAlbum
 		add: 'Artist: ' , self selectedEntity getArtists asCommaString;
 		add: 'Year: ', (self selectedEntity metadata at: #Year ifAbsent: ['']);
 		add: 'Label: ', self selectedEntity getLabels asCommaString;
-		add: 'Medium: ', self selectedEntity getMedia asCommaString;
+		add: 'Media: ', self selectedEntity getMedia asCommaString;
 		add: 'MBID: ', self selectedEntity getMBID.
 	^ metadata

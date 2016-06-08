@@ -5,7 +5,7 @@ buildMetadataView
 	^ metadataSpec 
 		model: self;
 		list: #getMetadata;
-		getSelected: #selectedMetadatum;
-		setSelected: #selectedMetadatum:;
+		getSelected: #selectedMetadata;
+		setSelected: #selectedMetadata:;
 		frame: (0.65@0.60 corner: 1@0.9)
 		

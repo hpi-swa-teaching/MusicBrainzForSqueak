@@ -11,7 +11,7 @@
 		"coverView",
 		"importWindow",
 		"albums",
-		"selectedMetadatum" ],
+		"selectedMetadata" ],
 	"name" : "MBMainWindow",
 	"pools" : [
 		 ],

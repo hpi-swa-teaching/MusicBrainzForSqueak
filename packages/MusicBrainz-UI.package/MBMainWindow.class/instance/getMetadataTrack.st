@@ -11,7 +11,7 @@ getMetadataTrack
 	trackMetadata
 		add: 'MBID: ', self selectedEntity getMBID;
 		add: '';
-		add: 'Weiteres';
+		add: 'More: ';
 		add: ''.
 	self selectedEntity metadata keysAndValuesDo: [:key :value |
 		(#(Title Artist Length Year)  includes: key )

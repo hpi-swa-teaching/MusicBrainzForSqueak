@@ -34,4 +34,6 @@ addTrack: aMBTrack
 			].
 		
 	(aMBTrack cover isNil not and: aMBTrack albumentity cover isNil)
-		ifTrue: [	aMBTrack albumentity cover: aMBTrack cover]
+		ifTrue: [aMBTrack albumentity cover: aMBTrack cover.
+				aMBTrack cover: nil].
+	aMBTrack cover ifNotNil: [aMBTrack cover: nil]

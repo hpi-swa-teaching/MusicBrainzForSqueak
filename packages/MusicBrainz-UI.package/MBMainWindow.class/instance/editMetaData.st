@@ -1,13 +1,9 @@
-building
+metadataView
 editMetaData
-	| splittedString metaDatumLabel newMetaDatum |
-	
-	self selectedMetadatum
-	ifNotNil: 
-		[splittedString:= self selectedMetadatum findTokens: ':'.
-		metaDatumLabel:= splittedString first.
-		newMetaDatum := UIManager default request: metaDatumLabel.
-		self selectedEntity metadata at: metaDatumLabel put: newMetaDatum.
-		self 
-			changed: #getMetadata;
-			changed: #albums]
+	| newMetadataValue splittedMetadataString |
+	self selectedMetadata
+		ifNotNil: 
+		[splittedMetadataString := self splitMetadata.
+		newMetadataValue := UIManager default request: (splittedMetadataString at: #label) initialAnswer: (splittedMetadataString at: #value).
+		newMetadataValue ~= ''
+			ifTrue: [self updateMetadataAt: (splittedMetadataString at: #label) Put: (newMetadataValue)]]
