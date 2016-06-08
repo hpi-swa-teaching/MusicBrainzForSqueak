@@ -1,7 +1,7 @@
 as yet unclassified
 getMBIDForAlbum: aMBAlbum
 
-	| response responseXML requestURL|
+	| responseXML requestURL|
 	requestURL := MBRequest baseURL, 'release/?query='.
 	aMBAlbum metadata keysAndValuesDo: [:key :value |
 		| mbField encodedValue |
@@ -14,8 +14,5 @@ getMBIDForAlbum: aMBAlbum
 	(aMBAlbum tracklist size > 0)
 	ifTrue: [requestURL := requestURL, 'tracks', ':', (aMBAlbum tracklist size asString), '+'].
 	requestURL := requestURL copyFrom: 1 to: requestURL size - 1.
-	response := WebClient httpGet: requestURL.
-	response isSuccess ifFalse:[^self error: response status].
-	response := response content.
-	responseXML := XMLDOMParser parseDocumentFrom: response readStream.
+	responseXML := MBRequest sendRequestTo: requestURL.
 	^ (responseXML firstTagNamed: #release) attributeAt: 'id'	

@@ -1,7 +1,7 @@
 as yet unclassified
 getMBIDForTrack: aMBTrack
 
-	| response responseXML requestURL|
+	| responseXML requestURL|
 	requestURL := MBRequest baseURL, 'recording/?query='.
 	aMBTrack metadata keysAndValuesDo: [:key :value |
 		| mbField encodedValue |
@@ -12,8 +12,5 @@ getMBIDForTrack: aMBTrack
 			encodedValue :=  encodedValue copyReplaceAll: '%2F' with: '%20'.
 			requestURL := requestURL, mbField , ':', encodedValue, '+']].
 	requestURL := requestURL copyFrom: 1 to: requestURL size - 1.
-	response := WebClient httpGet: requestURL.
-	response isSuccess ifFalse:[^self error: response status].
-	response := response content.
-	responseXML := XMLDOMParser parseDocumentFrom: response readStream.
+	responseXML := MBRequest sendRequestTo: requestURL.
 	^ (responseXML firstTagNamed: #recording) attributeAt: 'id'	
