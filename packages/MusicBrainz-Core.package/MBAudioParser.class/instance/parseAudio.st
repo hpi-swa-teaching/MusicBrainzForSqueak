@@ -1,4 +1,3 @@
 accessing
 parseAudio
-
 	^ self subclassResponsibility

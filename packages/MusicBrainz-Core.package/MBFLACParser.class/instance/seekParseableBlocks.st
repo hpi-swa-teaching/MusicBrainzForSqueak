@@ -1,11 +1,11 @@
 parsing
 seekParseableBlocks
-	|blockinfo last length type|
+	|blockinfo length type lastBlock |
 	
 	[blockinfo := self stream next.
 	length := 0.
 	
-	last := blockinfo allMask: 16r80.
+	lastBlock := blockinfo allMask: 16r80.
 	type := blockinfo bitAnd: 16r7F.
 	
 	#(16 8 0 )
@@ -17,7 +17,7 @@ seekParseableBlocks
 				ifTrue:[self parsePictureBlock]
 				ifFalse:[self stream position: self stream position + length]
 			].
-	last ifTrue: [^ true]
+	lastBlock ifTrue: [^ true]
 		
 		] repeat
 	"wtf"

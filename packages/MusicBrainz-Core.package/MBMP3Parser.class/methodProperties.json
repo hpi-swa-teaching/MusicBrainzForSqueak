@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"textFrames" : "pb 6/4/2016 16:33" },
+		"textFrames" : "tm 6/8/2016 21:29" },
 	"instance" : {
 		"getFrameSize" : "pb 6/4/2016 12:47",
 		"id3size" : "pb 5/28/2016 17:18",
@@ -9,7 +9,7 @@
 		"parseAudio" : "TM 6/8/2016 15:15",
 		"parseFrames" : "TM 6/8/2016 15:17",
 		"readAPIC:" : "TM 6/8/2016 15:17",
-		"readTextFrom:With:" : "TM 6/8/2016 15:17",
+		"readTextFrom:With:" : "tm 6/8/2016 21:33",
 		"readUTF16" : "TM 6/8/2016 15:17",
 		"readUTF8" : "TM 6/8/2016 15:18",
 		"seekID3" : "pb 6/4/2016 12:44",

@@ -14,9 +14,10 @@ textFrames
 		#LANGUAGE -> #'Language'.
 		#ORIGINALYEAR -> #'Original release year'.
 		#ARTIST -> #'Artist'.
-		#ALBUMARTIST -> #'Artist'. "WAS BAND"
+		#ALBUMARTIST -> #'Artist'.
 		#CONDUCTOR -> #'Conductor'.
 		#REMIXER -> #'Modified by'.
+		#YEAR -> #'Original release year'.
 		#DISCNUMBER -> #'Part of set'.
 		#LABEL -> #'Label'.
 		#TRACKNUMBER -> #'Track Number'.

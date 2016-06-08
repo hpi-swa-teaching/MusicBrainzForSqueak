@@ -27,4 +27,5 @@ textFrames
 		#SIZ -> #'Size'.
 		#SRC -> #'ISRC'.
 		#YER -> #'Year'.
+		#COP -> #'Copyright'.
 	}

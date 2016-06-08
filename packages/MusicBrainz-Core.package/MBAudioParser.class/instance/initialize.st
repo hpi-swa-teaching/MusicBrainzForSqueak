@@ -1,4 +1,4 @@
 accessing
 initialize
 	super initialize.
-	self track: MBTrack new.
+	self track: MBTrack new
