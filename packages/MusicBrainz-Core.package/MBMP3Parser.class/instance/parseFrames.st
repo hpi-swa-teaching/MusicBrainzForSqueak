@@ -19,4 +19,6 @@ parseFrames
 					ifFalse: [ self skipFrame: frameSize].
 			]
 
-	] repeat.
+	] repeat
+
+"Refactoren: tag first = $T ifFalse: [aNewMethod] --> respondsTo: is meta, zumal auch nur für APIC??"

@@ -20,3 +20,4 @@ seekParseableBlocks
 	last ifTrue: [^ true]
 		
 		] repeat
+	"wtf"

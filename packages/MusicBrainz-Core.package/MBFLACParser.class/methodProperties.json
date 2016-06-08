@@ -1,13 +1,14 @@
 {
 	"class" : {
-		 },
+		"textFrames" : "TM 6/8/2016 14:47" },
 	"instance" : {
-		"addCommentToTrack:" : "pb 6/7/2016 18:49",
+		"addCommentToTrack:" : "TM 6/8/2016 15:12",
 		"getBigEndianInteger" : "pb 6/7/2016 18:25",
 		"getLittleEndianInteger" : "pb 6/7/2016 00:03",
 		"getUTF8String:" : "pb 6/7/2016 18:06",
-		"parseAudio" : "mv 6/7/2016 19:05",
-		"parsePictureBlock" : "pb 6/7/2016 18:49",
-		"parseVorbisBlock" : "pb 6/7/2016 18:52",
+		"parseAudio" : "TM 6/8/2016 15:12",
+		"parsePictureBlock" : "TM 6/8/2016 15:20",
+		"parseVorbisBlock" : "TM 6/8/2016 15:20",
 		"seekFLAC" : "pb 6/7/2016 00:04",
-		"seekParseableBlocks" : "pb 6/7/2016 18:28" } }
+		"seekParseableBlocks" : "TM 6/8/2016 15:20",
+		"underStandsKey:" : "TM 6/8/2016 15:03" } }

@@ -24,3 +24,4 @@ readAPIC: aFrameSize
 				
 			^ true].
 	imagestream nextPut: self stream next] repeat
+"Aufteilen??"

@@ -9,6 +9,8 @@ parseVorbisBlock
 	numberOfComments timesRepeat: [
 		comment := ''.
 		commentLength := self getLittleEndianInteger.
-		comment := self getUTF8String:  commentLength.
+		comment := self getUTF8String: commentLength.
 		self addCommentToTrack: comment.
 		].
+	
+"schleifenkörper auslagern?"

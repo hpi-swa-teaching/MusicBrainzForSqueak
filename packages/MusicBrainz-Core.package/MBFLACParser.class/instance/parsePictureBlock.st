@@ -17,3 +17,5 @@ parsePictureBlock
 				ifTrue: [self track cover: (JPEGReadWriter2 formFromStream: (imageStream))].
 	(MIME = 'image/png')
 				ifTrue: [self track cover: (PNGReadWriter formFromStream: (imageStream))].
+				
+			"oberen teil auslagern?"
