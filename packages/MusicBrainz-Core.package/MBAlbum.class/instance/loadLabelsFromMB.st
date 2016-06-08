@@ -8,4 +8,6 @@ loadLabelsFromMB
 	request := MBRequest browseFor: 'label' by: (self class entityName) withMBID: (self mbid).
 	labels := ''.
 	request tagsNamed: #label do: [:labelData | labels := labels,  '/', (labelData firstTagNamed: #name) contentString].
-	^ labels copyFrom: 2 to: labels size
+	(labels size > 0)
+		ifTrue: [^ labels allButFirst].
+	^ labels

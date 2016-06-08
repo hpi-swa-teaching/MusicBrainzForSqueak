@@ -8,5 +8,7 @@ loadMediaFromMB
 	media := ''.
 	[request tagsNamed: #medium do: [:mediumData | media := media,  '/', (mediumData firstTagNamed: #format) contentString].]
 		on: MessageNotUnderstood
-		do: [media := OrderedCollection new].
-	^ media copyFrom: 2 to: media size
+		do: [^ OrderedCollection new].
+	(media size > 0)
+		ifTrue: [^ media allButFirst].
+	^ media

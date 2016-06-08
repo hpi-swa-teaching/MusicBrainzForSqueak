@@ -11,9 +11,9 @@
 		"getDetailsForA:withMBID:about:" : "mv 6/1/2016 19:02",
 		"getFrontcoverFor:" : "mv 6/1/2016 19:08",
 		"getFrontcoverFor:size:" : "mv 6/4/2016 12:48",
-		"getMBIDForAlbum:" : "mv 6/2/2016 03:08",
+		"getMBIDForAlbum:" : "mv 6/8/2016 23:28",
 		"getMBIDForReleaseNamed:FetchFirst:" : "mv 6/1/2016 19:11",
-		"getMBIDForTrack:" : "mv 6/2/2016 03:08",
+		"getMBIDForTrack:" : "mv 6/8/2016 22:48",
 		"sendQuery:forEntity:" : "mv 6/1/2016 19:03",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {

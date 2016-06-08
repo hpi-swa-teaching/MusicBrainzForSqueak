@@ -9,6 +9,7 @@ getMBIDForTrack: aMBTrack
 		mbField ifNotNil: 
 			[encodedValue := value encodeForHTTP.
 			encodedValue :=  encodedValue copyReplaceAll: '%00' with: ''.
+			encodedValue :=  encodedValue copyReplaceAll: '%2F' with: '%20'.
 			requestURL := requestURL, mbField , ':', encodedValue, '+']].
 	requestURL := requestURL copyFrom: 1 to: requestURL size - 1.
 	response := WebClient httpGet: requestURL.
