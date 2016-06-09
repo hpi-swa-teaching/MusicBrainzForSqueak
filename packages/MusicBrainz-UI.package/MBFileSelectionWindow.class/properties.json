@@ -9,7 +9,8 @@
 		"selectedDirectory",
 		"builder",
 		"mainWindow",
-		"files" ],
+		"files",
+		"importMethod" ],
 	"name" : "MBFileSelectionWindow",
 	"pools" : [
 		 ],

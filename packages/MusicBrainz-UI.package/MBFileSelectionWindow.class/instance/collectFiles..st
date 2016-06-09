@@ -1,14 +1,6 @@
 file and directory accessing
-collectFiles: aDirectory 
-	| files |
-	files := OrderedCollection new.
-	aDirectory entries
-		do: [:entry | entry isDirectory
-				ifTrue: [| subDirectoryFiles |
-					subDirectoryFiles := self collectFiles: (FileDirectory on: entry fullName).
-					subDirectoryFiles
-						ifNotEmpty: [files addAll: subDirectoryFiles]]
-				ifFalse: [
-						((entry extension = 'mp3' or: (entry extension = 'flac')) and: (entry name first ~= $.))
-						ifTrue: [files add: entry]]].
-	^ files
+collectFiles: aDirectory
+	self importMethod = 2
+	ifTrue: [	^ self recursivelyFindFilesFrom: aDirectory].
+	self importMethod = 1
+	ifTrue: [ ^ self findFilesFrom: aDirectory]

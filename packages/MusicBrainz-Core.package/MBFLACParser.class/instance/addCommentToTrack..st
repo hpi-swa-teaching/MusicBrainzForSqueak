@@ -10,4 +10,4 @@ addCommentToTrack: aString
 		value := aString copyFrom: (delimeterPos + 1) to: (aString size).
 		self track metadata at: label put: value]
 	ifFalse:
-		[self inform: 'Included an unknown tag: ', key. self halt]
+		[self inform: 'Included an unknown tag: ', key]

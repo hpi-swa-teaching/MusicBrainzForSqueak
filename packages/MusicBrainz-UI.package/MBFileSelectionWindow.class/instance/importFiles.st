@@ -1,6 +1,6 @@
 building
 importFiles
-	self files = #()
+	self files size = 0
 		ifFalse: [
 				self notifyMainWindowAndDelete
 			]
