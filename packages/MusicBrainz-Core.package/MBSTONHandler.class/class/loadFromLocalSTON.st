@@ -5,4 +5,6 @@ loadFromLocalSTON
 	ifTrue: [
 		fileStream := MBSTONHandler path readOnlyFileNamed: 'albums.ston'.
 		[^ STON fromString: fileStream contents] on: Exception do: [ ^ nil]]
-	ifFalse: [ ^ nil]
+	ifFalse: [ 
+		MBSTONHandler inform: 'No saved file found.'.
+		^ nil]
