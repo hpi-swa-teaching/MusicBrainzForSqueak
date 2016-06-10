@@ -2,15 +2,17 @@
 
 #Installation instructions:
 1. Drag and Drop the .sar-File we will deploy into your image, then click "install sar file". If you don't want to wait for a release, just execute this in your workspace:
-  ```smalltalk
+  ```
   Metacello new
   baseline: 'MusicBrainz';
   repository: 'github://HPI-SWA-Teaching/SWT16-Project-12:master/packages';
   onConflict: [:ex | ex allow];
   load
-  ``` and ask us for the default cover images.
+  ```
+  and ask us for the default cover images.
 2. Execute the command: 
-  ```smalltalk
-  MBInstaller installMusicBrainz"
-  ```  in your workspace.
+  ```
+  MBInstaller installMusicBrainz
+  ``` 
+  in your workspace.
 3. No third step as MusicBrainz opens automatically after installation!
