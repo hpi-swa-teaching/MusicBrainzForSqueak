@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"installExtensions" : "tm 6/10/2016 12:15",
+		"installExternalWebBrowser" : "tm 6/10/2016 11:31",
+		"installMusicBrainz" : "tm 6/10/2016 12:16",
+		"installSTON" : "tm 6/10/2016 11:31",
+		"registerInOpenMenu" : "tm 6/10/2016 12:08",
+		"writeSARFile" : "tm 6/10/2016 12:03" },
+	"instance" : {
+		 } }

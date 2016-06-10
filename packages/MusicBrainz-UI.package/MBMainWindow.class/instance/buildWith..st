@@ -19,5 +19,4 @@ buildWith: aBuilder
 	windowSpec children addAll: headerViews.
 	build := self builder build: windowSpec.
 	self coverView: (self builder widgetAt: #coverView).
-	self installExternalWebBrowser.
 	^ build

@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 installExternalWebBrowser
 
 	Metacello new
