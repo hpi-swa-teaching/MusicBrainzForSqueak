@@ -4,9 +4,13 @@
 1. Drag and Drop the .sar-File we will deploy into your image, then click "install sar file". If you don't want to wait for a release, just execute this in your workspace:
   ```
   Metacello new
+  
   baseline: 'MusicBrainz';
+  
   repository: 'github://HPI-SWA-Teaching/SWT16-Project-12:master/packages';
+  
   onConflict: [:ex | ex allow];
+  
   load
   ```
   and ask us for the default cover images.
