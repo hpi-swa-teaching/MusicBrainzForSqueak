@@ -1,4 +1,4 @@
-TESTING: opening and building
+TESTING: UI elements
 testBuildDirectoryTreeView
 	| treeSpec |
 	self fileSelectionWindow builder: MorphicToolBuilder new.

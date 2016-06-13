@@ -1,5 +1,5 @@
-TESTING: opening and building
-testFileNamesLocal
+TESTING: file and directory accessing
+testFileLocalName
 	| file |
 	file := DirectoryEntryFile new setDirectory: 'C:/Users/Beispiel/Desktop' name: 'Datei.mp3' creationTime: 0 modificationTime: 0 fileSize: 0.
 	self 

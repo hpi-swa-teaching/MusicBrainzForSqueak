@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"availableImportMethods" : "tm 6/13/2016 16:39",
+		"availableImportMethods" : "tm 6/13/2016 18:07",
 		"labelForImportButton" : "tm 6/13/2016 16:40",
 		"labelForShowFilesButton" : "tm 6/13/2016 16:40",
 		"labelForWindow" : "tm 6/13/2016 16:40",
@@ -17,7 +17,7 @@
 		"closeButton" : "TM 6/7/2016 20:32",
 		"collectFilesFrom:" : "tm 6/13/2016 16:43",
 		"fileLocalName:" : "tm 6/13/2016 16:50",
-		"files" : "tm 6/7/2016 14:26",
+		"files" : "tm 6/13/2016 18:05",
 		"files:" : "tm 6/7/2016 14:14",
 		"findFilesFrom:" : "tm 6/9/2016 16:31",
 		"importFiles" : "tm 6/13/2016 16:45",

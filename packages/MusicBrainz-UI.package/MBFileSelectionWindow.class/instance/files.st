@@ -1,4 +1,4 @@
 accessing
 files
 	^ files
-		ifNil: [^ #()]
+		ifNil: [^ OrderedCollection new]

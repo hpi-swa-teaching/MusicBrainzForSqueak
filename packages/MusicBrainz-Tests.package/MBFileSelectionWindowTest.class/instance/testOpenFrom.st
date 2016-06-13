@@ -1,4 +1,4 @@
-TESTING: opening and building
+TESTING: class methods
 testOpenFrom
 	| window |
 	window := MBFileSelectionWindow openFrom: (MBMainWindow new).

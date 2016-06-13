@@ -1,4 +1,4 @@
-TESTING: opening and building
+TESTING: UI elements
 testBuildWith
 	| window |
 	window := self fileSelectionWindow buildWith: MorphicToolBuilder new.
