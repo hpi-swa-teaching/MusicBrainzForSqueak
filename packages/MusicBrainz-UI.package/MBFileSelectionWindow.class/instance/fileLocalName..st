@@ -1,3 +1,3 @@
 file and directory accessing
-fileNamesLocal: aFile
+fileLocalName: aFile
 	^ aFile name

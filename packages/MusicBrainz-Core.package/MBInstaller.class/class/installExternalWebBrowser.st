@@ -1,6 +1,5 @@
-as yet unclassified
+installing
 installExternalWebBrowser
-
 	Metacello new
 		configuration: 'FFI';
 		version: #stable;

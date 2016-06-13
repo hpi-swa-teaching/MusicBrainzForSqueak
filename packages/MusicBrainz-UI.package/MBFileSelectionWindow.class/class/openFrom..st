@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openFrom: aMainWindow
 	| window |
 	window := MBFileSelectionWindow new.

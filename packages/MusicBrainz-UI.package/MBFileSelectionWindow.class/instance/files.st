@@ -1,4 +1,4 @@
-file and directory accessing
+accessing
 files
 	^ files
 		ifNil: [^ #()]

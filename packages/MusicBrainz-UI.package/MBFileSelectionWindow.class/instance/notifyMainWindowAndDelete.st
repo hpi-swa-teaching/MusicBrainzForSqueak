@@ -1,4 +1,4 @@
-building
+importing
 notifyMainWindowAndDelete 
 	self mainWindow 
 		importFiles: self files;

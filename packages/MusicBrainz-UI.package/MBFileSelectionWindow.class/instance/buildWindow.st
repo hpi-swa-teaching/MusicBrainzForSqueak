@@ -1,10 +1,10 @@
-building
+UI elements
 buildWindow
 	| windowSpec |
 	windowSpec := self builder pluggableWindowSpec new.
 	^ windowSpec 
 		 model: self;
 		 extent: 500 @ 250;
-		 label: 'FileDirectory';
+		 label: self class labelForWindow;
 		 closeAction: #closeButton;
 		 children: OrderedCollection new

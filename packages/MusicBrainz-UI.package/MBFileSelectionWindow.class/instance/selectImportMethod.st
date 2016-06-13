@@ -1,4 +1,3 @@
-building
+importing
 selectImportMethod
-	self importMethod: (UIManager default 
-		chooseFrom: (OrderedCollection newFrom: #('just this folder' 'this and all subfolders')))
+	self importMethod: (UIManager default chooseFrom: self class availableImportMethods)

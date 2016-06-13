@@ -2,5 +2,5 @@ accessing
 importMethod: anObject
 	importMethod := anObject.
 	self 
-		showFiles;
+		showCurrentFiles;
 		changed: #files

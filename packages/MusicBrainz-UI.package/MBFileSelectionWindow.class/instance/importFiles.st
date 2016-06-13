@@ -1,9 +1,5 @@
-building
+importing
 importFiles
 	self files size = 0
-		ifFalse: [
-				self notifyMainWindowAndDelete
-			]
-		ifTrue: [
-			self inform: 'Please select a folder with mp3-files'
-			]
+		ifTrue: [self inform: self noteNoFilesInFolder]
+		ifFalse: [self notifyMainWindowAndDelete]

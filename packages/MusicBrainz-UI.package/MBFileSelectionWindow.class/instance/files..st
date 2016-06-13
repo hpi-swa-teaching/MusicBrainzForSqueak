@@ -1,3 +1,3 @@
-file and directory accessing
+accessing
 files: anObject
 	files := anObject

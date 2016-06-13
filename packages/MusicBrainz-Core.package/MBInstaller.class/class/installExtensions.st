@@ -1,4 +1,4 @@
-as yet unclassified
+installing
 installExtensions
 	MBInstaller 
 		inform: 'If warning appears while installing ConfigurationOfSton, just click proceed';
