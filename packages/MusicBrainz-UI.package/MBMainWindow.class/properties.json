@@ -11,7 +11,8 @@
 		"coverView",
 		"importWindow",
 		"albums",
-		"selectedMetadata" ],
+		"selectedMetadata",
+		"player" ],
 	"name" : "MBMainWindow",
 	"pools" : [
 		 ],

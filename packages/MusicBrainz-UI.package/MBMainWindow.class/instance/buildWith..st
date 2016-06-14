@@ -13,6 +13,7 @@ buildWith: aBuilder
 		add: self buildEditMetadataButton;
 		add: self buildCoverView;
 		add: self buildMetadataButton;
+		add: self buildPlayButton;
 		add: self buildOpenMBIDButton.
 	
 	headerViews := self buildHeaderViews.
