@@ -1,0 +1,17 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Registry" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pathToFile",
+		"fileBits",
+		"fileIndex",
+		"endianness" ],
+	"name" : "MPEGFile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

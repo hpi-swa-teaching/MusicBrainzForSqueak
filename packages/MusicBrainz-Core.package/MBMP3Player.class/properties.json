@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MBMP3Player",
+	"pools" : [
+		 ],
+	"super" : "StreamingMP3Sound",
+	"type" : "normal" }

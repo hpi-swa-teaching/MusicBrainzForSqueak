@@ -17,3 +17,13 @@ baseline: spec
 		    className: 'ConfigurationOfSton';
 		    versionString: #'stable';
 		    repository: 'github://GsDevKit/ston:gemstone/repository' ].
+	
+	spec project: 'FFI' with: [
+		spec
+		    className: 'ConfigurationOfFFI';
+		    versionString: #'stable'].
+	
+	spec project: 'ExternalWebBrowser' with: [
+		spec
+		    className: 'ConfigurationOfExternalWebBrowser';
+		    versionString: #'stable'].

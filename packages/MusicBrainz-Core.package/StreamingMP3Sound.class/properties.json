@@ -1,0 +1,22 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"volume",
+		"repeat",
+		"mpegFile",
+		"mpegStreamIndex",
+		"totalSamples",
+		"streamSamplingRate",
+		"mixer",
+		"lastBufferMSecs",
+		"mutex" ],
+	"name" : "StreamingMP3Sound",
+	"pools" : [
+		 ],
+	"super" : "AbstractSound",
+	"type" : "normal" }

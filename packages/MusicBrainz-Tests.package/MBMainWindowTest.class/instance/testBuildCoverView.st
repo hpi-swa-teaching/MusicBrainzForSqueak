@@ -8,4 +8,4 @@ testBuildCoverView
 		assert: coverSpec model class = MBMainWindow;
 		assert: coverSpec morphClass = ImageMorph;
 		assert: coverSpec name = 'coverView';
-		assert: coverSpec frame = (0.65@0.05 corner: 1@0.60)
+		assert: coverSpec frame = (0.65@0.05 corner: 1@0.50)

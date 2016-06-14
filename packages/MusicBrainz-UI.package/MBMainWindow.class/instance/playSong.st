@@ -2,8 +2,15 @@ metadataView
 playSong
 	
 	self player ifNotNil: [
+		self player isPlaying
+		ifTrue: [
 			self player pause.
-			^ self
+			self changed: #labelForPlayerButton.
+			^ self]
+		ifFalse: [
+			self player resume.
+			self changed: #labelForPlayerButton.
+			^ self]
 		].
 
 	self selectedEntity = nil
@@ -12,6 +19,7 @@ playSong
 		ifTrue: [^ self getMetadataAlbum]."
 	self selectedEntity class entityName = 'recording'
 		ifTrue: [
-			self player: (StreamingMP3Sound onFileNamed: self selectedEntity filepath).
+			self player: (MBMP3Player onFileNamed: self selectedEntity filepath).
 			self player play.
+			self changed: #labelForPlayerButton.
 			]
