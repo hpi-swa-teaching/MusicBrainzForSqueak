@@ -1,9 +1,10 @@
 accessing
-selectedEntity: anObject
+selectedEntity: anObject 
 	selectedEntity := anObject.
 	self selectedMetadata: nil.
 	self 
 		changed: #selectedMetadata;
-		changed: #isActive;
+		changed: #isMetadataSelected;
 		changed: #selectedEntity;
-		changed: #getMetadata
+		changed: #getMetadata;
+		changed: #isNewTrack

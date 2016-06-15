@@ -14,7 +14,8 @@ buildWith: aBuilder
 		add: self buildCoverView;
 		add: self buildMetadataButton;
 		add: self buildPlayButton;
-		add: self buildOpenMBIDButton.
+		add: self buildOpenMBIDButton;
+		add: self buildPlayNewTrackButton.
 	
 	headerViews := self buildHeaderViews.
 	windowSpec children addAll: headerViews.

@@ -1,3 +1,3 @@
 metadataView
 closeButton
-	self player closeFile
+	self player ifNotNil: [self player closeFile]

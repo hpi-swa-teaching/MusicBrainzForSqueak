@@ -1,7 +1,7 @@
 building
 labelForPlayerButton
 	self player ifNotNil: [
-		self player isPlaying
-		ifTrue: [^ 'Pause']
+		self player isPlaying not
+		ifTrue: [^ 'Play']
 		].
-	^ 'Play'
+	^ 'Pause'

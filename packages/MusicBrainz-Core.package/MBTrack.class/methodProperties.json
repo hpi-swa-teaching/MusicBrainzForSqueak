@@ -13,5 +13,6 @@
 		"findMBID" : "mv 6/2/2016 02:54",
 		"getLength" : "mv 6/2/2016 03:26",
 		"getLengthInMinutes" : "mv 6/2/2016 03:26",
+		"isMP3" : "tm 6/15/2016 16:37",
 		"loadLength" : "mv 6/2/2016 02:28",
 		"loadMetadataFromMB" : "mv 6/2/2016 03:59" } }

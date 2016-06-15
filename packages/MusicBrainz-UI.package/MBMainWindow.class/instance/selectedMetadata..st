@@ -3,4 +3,4 @@ selectedMetadata: anObject
 	selectedMetadata := anObject.
 	self 
 		changed: self selectedMetadata;
-		changed: self isActive
+		changed: self isMetadataSelected
