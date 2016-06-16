@@ -1,6 +1,8 @@
 loadFromMB
 loadMetadataFromMB
 
+	(self mbid = '')
+		ifTrue: [^ self inform: 'No MBID set.'].
 	super loadMetadataFromMB.
 	(self getLabels isEmpty)
 		ifTrue: [self metadata at: #Label put: self loadLabelsFromMB].
