@@ -10,7 +10,8 @@ readTextFrom: aSymbol With: aFrameSize
 	
 	[self stream position - start = aFrameSize
 		ifTrue: [	label := self class textFrames at: aSymbol ifAbsent:[self inform: 'Included an unknown tag: T', aSymbol. ('T', aSymbol) asSymbol].
-				self track metadata at: label put: (content asByteArray asString).
+				content := self deleteNullBytesFrom: content.
+				self track metadata at: label put: content.
 			^ true].
 	content add: self stream next] repeat
 

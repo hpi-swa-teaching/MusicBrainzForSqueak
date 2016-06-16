@@ -2,6 +2,7 @@
 	"class" : {
 		"textFrames" : "tm 6/8/2016 21:29" },
 	"instance" : {
+		"deleteNullBytesFrom:" : "tm 6/16/2016 08:39",
 		"getFrameSize" : "pb 6/4/2016 12:47",
 		"id3size" : "pb 5/28/2016 17:18",
 		"id3size:" : "pb 5/28/2016 17:19",
@@ -9,7 +10,7 @@
 		"parseAudio" : "TM 6/8/2016 15:15",
 		"parseFrames" : "TM 6/8/2016 15:17",
 		"readAPIC:" : "TM 6/8/2016 15:17",
-		"readTextFrom:With:" : "tm 6/8/2016 21:33",
+		"readTextFrom:With:" : "tm 6/16/2016 08:26",
 		"readUTF16" : "TM 6/8/2016 15:17",
 		"readUTF8" : "TM 6/8/2016 15:18",
 		"seekID3" : "pb 6/4/2016 12:44",
