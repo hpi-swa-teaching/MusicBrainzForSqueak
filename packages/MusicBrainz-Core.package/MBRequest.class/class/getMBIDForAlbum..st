@@ -15,4 +15,5 @@ getMBIDForAlbum: aMBAlbum
 	ifTrue: [requestURL := requestURL, 'tracks', ':', (aMBAlbum tracklist size asString), '+'].
 	requestURL := requestURL copyFrom: 1 to: requestURL size - 1.
 	responseXML := MBRequest sendRequestTo: requestURL.
+	responseXML ifNil: [^ ''].
 	^ (responseXML firstTagNamed: #release) attributeAt: 'id'	

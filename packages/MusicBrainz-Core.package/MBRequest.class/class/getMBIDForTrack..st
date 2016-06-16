@@ -13,4 +13,5 @@ getMBIDForTrack: aMBTrack
 			requestURL := requestURL, mbField , ':', encodedValue, '+']].
 	requestURL := requestURL copyFrom: 1 to: requestURL size - 1.
 	responseXML := MBRequest sendRequestTo: requestURL.
+	responseXML ifNil: [^ ''].
 	^ (responseXML firstTagNamed: #recording) attributeAt: 'id'	

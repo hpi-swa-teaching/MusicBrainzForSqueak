@@ -11,11 +11,11 @@
 		"getDetailsForA:withMBID:about:" : "mv 6/9/2016 00:20",
 		"getFrontcoverFor:" : "mv 6/1/2016 19:08",
 		"getFrontcoverFor:size:" : "mv 6/4/2016 12:48",
-		"getMBIDForAlbum:" : "mv 6/9/2016 00:20",
+		"getMBIDForAlbum:" : "mv 6/16/2016 09:32",
 		"getMBIDForReleaseNamed:FetchFirst:" : "mv 6/1/2016 19:11",
-		"getMBIDForTrack:" : "mv 6/9/2016 00:19",
+		"getMBIDForTrack:" : "mv 6/16/2016 09:29",
 		"sendQuery:forEntity:" : "mv 6/9/2016 00:18",
-		"sendRequestTo:" : "mv 6/9/2016 00:17",
+		"sendRequestTo:" : "mv 6/16/2016 09:28",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
 		 } }
