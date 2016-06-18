@@ -7,6 +7,7 @@ baseline: spec
             spec
                 package: 'MusicBrainz-Core';
 		    package: 'MusicBrainz-UI';	
+		    package: 'MusicBrainz-Libraries';
                 package: 'MusicBrainz-Tests' with: [ spec requires: #('default') ].
             spec
                 group: 'default' with: #('MusicBrainz-Core' 'MusicBrainz-UI');
