@@ -10,5 +10,5 @@
 	"name" : "MBMP3Player",
 	"pools" : [
 		 ],
-	"super" : "AnObsoleteStreamingMP3Sound",
+	"super" : "StreamingMP3Sound",
 	"type" : "normal" }
