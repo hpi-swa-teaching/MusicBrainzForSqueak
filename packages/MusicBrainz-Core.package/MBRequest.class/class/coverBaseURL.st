@@ -1,4 +1,4 @@
-as yet unclassified
+settings
 coverBaseURL
 
 	^ 'http://coverartarchive.org/'

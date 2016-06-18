@@ -1,4 +1,4 @@
-as yet unclassified
+request
 getAlbumsNamed: aString FetchFirst: anInteger
 "Returns an OrderedCollection containing MBalbum-objects"
 

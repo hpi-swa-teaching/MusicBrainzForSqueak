@@ -1,4 +1,4 @@
-as yet unclassified
+settings
 defaultCoverSized: aString
 
 	(aString = #small)

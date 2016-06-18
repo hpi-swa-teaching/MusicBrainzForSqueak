@@ -1,4 +1,4 @@
-as yet unclassified
+request
 sendRequestTo: aString
 
 	| reply resp xmldoc |

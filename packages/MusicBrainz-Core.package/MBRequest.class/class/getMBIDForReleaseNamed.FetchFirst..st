@@ -1,4 +1,4 @@
-as yet unclassified
+request
 getMBIDForReleaseNamed: aString FetchFirst: anInteger
 
 	| request mbids count |

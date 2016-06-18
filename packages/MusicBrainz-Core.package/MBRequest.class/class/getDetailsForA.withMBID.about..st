@@ -1,4 +1,4 @@
-as yet unclassified
+request
 getDetailsForA: aString withMBID: anotherString about: andAnotherString
 
 	| requestURL |

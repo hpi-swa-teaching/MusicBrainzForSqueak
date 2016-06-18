@@ -1,4 +1,4 @@
-as yet unclassified
+request
 getMBIDForAlbum: aMBAlbum
 
 	| responseXML requestURL|

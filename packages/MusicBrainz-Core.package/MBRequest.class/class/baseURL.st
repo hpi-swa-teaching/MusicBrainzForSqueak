@@ -1,4 +1,4 @@
-as yet unclassified
+settings
 baseURL
 
 	^ 'http://mb.mvoelker.me/ws/2/'

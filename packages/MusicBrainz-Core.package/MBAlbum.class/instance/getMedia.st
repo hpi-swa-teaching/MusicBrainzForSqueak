@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getMedia
 
 	self metadata at: #Media ifAbsent:

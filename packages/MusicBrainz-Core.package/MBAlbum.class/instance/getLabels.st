@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getLabels
 
 	self metadata at: #Label ifAbsent:

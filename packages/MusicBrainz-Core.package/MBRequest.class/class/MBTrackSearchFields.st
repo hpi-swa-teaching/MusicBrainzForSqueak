@@ -1,5 +1,6 @@
-as yet unclassified
+dictionary
 MBTrackSearchFields
+"Dictionary to map intern keys (specific for albums) to musicbrainz keyword"
 
 	^ Dictionary newFrom: {
 		#Title -> 'recording'.

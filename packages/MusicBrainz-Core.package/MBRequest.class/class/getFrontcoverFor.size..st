@@ -1,4 +1,4 @@
-as yet unclassified
+cover
 getFrontcoverFor: aString size: anotherString
 
 	| resp requestURL stream |

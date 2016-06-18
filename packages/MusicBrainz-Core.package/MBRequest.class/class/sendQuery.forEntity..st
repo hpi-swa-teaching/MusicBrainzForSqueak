@@ -1,4 +1,4 @@
-as yet unclassified
+request
 sendQuery: aString forEntity: anotherString
 
 	| requestURL |

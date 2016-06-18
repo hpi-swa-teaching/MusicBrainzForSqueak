@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getLengthInMinutes
 	
 	self getLength ifNil: [^ ''].
