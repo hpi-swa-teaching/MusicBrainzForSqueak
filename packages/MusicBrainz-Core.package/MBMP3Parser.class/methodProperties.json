@@ -2,6 +2,8 @@
 	"class" : {
 		"textFrames" : "tm 6/8/2016 21:29" },
 	"instance" : {
+		"createFrameSizeBytes:" : "pb 6/18/2016 19:54",
+		"createTextFrame:With:" : "pb 6/18/2016 22:39",
 		"deleteNullBytesFrom:" : "tm 6/16/2016 08:39",
 		"getFrameSize" : "pb 6/4/2016 12:47",
 		"id3size" : "pb 5/28/2016 17:18",
