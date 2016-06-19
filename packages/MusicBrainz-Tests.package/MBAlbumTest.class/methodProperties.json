@@ -5,6 +5,8 @@
 		"album" : "mv 5/10/2016 10:59",
 		"album:" : "mv 5/10/2016 10:59",
 		"setUp" : "mv 6/4/2016 14:55",
+		"testAsString" : "JR 6/19/2016 17:17",
+		"testFindMBID" : "JR 6/19/2016 17:08",
 		"testGetArtists" : "mv 6/4/2016 17:11",
 		"testGetCover" : "mv 6/4/2016 17:15",
 		"testGetLabels" : "mv 6/4/2016 14:55",
@@ -16,6 +18,7 @@
 		"testLoadFrontcoverFromMB" : "mv 6/4/2016 17:15",
 		"testLoadLabelsFromMB" : "mv 6/4/2016 15:13",
 		"testLoadMediaFromMB" : "mv 6/4/2016 15:15",
+		"testLoadMetadataFromMB" : "JR 6/19/2016 17:22",
 		"testLoadTitleFromMB" : "mv 6/4/2016 15:44",
 		"testLoadTracksFromMB" : "mv 6/4/2016 15:17",
 		"testLoadYearFromMB" : "mv 6/4/2016 15:19" } }
