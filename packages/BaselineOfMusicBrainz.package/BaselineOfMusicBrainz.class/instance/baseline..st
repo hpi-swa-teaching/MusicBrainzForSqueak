@@ -22,7 +22,8 @@ baseline: spec
 	spec project: 'FFI' with: [
 		spec
 		    className: 'ConfigurationOfFFI';
-		    versionString: #'stable'].
+		    repository: 'http://www.squeaksource.com/MetacelloRepository';
+		    loads: #('Core')].
 	
 	spec project: 'ExternalWebBrowser' with: [
 		spec
