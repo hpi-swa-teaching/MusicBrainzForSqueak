@@ -5,7 +5,7 @@
 		"setUp" : "mv 6/4/2016 15:35",
 		"testAsString" : "JR 6/19/2016 17:02",
 		"testConvertMilliSecToMinutes" : "tm 5/24/2016 16:43",
-		"testFindMBID" : "JR 6/19/2016 17:09",
+		"testFindMBID" : "tm 6/19/2016 17:57",
 		"testGetArtists" : "mv 6/4/2016 17:13",
 		"testGetLength" : "mv 5/24/2016 19:49",
 		"testGetLengthInMinutes" : "mv 5/24/2016 19:56",

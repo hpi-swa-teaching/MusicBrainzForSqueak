@@ -2,7 +2,5 @@ as yet unclassified
 testFindMBID 
 
 | album |
-album := MBTrack new.
-album metadata at: #Album put: 'Graduation'. 
-MBRequest getMBIDForTrack: album. 
-self assert: (album findMBID) equals:  '0c155741-2c3c-44aa-90ab-2b343f9f499c' 
+album := MBMockData mockAlbum.
+self assert: (album findMBID) equals: '1cdbe3b6-99bb-4a50-9950-29ebc4fcb194'

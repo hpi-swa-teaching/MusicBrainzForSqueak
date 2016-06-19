@@ -7,4 +7,4 @@ buildEditMetadataButton
 		frame: (0.5@0.9 corner: 0.6@1);
 		label: 'Edit Metadata';
 		enabled: #isMetadataSelected;
-		action: #editMetaData
+		action: #editMetadata

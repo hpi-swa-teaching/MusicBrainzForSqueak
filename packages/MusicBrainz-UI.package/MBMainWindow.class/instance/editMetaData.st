@@ -1,5 +1,5 @@
 metadataView
-editMetaData
+editMetadata
 	| newMetadataValue splittedMetadataString |
 	self selectedMetadata
 		ifNotNil: 

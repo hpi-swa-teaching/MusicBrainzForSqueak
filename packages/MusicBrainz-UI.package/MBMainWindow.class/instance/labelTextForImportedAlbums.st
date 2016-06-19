@@ -1,3 +1,3 @@
 metadataView
 labelTextForImportedAlbums
-	^ self class labelTextForImportedAlbums
+ 	^ 'Imported Albums'

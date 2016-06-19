@@ -1,3 +1,3 @@
 as yet unclassified
 testGetAlbumName
-	self assert: ((self mainWindow getAlbumName: (Object new)) = 'an Object')
+	self assert: ((self mainWindow getAlbumName: (MBMockData mockAlbum )) =  'Epsilon - Kygo')

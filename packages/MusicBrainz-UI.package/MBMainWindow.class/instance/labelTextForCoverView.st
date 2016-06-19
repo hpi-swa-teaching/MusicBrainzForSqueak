@@ -1,3 +1,3 @@
 metadataView
 labelTextForCoverView
-	^ self class labelTextForCoverView 
+ 	^ 'Metadata'

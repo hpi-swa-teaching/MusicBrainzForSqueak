@@ -31,4 +31,4 @@ dict := Dictionary newFrom:{
 		#YER -> #'Year'.
 		#COP -> #'Copyright'.
 	}.
-self assert: dict equals: MBFLACParser textFrames 
+self assert: dict equals: MBMP3Parser textFrames 

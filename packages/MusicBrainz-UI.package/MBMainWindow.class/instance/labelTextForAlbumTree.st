@@ -1,3 +1,3 @@
-metadataView
-labelTextForAlbumTree
-	^ self class labelTextForAlbumTree 
+building
+labelTextForAlbumTree 
+	^ 'Albums'
