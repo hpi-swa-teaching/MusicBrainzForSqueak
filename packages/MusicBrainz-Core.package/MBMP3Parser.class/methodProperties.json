@@ -1,8 +1,11 @@
 {
 	"class" : {
-		"textFrames" : "tm 6/8/2016 21:29" },
+		"textFrames" : "pb 6/19/2016 14:04" },
 	"instance" : {
-		"createFrameSizeBytes:" : "pb 6/18/2016 19:54",
+		"copyFrame:" : "pb 6/19/2016 12:58",
+		"copyUnchangedFrames:" : "pb 6/19/2016 18:07",
+		"createFrameSizeBytes:" : "pb 6/19/2016 14:26",
+		"createID3SizeBytes:" : "pb 6/19/2016 15:59",
 		"createTextFrame:With:" : "pb 6/18/2016 22:39",
 		"deleteNullBytesFrom:" : "tm 6/16/2016 08:39",
 		"getFrameSize" : "pb 6/4/2016 12:47",
@@ -10,7 +13,7 @@
 		"id3size:" : "pb 5/28/2016 17:19",
 		"nextFrameTag" : "TM 6/8/2016 15:13",
 		"parseAudio" : "TM 6/8/2016 15:15",
-		"parseFrames" : "TM 6/8/2016 15:17",
+		"parseFrames" : "pb 6/19/2016 14:02",
 		"readAPIC:" : "TM 6/8/2016 15:17",
 		"readTextFrom:With:" : "tm 6/16/2016 08:26",
 		"readUTF16" : "TM 6/8/2016 15:17",
@@ -18,4 +21,5 @@
 		"seekID3" : "pb 6/4/2016 12:44",
 		"setID3Size" : "pb 6/4/2016 12:46",
 		"skipFrame:" : "pb 6/1/2016 18:31",
-		"validVersion" : "pb 6/4/2016 12:45" } }
+		"validVersion" : "pb 6/4/2016 12:45",
+		"writeMetaData:" : "pb 6/19/2016 18:06" } }

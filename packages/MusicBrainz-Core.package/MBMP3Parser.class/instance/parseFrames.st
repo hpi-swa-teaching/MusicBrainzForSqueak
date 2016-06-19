@@ -11,7 +11,7 @@ parseFrames
 				next.
 				
 		(tag first = $T)
-			ifTrue: [ self readTextFrom: (tag copyFrom: 2 to: 4) asSymbol With: frameSize.]
+			ifTrue: [ self readTextFrom: tag asSymbol With: frameSize.]
 			ifFalse: [
 				tagmethod := ('read', tag, ':') asSymbol.
 				(self respondsTo: tagmethod)
