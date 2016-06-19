@@ -5,7 +5,7 @@ folder := 'albums'.
 
 zip := ZipArchive new.
 
-packages := #('MusicBrainz-Core' 'MusicBrainz-UI').
+packages := #( 'MusicBrainz-Libraries' 'MusicBrainz-Core' 'MusicBrainz-UI').
 packages do: [ :package | 
 mczStream := RWBinaryOrTextStream on: (String new: 10000).
 workingCopy := MCWorkingCopy forPackage: (MCPackage new name: package).
@@ -16,6 +16,7 @@ zip addTree: Smalltalk imagePath match: [:e | e fullName startsWith:
     Smalltalk imagePath , FileDirectory slash , folder].
 zip addString:  'self fileInMonticelloZipVersionNamed: ''' , (packages first), '.mcz''.
 self fileInMonticelloZipVersionNamed: ''' , (packages second), '.mcz''.
+self fileInMonticelloZipVersionNamed: ''' , (packages third), '.mcz''.
 (self membersMatching: ''' , folder , FileDirectory slash , '*.*'') do: [ :f | self
     extractMember: f].' as: 'install/preamble'.
 zip writeToFileNamed: 'MusicBrainz' , '.sar'
