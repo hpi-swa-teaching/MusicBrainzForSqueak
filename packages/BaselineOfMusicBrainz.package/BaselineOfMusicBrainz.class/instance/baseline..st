@@ -5,12 +5,12 @@ baseline: spec
         for: #common
         do: [
             spec
+		    package: 'MusicBrainz-Libraries';
                 package: 'MusicBrainz-Core';
 		    package: 'MusicBrainz-UI';	
-		    package: 'MusicBrainz-Libraries';
                 package: 'MusicBrainz-Tests' with: [ spec requires: #('default') ].
             spec
-                group: 'default' with: #('MusicBrainz-Core' 'MusicBrainz-UI' 'MusicBrainz-Libraries');
+                group: 'default' with: #('MusicBrainz-Libraries' 'MusicBrainz-Core' 'MusicBrainz-UI');
                 group: 'Tests' with: #('MusicBrainz-Tests') ].
 
 	spec project: 'Ston' with: [
