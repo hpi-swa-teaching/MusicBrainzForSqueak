@@ -1,5 +1,6 @@
 accessing
 isTrackSelected
 	self selectedEntity
-		ifNil: [^ false]
-		ifNotNil: [^(self selectedEntity isMP3)] 
+		ifNotNil: [(self selectedEntity class entityName = 'recording') 
+			ifTrue: [^self selectedEntity isMP3]].
+		^false
