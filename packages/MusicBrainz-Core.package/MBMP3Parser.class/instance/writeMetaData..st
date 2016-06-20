@@ -1,6 +1,6 @@
 writing
 writeMetaData: aDictionary
-	| flags unchangedFrames newFrames newFile progressBar streamsize|
+	| flags unchangedFrames newFrames newFile progressBar streamsize buffer|
 	newFile := FileStream fileNamed: 'Temp.mp3'.
 	newFile binary.
 	self seekID3.
@@ -22,16 +22,13 @@ writeMetaData: aDictionary
 	progressBar := ProgressMorph new openInWorld.
 	progressBar label: 'Processing: File'.
 	streamsize := self stream contents size.
-	[(self stream peek)
-		ifNil:[
-			newFile close.
+	buffer := String new: 100.
+	[self stream atEnd]
+		whileFalse:[
+			newFile nextPutAll: (self stream nextInto: buffer).
+			progressBar done: (self stream position / streamsize)].
+	self copyFile: newFile toFile: self stream.
 			self stream close.
+			newFile close.
+			FileDirectory deleteFilePath: newFile name.
 			progressBar delete.
-			^ true
-			]
-		ifNotNil:[
-			newFile nextPut: self stream next.
-			(self stream position \\ 100000 = 0)
-				ifTrue: [progressBar done: (self stream position / streamsize)]
-			]
-	]repeat

@@ -11,6 +11,7 @@ buildWith: aBuilder
 		add: self buildSaveButton;
 		add: self buildImportButton;
 		add: self buildEditMetadataButton;
+		add: self buildWriteTrackButton;
 		add: self buildCoverView;
 		add: self buildMetadataButton;
 		add: self buildPlayButton;

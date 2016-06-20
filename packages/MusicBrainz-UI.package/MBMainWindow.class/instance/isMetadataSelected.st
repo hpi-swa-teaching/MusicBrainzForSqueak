@@ -1,7 +1,5 @@
-building
+accessing
 isMetadataSelected
 	self selectedMetadata
 		ifNil: [^ false]
-		ifNotNil: [(self selectedMetadata ~= '' and: self selectedMetadata ~= 'More: ')
-				ifTrue: [^ true]
-				ifFalse: [^ false]]
+		ifNotNil: [^(self selectedMetadata ~= '' and: self selectedMetadata ~= 'More: ')]
