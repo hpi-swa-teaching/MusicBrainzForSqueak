@@ -1,14 +1,9 @@
 {
 	"class" : {
-		"detectLinesOfCode" : "tm 6/18/2016 22:01",
-		"detectNumberOfClasses" : "tm 6/18/2016 21:59",
-		"detectNumberOfMethods" : "tm 6/18/2016 22:02",
 		"installExtensions" : "tm 6/10/2016 12:15",
 		"installExternalWebBrowser" : "tm 6/12/2016 15:01",
 		"installMusicBrainz" : "tm 6/10/2016 12:16",
 		"installSTON" : "tm 6/10/2016 11:31",
-		"metrics" : "tm 6/18/2016 22:04",
-		"packages" : "tm 6/18/2016 22:00",
 		"registerInOpenMenu" : "tm 6/10/2016 12:08",
 		"unregisterFromOpenMenu" : "tm 6/12/2016 15:00",
 		"writeSARFile" : "tm 6/19/2016 12:08" },

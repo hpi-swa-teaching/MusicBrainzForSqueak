@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MBMockData",
+		"player" ],
+	"name" : "MBMP3PlayerTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
