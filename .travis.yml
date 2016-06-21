@@ -7,8 +7,8 @@ smalltalk:
   - Squeak-4.6
 
 before_script:
-  - mkdir -pv ~/home/travis/smalltalkCI-master/_builds/albums/
-  - cd ~/home/travis/smalltalkCI-master/_builds/albums/
+  - mkdir -pv smalltalkCI-master/_builds/albums/
+  - cd smalltalkCI-master/_builds/albums/
   - wget https://raw.githubusercontent.com/HPI-SWA-Teaching/SWT16-Project-12/master/albums/blankCover_250.png
   - wget https://raw.githubusercontent.com/HPI-SWA-Teaching/SWT16-Project-12/master/albums/blankCover_500.png
   - ls -lisa
