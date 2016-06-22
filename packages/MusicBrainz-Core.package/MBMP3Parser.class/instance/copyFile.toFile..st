@@ -1,4 +1,4 @@
-as yet unclassified
+writing
 copyFile: fileStream1 toFile: fileStream2 
 	| buffer |
 	fileStream1 position: 0.

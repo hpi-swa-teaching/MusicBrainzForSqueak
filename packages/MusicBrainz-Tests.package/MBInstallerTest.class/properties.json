@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mp3File",
-		"parserFromFile",
-		"emptyParser" ],
-	"name" : "MBMP3ParserTest",
+		 ],
+	"name" : "MBInstallerTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

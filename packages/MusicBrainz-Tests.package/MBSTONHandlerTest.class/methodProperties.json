@@ -5,4 +5,5 @@
 		"setUp" : "mv 5/26/2016 10:12",
 		"testLoadFromLocalSTON" : "tm 6/21/2016 20:33",
 		"testPath" : "TM 5/31/2016 21:09",
-		"testSaveSTONOf" : "tm 6/21/2016 20:33" } }
+		"testSaveSTONOf" : "tm 6/21/2016 20:33",
+		"testWriteAndRead" : "tm 6/1/2016 22:46" } }

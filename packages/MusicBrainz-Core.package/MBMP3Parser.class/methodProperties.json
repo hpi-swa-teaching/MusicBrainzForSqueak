@@ -2,7 +2,6 @@
 	"class" : {
 		"textFrames" : "pb 6/19/2016 14:04" },
 	"instance" : {
-		"cleanUp" : "nt 6/20/2016 18:57",
 		"copyFile:toFile:" : "nt 6/20/2016 18:55",
 		"copyFrame:" : "pb 6/19/2016 12:58",
 		"copyUnchangedFrames:" : "pb 6/19/2016 18:07",
@@ -23,6 +22,5 @@
 		"seekID3" : "pb 6/4/2016 12:44",
 		"setID3Size" : "pb 6/4/2016 12:46",
 		"skipFrame:" : "pb 6/1/2016 18:31",
-		"swapFile" : "nt 6/20/2016 18:53",
 		"validVersion" : "pb 6/4/2016 12:45",
 		"writeMetaData:" : "nt 6/20/2016 19:54" } }
