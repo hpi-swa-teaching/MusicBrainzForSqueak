@@ -6,7 +6,7 @@ testBuildEditMetadataButton
 	self 
 		assert: buttonSpec class = PluggableButtonSpec;
 		assert: buttonSpec model class = MBMainWindow;
-		assert: buttonSpec frame = (0.4@0.9 corner: 0.5@1);
+		assert: buttonSpec frame = (0.85@0.95 corner: 1@1);
 		assert: buttonSpec label = 'Edit Metadata';
 		assert: buttonSpec enabled = 'isMetadataSelected';
 		assert: buttonSpec action = 'editMetadata'.
