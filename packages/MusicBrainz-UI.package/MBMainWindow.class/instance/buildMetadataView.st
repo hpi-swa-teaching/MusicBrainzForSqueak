@@ -7,5 +7,5 @@ buildMetadataView
 		list: #getMetadata;
 		getSelected: #selectedMetadata;
 		setSelected: #selectedMetadata:;
-		frame: (0.65@0.60 corner: 1@0.9)
+		frame: (0.65@0.60 corner: 1@0.95)
 		
