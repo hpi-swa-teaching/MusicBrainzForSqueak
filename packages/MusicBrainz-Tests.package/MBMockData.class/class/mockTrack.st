@@ -8,4 +8,5 @@ mockTrack
                                at: #Artist put: 'Kygo';
                                at: #Genre: put: 'Tropical House';
                                at: #Year put: '2013'.
+		    track filepath: 'C:/Users/Benutzer/test.mp3'.
                 ^ track

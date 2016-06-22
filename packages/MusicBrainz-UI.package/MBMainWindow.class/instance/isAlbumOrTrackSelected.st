@@ -1,5 +1,5 @@
 accessing
 isAlbumOrTrackSelected
 
-	^ (self isAlbumSelected or: self isTrackSelected)
+	^ self selectedEntity ~= nil
 	
