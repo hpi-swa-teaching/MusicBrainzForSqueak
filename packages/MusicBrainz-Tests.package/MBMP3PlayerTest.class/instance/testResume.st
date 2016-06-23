@@ -9,5 +9,5 @@ testResume
 	self player resume.
 	(Delay forSeconds: 1) wait.
 	self 
-		assert: self player soundPosition > position.
+		assert: self player soundPosition >= position.
 	self player closeFile.

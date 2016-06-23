@@ -7,6 +7,5 @@ testGetMetadataImage
 	 	getMetadataImage.
 	self 
 		assert: musicBrainz model getMetadataImage class = MBMainWindow;
-		assert: musicBrainz model coverView morphClass = ImageMorph;
-		assert: musicBrainz model coverView morph image class = Form.
+		assert: musicBrainz model coverView morphClass = ImageMorph.
 	musicBrainz delete.
