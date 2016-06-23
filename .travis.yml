@@ -7,4 +7,6 @@ smalltalk:
   - Squeak-4.6
 
 before_script:
+  # Copy albums directory into build directory
+  - mkdir -p $SMALLTALK_CI_BUILD
   - cp -R $TRAVIS_BUILD_DIR/albums $SMALLTALK_CI_BUILD/
