@@ -1,7 +1,7 @@
 request
 getMBIDForAlbum: aMBAlbum
 
-	| responseXML requestURL|
+	| responseXML requestURL hundredList hundredLabelList |
 	requestURL := MBRequest baseURL, 'release/?query='.
 	aMBAlbum metadata keysAndValuesDo: [:key :value |
 		| mbField encodedValue |
@@ -16,4 +16,16 @@ getMBIDForAlbum: aMBAlbum
 	requestURL := requestURL copyFrom: 1 to: requestURL size - 1.
 	responseXML := MBRequest sendRequestTo: requestURL.
 	responseXML ifNil: [^ ''].
-	^ (responseXML firstTagNamed: #release) attributeAt: 'id'	
+	hundredList := OrderedCollection new.
+	hundredLabelList := OrderedCollection new.
+	responseXML tagsNamed: #release do: [:each | 
+		((each attributeAt: #ext:score) = '100')
+			ifTrue: [ | labelString |
+				hundredList add: (each attributeAt: 'id').
+				labelString := (each firstTagNamed: #title) contentString , ' - ', (each firstTagNamed: #name) contentString , ' - ' , (each firstTagNamed: #'track-count') contentString, ' Tracks', ' - ', (each firstTagNamed: #'format') contentString.
+				hundredLabelList add: labelString
+				]].
+	(hundredList size > 1)
+		ifTrue: [
+			^ (UIManager default chooseFrom: hundredLabelList values: hundredList title: 'Please choose the correct MBID:')].
+	^ hundredList first

@@ -6,5 +6,6 @@ MBTrackSearchFields
 		#Title -> 'recording'.
 		#Length -> 'dur'.
 		#Album -> 'release'.
+		#Artist -> 'artistname'.
 		#Composer -> 'artistname'.
 		#'Track Number'-> 'tnum'}
