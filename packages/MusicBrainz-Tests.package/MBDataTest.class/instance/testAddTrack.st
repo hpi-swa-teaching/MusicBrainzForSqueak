@@ -1,7 +1,9 @@
 as yet unclassified
 testAddTrack
-	self mainWindow addTrack: MBMockData mockTrack.
+	| newTrack |
+	newTrack := MBTrack new filepath: 'C:/Another/Path/to.mp3'.
+	self data addTrack: newTrack.
 	self
-		assert: (self mainWindow albums
+		assert: (self data albums
 				do: [:album | album tracklist
 						do: [:track | ^ track filepath = MBMockData mockTrack filepath]])
