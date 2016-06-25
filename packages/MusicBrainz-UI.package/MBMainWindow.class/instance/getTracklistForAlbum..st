@@ -1,8 +1,4 @@
-albumTreeView
+building
 getTracklistForAlbum: anObject
 
-	(anObject class entityName = 'release')
-	ifTrue: [	^ anObject tracklist]
-	ifFalse: [^ OrderedCollection new]
-	
-	
+	^ self data getTracklistForAlbum: anObject

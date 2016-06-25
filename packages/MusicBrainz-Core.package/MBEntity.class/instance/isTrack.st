@@ -1,0 +1,4 @@
+accessing
+isTrack
+
+	^ self subclassResponsibility 

@@ -5,7 +5,7 @@ createMBIDRequestURLFor: aMBEntity
 	requestURL := MBRequest baseURL, aMBEntity class entityName, '/?query='.
 	aMBEntity metadata keysAndValuesDo: [:key :value |
 		| mbField encodedValue |
-		aMBEntity class entityName = 'recording'
+		aMBEntity isTrack 
 			ifTrue: [	mbField := (MBRequest MBTrackSearchFields at: (key asSymbol) ifAbsent: nil)]
 			ifFalse: [mbField := (MBRequest MBAlbumSearchFields at: (key asSymbol) ifAbsent: nil)].
 		mbField ifNotNil: 

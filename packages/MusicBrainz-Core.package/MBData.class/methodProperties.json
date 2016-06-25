@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTrack:" : "mv 6/25/2016 13:23",
+		"albums" : "mv 6/25/2016 13:23",
+		"albums:" : "mv 6/25/2016 13:14",
+		"doesAlreadyExist:" : "mv 6/25/2016 13:37",
+		"getTracklistForAlbum:" : "mv 6/25/2016 13:55",
+		"importFiles:" : "mv 6/25/2016 13:38",
+		"loadFromDisk" : "mv 6/25/2016 13:19",
+		"loadMetadataFromMBFor:" : "mv 6/25/2016 13:31",
+		"saveToDisk" : "mv 6/25/2016 14:00",
+		"updateMetadataAt:Put:" : "mv 6/25/2016 13:15" } }

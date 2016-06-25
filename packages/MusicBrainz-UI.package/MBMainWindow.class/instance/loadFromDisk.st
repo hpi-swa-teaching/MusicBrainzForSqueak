@@ -1,7 +1,5 @@
 im&ex-porting
 loadFromDisk
-	| albums |
-	albums := MBSTONHandler loadFromLocalSTON.
-	albums ifNotNil: 
-		[self albums: albums].
+
+	self data loadFromDisk.
 	self changed: #albums

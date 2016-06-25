@@ -1,7 +1,6 @@
 metadataView
 loadMetadataFromMB
-	self selectedEntity = nil
-		ifTrue: [^ #()].
-	self selectedEntity loadMetadataFromMB.
+
+	self data loadMetadataFromMBFor: self selectedEntity.
 	self changed: #getMetadata.
-	self changed: #albums.
+	self changed: #albums

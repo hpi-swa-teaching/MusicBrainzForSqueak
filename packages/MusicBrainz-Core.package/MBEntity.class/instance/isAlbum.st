@@ -1,0 +1,4 @@
+accessing
+isAlbum
+
+	^ self subclassResponsibility 

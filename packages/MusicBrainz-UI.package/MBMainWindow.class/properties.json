@@ -10,7 +10,7 @@
 		"builder",
 		"coverView",
 		"importWindow",
-		"albums",
+		"data",
 		"selectedMetadata",
 		"player" ],
 	"name" : "MBMainWindow",
