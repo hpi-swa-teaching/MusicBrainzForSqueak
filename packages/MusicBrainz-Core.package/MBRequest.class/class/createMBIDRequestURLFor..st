@@ -13,4 +13,9 @@ createMBIDRequestURLFor: aMBEntity
 			encodedValue :=  encodedValue copyReplaceAll: '%00' with: ''.
 			encodedValue :=  encodedValue copyReplaceAll: '%2F' with: '%20'.
 			requestURL := requestURL, mbField , ':', encodedValue, '+']].
+	(aMBEntity isAlbum)
+		ifTrue: [(aMBEntity tracklist size > 0)
+		ifTrue: 	[requestURL := requestURL, 'tracks:', aMBEntity tracklist size, '+']].
+		
+	
 	^ requestURL copyFrom: 1 to: requestURL size - 1
