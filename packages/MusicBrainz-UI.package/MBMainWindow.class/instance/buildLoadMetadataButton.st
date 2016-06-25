@@ -1,5 +1,5 @@
 building
-buildMetadataButton
+buildLoadMetadataButton
 	| buttonSpec |
 	buttonSpec := self builder pluggableButtonSpec new.
 	^ buttonSpec

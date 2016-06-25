@@ -13,7 +13,7 @@ buildWith: aBuilder
 		add: self buildEditMetadataButton;
 		add: self buildWriteTrackButton;
 		add: self buildCoverView;
-		add: self buildMetadataButton;
+		add: self buildLoadMetadataButton;
 		add: self buildPlayButton;
 		add: self buildOpenMBIDButton;
 		add: self buildPlayNewTrackButton.

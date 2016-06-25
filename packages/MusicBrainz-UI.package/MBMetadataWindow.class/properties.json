@@ -6,15 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedEntity",
 		"builder",
-		"coverView",
-		"importWindow",
-		"data",
 		"selectedMetadata",
-		"player",
-		"metadataWindow" ],
-	"name" : "MBMainWindow",
+		"mainWindow" ],
+	"name" : "MBMetadataWindow",
 	"pools" : [
 		 ],
 	"super" : "Model",

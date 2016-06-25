@@ -1,9 +1,10 @@
 metadataView
 getMetadata
+	| metadata |
 	self selectedEntity = nil
 		ifTrue: [^ #()].
 	self getMetadataImage.
-	self selectedEntity isAlbum 
-		ifTrue: [^ self getMetadataAlbum].
-	self selectedEntity isTrack 
-		ifTrue: [^ self getMetadataTrack]
+	self selectedEntity getMBID.
+	metadata := OrderedCollection new.
+	self selectedEntity metadata keysAndValuesDo: [:key :value | metadata add: (key, ': ', value)].
+	^ metadata
