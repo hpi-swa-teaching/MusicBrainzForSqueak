@@ -9,4 +9,5 @@ testNewFrom
 	self 
 		assert: parser class = MBMP3Parser;
 		assert: parser stream class = MultiByteFileStream;
-		assert: parser track class = MBTrack
+		assert: parser track class = MBTrack.
+	parser stream close

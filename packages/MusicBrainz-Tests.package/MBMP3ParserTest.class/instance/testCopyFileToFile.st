@@ -9,4 +9,7 @@ testCopyFileToFile
 	
 	self emptyParser copyFile: originStream toFile: targetStream. 
 	
-	self assert: originStream contents equals: targetStream contents
+	self assert: originStream contents equals: targetStream contents.
+	
+	originStream close.
+	targetStream close.
