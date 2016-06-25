@@ -5,10 +5,10 @@
 		"addCommentToTrack:" : "pb 6/22/2016 21:46",
 		"getBigEndianInteger" : "pb 6/7/2016 18:25",
 		"getLittleEndianInteger" : "pb 6/7/2016 00:03",
-		"getUTF8String:" : "pb 6/7/2016 18:06",
+		"getUTF8StringSized:" : "pb 6/25/2016 12:50",
 		"parseAudio" : "TM 6/8/2016 15:12",
-		"parsePictureBlock" : "TM 6/8/2016 15:20",
-		"parseVorbisBlock" : "TM 6/8/2016 15:20",
+		"parsePictureBlock" : "pb 6/25/2016 12:49",
+		"parseVorbisBlock" : "pb 6/25/2016 12:49",
 		"seekFLAC" : "pb 6/7/2016 00:04",
 		"seekParseableBlocks" : "tm 6/8/2016 21:08",
 		"underStandsKey:" : "mv 6/18/2016 11:34" } }

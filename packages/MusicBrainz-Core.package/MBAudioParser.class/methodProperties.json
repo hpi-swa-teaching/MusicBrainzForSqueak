@@ -3,6 +3,7 @@
 		"newFrom:" : "tm 6/8/2016 21:10",
 		"textFrames" : "TM 6/7/2016 21:00" },
 	"instance" : {
+		"copyFile:toFile:" : "pb 6/25/2016 12:02",
 		"initialize" : "tm 6/8/2016 21:09",
 		"openStreamOn:" : "TM 6/7/2016 21:22",
 		"parseAudio" : "tm 6/8/2016 21:09",

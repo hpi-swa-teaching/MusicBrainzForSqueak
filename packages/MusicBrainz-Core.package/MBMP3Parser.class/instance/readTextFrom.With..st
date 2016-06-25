@@ -6,13 +6,13 @@ readTextFrom: aSymbol With: aFrameSize
 
 	content := OrderedCollection new.
 	(encoding = 1)
-		ifTrue: [ 2 timesRepeat: [self stream next]].
+		ifTrue: [ self stream next: 2].
 	
 	[self stream position - start = aFrameSize
-		ifTrue: [	label := self class textFrames at: aSymbol ifAbsent:[self inform: 'Included an unknown tag: T', aSymbol. ('T', aSymbol) asSymbol].
-				content := self deleteNullBytesFrom: content.
-				self track metadata at: label put: content.
-			^ true].
-	content add: self stream next] repeat
-
-"aufteilen"
+		ifTrue: [
+			label := MBMP3Parser textFrames at: aSymbol ifAbsent:[self inform: 'Included an unknown tag: T', aSymbol. ('T', aSymbol) asSymbol].
+			content := self deleteNullBytesFrom: content.
+			self track metadata at: label put: content.
+			^ true]
+		ifFalse: [content add: self stream next]
+			] repeat

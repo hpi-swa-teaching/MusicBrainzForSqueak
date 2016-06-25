@@ -1,6 +1,4 @@
 parsing
 nextFrameTag
-	| tag |
-	tag := ''.
-	4 timesRepeat: [tag := tag , self stream next asCharacter].
-	^ tag
+	^ (self stream next: 4) asString
+	

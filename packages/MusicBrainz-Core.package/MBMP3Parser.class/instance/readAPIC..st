@@ -1,6 +1,5 @@
 parsingFrames
 readAPIC: aFrameSize
-"No senders!"
 	| start encoding smime type description imagestream |
 	start := self stream position.
 	encoding := self stream next.

@@ -5,7 +5,7 @@ parsePictureBlock
 	
 	type := self getBigEndianInteger.
 	MIMELength := self getBigEndianInteger.
-	MIME := self getUTF8String: MIMELength.
+	MIME := self getUTF8StringSized: MIMELength.
 	descriptionLength := self getBigEndianInteger.
 	self stream position: self stream position + descriptionLength.
 	4 timesRepeat: [self getBigEndianInteger].

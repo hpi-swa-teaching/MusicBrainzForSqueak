@@ -9,7 +9,7 @@ parseVorbisBlock
 	numberOfComments timesRepeat: [
 		comment := ''.
 		commentLength := self getLittleEndianInteger.
-		comment := self getUTF8String: commentLength.
+		comment := self getUTF8StringSized: commentLength.
 		self addCommentToTrack: comment.
 		].
 	
