@@ -1,4 +1,5 @@
 accessing
 initialize
 	super initialize.
-	self loadFromDisk
+	self data: MBData new.
+	self data loadFromDisk

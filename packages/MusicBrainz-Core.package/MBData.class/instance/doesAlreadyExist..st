@@ -1,5 +1,5 @@
-im&ex-porting
-isAlreadyContained: aTrack 
+accessing
+doesAlreadyExist: aTrack 
 	| trackAlreadyContained |
 	trackAlreadyContained := false.
 	self albums

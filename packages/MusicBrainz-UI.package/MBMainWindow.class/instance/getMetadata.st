@@ -3,7 +3,7 @@ getMetadata
 	self selectedEntity = nil
 		ifTrue: [^ #()].
 	self getMetadataImage.
-	self selectedEntity class entityName = 'release'
+	self selectedEntity isAlbum 
 		ifTrue: [^ self getMetadataAlbum].
-	self selectedEntity class entityName = 'recording'
+	self selectedEntity isTrack 
 		ifTrue: [^ self getMetadataTrack]

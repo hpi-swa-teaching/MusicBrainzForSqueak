@@ -12,6 +12,8 @@
 		"getMBID" : "mv 6/2/2016 02:59",
 		"getTitle" : "mv 6/2/2016 03:57",
 		"initialize" : "mv 6/2/2016 00:18",
+		"isAlbum" : "mv 6/25/2016 13:54",
+		"isTrack" : "mv 6/25/2016 13:54",
 		"loadArtistsFromMB" : "mv 6/4/2016 14:21",
 		"loadMetadataFromMB" : "mv 6/4/2016 15:43",
 		"loadTitleFromMB" : "mv 6/4/2016 15:43",

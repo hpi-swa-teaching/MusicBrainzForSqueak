@@ -1,3 +1,3 @@
-im&ex-porting
+accessing
 saveToDisk
 	MBSTONHandler saveSTONOf: self albums

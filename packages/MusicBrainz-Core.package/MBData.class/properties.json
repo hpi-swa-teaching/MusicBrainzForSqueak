@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"albums" ],
+	"name" : "MBData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
