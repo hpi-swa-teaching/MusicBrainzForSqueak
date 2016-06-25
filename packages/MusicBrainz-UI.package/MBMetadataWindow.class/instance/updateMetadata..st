@@ -2,9 +2,10 @@ accessing
 updateMetadata: aString
 	self selectedMetadata
 	ifNotNil: [
-		self mainWindow selectedEntity metadata at: self selectedMetadata put: aString.
+		self mainWindow data updateMetadataIn: self mainWindow selectedEntity set: self selectedMetadata to: aString.
 		self mainWindow 
-			changed: #getMetadata.
+			changed: #getMetadata;
+			changed: #albums.
 		self 
 			selectedMetadata: nil;
 			changed: #getMetadata;

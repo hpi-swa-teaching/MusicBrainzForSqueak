@@ -9,7 +9,7 @@ createMBIDRequestURLFor: aMBEntity
 			ifTrue: [	mbField := (MBRequest MBTrackSearchFields at: (key asSymbol) ifAbsent: nil)]
 			ifFalse: [mbField := (MBRequest MBAlbumSearchFields at: (key asSymbol) ifAbsent: nil)].
 		mbField ifNotNil: 
-			[encodedValue := value encodeForHTTP.
+			[encodedValue := value asString encodeForHTTP.
 			encodedValue :=  encodedValue copyReplaceAll: '%00' with: ''.
 			encodedValue :=  encodedValue copyReplaceAll: '%2F' with: '%20'.
 			requestURL := requestURL, mbField , ':', encodedValue, '+']].

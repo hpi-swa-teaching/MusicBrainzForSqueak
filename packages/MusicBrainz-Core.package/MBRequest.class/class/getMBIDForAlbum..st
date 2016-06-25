@@ -19,16 +19,16 @@ getMBIDForAlbum: aMBAlbum
 			ifTrue: [ | labels |
 				hundredCount := hundredCount + 1.
 				hundredList add: (each attributeAt: 'id').
-				(hundredDict at: 'Title') add: (each firstTagNamed: #title) contentString.
-				(hundredDict at: 'Artist') add: (each firstTagNamed: #name) contentString.
-				(hundredDict at: 'Tracks') add: (each firstTagNamed: #'track-count') contentString.
+				[(hundredDict at: 'Title') add: (each firstTagNamed: #title) contentString] on: Error do: [(hundredDict at: 'Title') add: ''].
+				[(hundredDict at: 'Artist') add: (each firstTagNamed: #name) contentString] on: Error do: [(hundredDict at: 'Artist') add: ''].
+				[(hundredDict at: 'Tracks') add: (each firstTagNamed: #'track-count') contentString] on: Error do: [(hundredDict at: 'Tracks') add: ''].
 				labels := ''.
 				each tagsNamed: #label do: [:labelData | labels := labels,  '/', (labelData firstTagNamed: #name) contentString].
 				labels size > 0
 					ifTrue: [(hundredDict at: 'Label') add: labels allButFirst]
 					ifFalse: [(hundredDict at: 'Label') add: ''].
-				(hundredDict at: 'Country') add: (each firstTagNamed: #'country') contentString.
-				(hundredDict at: 'Medium') add: (each firstTagNamed: #'format') contentString]].
+				[(hundredDict at: 'Country') add: (each firstTagNamed: #'country') contentString] on: Error do: [(hundredDict at: 'Country') add: ''].
+				[(hundredDict at: 'Medium') add: (each firstTagNamed: #'format') contentString] on: Error do: [(hundredDict at: 'Medium') add: '']]].
 	hundredCount < 2
 		ifTrue: [^ (responseXML firstTagNamed: #release) attributeAt: 'id'].
 	1 to: hundredCount do: [:each |

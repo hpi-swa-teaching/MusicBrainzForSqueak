@@ -21,7 +21,6 @@ addTrack: aMBTrack
 			aMBTrack albumentity: each.
 			]
 		].
-	
 	aMBTrack albumentity
 		ifNil: [
 			newalbum := MBAlbum new.

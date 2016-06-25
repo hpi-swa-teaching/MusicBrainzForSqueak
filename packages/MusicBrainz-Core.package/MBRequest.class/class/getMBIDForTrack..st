@@ -16,9 +16,9 @@ getMBIDForTrack: aMBTrack
 			ifTrue: [
 				hundredCount := hundredCount + 1.
 				hundredList add: (each attributeAt: 'id').
-				(hundredDict at: 'Title') add: (each firstTagNamed: #title) contentString.
-				(hundredDict at: 'Artist') add: (each firstTagNamed: #name) contentString.
-				(hundredDict at: 'Album') add: ((each firstTagNamed: #'release') firstTagNamed: #'title') contentString]].
+				[(hundredDict at: 'Title') add: (each firstTagNamed: #title) contentString] on: Error do: [(hundredDict at: 'Title') add: ''].
+				[(hundredDict at: 'Artist') add: (each firstTagNamed: #name) contentString] on: Error do: [(hundredDict at: 'Artist') add: ''].
+				[(hundredDict at: 'Album') add: ((each firstTagNamed: #'release') firstTagNamed: #'title') contentString] on: Error do: [(hundredDict at: 'Album') add: '']]].
 	hundredCount < 2
 		ifTrue: [^ (responseXML firstTagNamed: #recording) attributeAt: 'id'].
 	1 to: hundredCount do: [:each |
