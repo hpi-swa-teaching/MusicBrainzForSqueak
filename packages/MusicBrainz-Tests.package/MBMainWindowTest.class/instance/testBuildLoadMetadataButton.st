@@ -1,8 +1,8 @@
 as yet unclassified
-testBuildMetadataButton
+testBuildLoadMetadataButton
 	| buttonSpec |
 	self mainWindow builder: MorphicToolBuilder new.
-	buttonSpec := self mainWindow buildMetadataButton.
+	buttonSpec := self mainWindow buildLoadMetadataButton.
 	self 
 		assert: buttonSpec class = PluggableButtonSpec;
 		assert: buttonSpec model class = MBMainWindow;

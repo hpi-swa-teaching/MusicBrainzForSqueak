@@ -1,8 +1,9 @@
 as yet unclassified
 testLoadMetadataFromMB 
 	self mainWindow selectedEntity: nil.
+	self mainWindow loadMetadataFromMB.
 	self 
-		assert: self mainWindow loadMetadataFromMB
+		assert: self mainWindow getMetadata
 		equals: #() 
 		description: 'Should return an empty collection'.
 		
