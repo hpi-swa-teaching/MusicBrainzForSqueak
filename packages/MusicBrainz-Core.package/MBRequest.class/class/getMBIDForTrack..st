@@ -25,7 +25,7 @@ getMBIDForTrack: aMBTrack
 		| labelString |
 		labelString := ''.
 		hundredDict keysAndValuesDo: [:key :value |
-			value asSet size > 1
+			value asSet size > 0
 				ifTrue: [	labelString := labelString, key asString, ': ', (value at: each) asString, ' - ']].
 		hundredLabelList add: (labelString allButLast: 3)].
 	^ (UIManager default chooseFrom: hundredLabelList values: hundredList title: 'Please choose the correct MBID:')
