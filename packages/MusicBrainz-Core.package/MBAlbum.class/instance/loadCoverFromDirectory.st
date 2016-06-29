@@ -5,7 +5,7 @@ self tracklist do: [:track |
 	| pathToTrack |
 	pathToTrack := (FileDirectory on: track filepath) containingDirectory.
 	(pathToTrack exists)
-		ifFalse: [^ self].
+		ifFalse: [^ nil].
 		
 	"Look for cover file named like track"
 	(pathToTrack fileExists: ((track filepath splitBy: '.') first), '.jpg')
@@ -19,4 +19,5 @@ self tracklist do: [:track |
 	(pathToTrack fileExists: 'cover.jpg')
 		ifTrue: [^ JPEGReadWriter2 formFromFileNamed: pathToTrack fullName, pathToTrack pathNameDelimiter, 'cover.jpg']
 	].
+self inform: 'adsfadsf'.
 ^ nil
