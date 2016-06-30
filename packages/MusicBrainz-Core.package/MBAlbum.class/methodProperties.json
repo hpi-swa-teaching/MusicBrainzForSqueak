@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"availableMetadata" : "tm 6/25/2016 17:46",
+		"availableMetadata" : "mv 6/30/2016 21:55",
 		"entityName" : "mv 5/9/2016 19:03" },
 	"instance" : {
 		"asString" : "mv 6/2/2016 03:42",
@@ -14,10 +14,10 @@
 		"isTrack" : "mv 6/25/2016 13:54",
 		"loadCoverFromDirectory" : "mv 6/30/2016 10:43",
 		"loadFrontcoverFromMB" : "mv 6/4/2016 15:11",
-		"loadLabelsFromMB" : "mv 6/30/2016 10:45",
-		"loadMediaFromMB" : "mv 6/8/2016 23:30",
+		"loadLabelsFromMB" : "mv 6/30/2016 21:42",
+		"loadMediaFromMB" : "mv 6/30/2016 21:45",
 		"loadMetadataFromMB" : "mv 6/30/2016 10:23",
-		"loadTracksFromMB" : "mv 6/2/2016 02:33",
-		"loadYearFromMB" : "mv 6/4/2016 11:21",
+		"loadTracksFromMB" : "mv 6/30/2016 21:45",
+		"loadYearFromMB" : "mv 6/30/2016 21:42",
 		"tracklist" : "mv 5/16/2016 14:30",
 		"tracklist:" : "mv 5/16/2016 14:30" } }

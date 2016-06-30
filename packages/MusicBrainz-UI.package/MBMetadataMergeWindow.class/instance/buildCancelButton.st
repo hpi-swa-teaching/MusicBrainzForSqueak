@@ -6,5 +6,6 @@ buildCancelButton
 	cancelButtonSpec 
 		model: self;
 		frame: (0@0.9 corner: 0.5@1);
-		label: 'Cancel'.
+		label: 'Cancel';
+		action: #cancelMerge.
 	^ cancelButtonSpec

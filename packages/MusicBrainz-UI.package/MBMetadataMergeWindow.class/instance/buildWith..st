@@ -10,4 +10,5 @@ buildWith: aBuilder
 		add: self buildAcceptButton;
 		add: self buildCancelButton;
 		addAll: self buildHeaderViews.
+	self selectedEntity: self mainWindow selectedEntity.
 	^ self builder build: windowSpec

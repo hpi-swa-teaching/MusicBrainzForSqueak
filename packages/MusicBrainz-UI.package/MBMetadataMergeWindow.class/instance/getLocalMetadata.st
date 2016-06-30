@@ -1,11 +1,11 @@
 building
 getLocalMetadata
 
-	| metadata selectedEntity |
-	selectedEntity := self mainWindow selectedEntity.
-	selectedEntity = nil
-		ifTrue: [^ #()].
+	| metadata |
+	(self localMetadata isNil not)
+		ifTrue: [^ self localMetadata].
 	metadata := OrderedCollection new.
 	self getMetadataLabels do: [:each |
-		metadata add: (selectedEntity metadata at: each ifAbsent: '')].
-	^ metadata
+		metadata add: (self selectedEntity metadata at: each ifAbsent: '')].
+	self localMetadata: metadata.
+	^ self localMetadata

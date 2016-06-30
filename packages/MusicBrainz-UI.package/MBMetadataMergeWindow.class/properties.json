@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"localMetadata",
+		"MBMetadata",
+		"metadataToMerge",
+		"selectedEntity" ],
 	"name" : "MBMetadataMergeWindow",
 	"pools" : [
 		 ],
