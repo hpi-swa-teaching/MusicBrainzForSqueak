@@ -19,5 +19,4 @@ self tracklist do: [:track |
 	(pathToTrack fileExists: 'cover.jpg')
 		ifTrue: [^ JPEGReadWriter2 formFromFileNamed: pathToTrack fullName, pathToTrack pathNameDelimiter, 'cover.jpg']
 	].
-self inform: 'adsfadsf'.
 ^ nil
