@@ -11,6 +11,7 @@
 		"buildWindow" : "mv 6/30/2016 14:51",
 		"buildWith:" : "mv 6/30/2016 23:28",
 		"cancelMerge" : "mv 6/30/2016 23:14",
+		"clearViews" : "mv 7/1/2016 00:07",
 		"closeButton" : "mv 6/30/2016 23:14",
 		"getLocalMetadata" : "mv 6/30/2016 23:27",
 		"getMBMetadata" : "mv 6/30/2016 23:25",
@@ -23,6 +24,6 @@
 		"metadataToMerge:" : "mv 6/30/2016 23:01",
 		"metadataToMergeAt:" : "mv 6/30/2016 23:12",
 		"metadataToMergeAt:Put:" : "mv 6/30/2016 23:11",
-		"saveMerge" : "mv 6/30/2016 23:35",
+		"saveMerge" : "mv 7/1/2016 00:07",
 		"selectedEntity" : "mv 6/30/2016 23:25",
 		"selectedEntity:" : "mv 6/30/2016 23:25" } }
