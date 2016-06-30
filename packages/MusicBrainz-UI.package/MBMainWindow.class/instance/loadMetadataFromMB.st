@@ -1,5 +1,6 @@
 metadataView
 loadMetadataFromMB
 	self data loadMetadataFromMBFor: self selectedEntity.
-	self changed: #getMetadata.
-	self changed: #albums
+	self 
+		changed: #getMetadata;
+		changed: #albums

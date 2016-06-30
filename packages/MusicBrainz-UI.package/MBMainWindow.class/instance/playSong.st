@@ -12,5 +12,5 @@ playSong
 			^ self]
 		].
 
-	self selectedEntity = nil
-		ifTrue: [^ self]
+	self selectedEntity
+		ifNil: [^ self]

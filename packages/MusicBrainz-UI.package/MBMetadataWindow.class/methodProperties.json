@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"openFrom:" : "tm 6/25/2016 17:22" },
+		"getMetadataLabelFor:" : "tm 6/28/2016 18:48",
+		"openFrom:" : "tm 6/28/2016 18:49" },
 	"instance" : {
 		"buildAvailableMetadataList" : "tm 6/25/2016 17:32",
 		"buildInputField" : "tm 6/25/2016 17:32",
@@ -9,11 +10,10 @@
 		"builder" : "tm 6/25/2016 14:31",
 		"builder:" : "tm 6/25/2016 14:31",
 		"closeButton" : "tm 6/25/2016 14:34",
-		"getMetadata" : "tm 6/25/2016 17:28",
+		"getMetadata" : "tm 6/28/2016 18:30",
 		"mainWindow" : "tm 6/25/2016 14:30",
 		"mainWindow:" : "tm 6/25/2016 14:30",
 		"selectedMetadata" : "tm 6/25/2016 14:25",
 		"selectedMetadata:" : "tm 6/25/2016 17:47",
 		"showInInputField" : "tm 6/25/2016 17:29",
-		"splitMetadata:" : "tm 6/25/2016 17:05",
 		"updateMetadata:" : "mv 6/28/2016 23:05" } }

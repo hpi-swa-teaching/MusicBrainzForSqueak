@@ -1,9 +1,8 @@
 building
 buildWith: aBuilder 
-	| windowSpec build headerViews |
+	| windowSpec build |
 	self builder: aBuilder.
 	windowSpec := self buildWindow.
-	
 	windowSpec children 
 		add: self buildAlbumTreeView;
 		add: self buildMetadataView;
@@ -16,10 +15,9 @@ buildWith: aBuilder
 		add: self buildLoadMetadataButton;
 		add: self buildPlayButton;
 		add: self buildOpenMBIDButton;
-		add: self buildPlayNewTrackButton.
+		add: self buildPlayNewTrackButton;
+		addAll: self buildHeaderViews.
 	
-	headerViews := self buildHeaderViews.
-	windowSpec children addAll: headerViews.
 	build := self builder build: windowSpec.
 	self coverView: (self builder widgetAt: #coverView).
 	^ build

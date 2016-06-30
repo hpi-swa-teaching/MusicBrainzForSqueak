@@ -1,4 +1,4 @@
 accessing
 player: anObject
 	player := anObject.
-	self changed: #isNewTrack 
+	self changed: #isNewTrackSelected 

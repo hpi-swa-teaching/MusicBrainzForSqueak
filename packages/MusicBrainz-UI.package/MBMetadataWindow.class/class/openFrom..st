@@ -4,5 +4,5 @@ openFrom: aMainWindow
 	window := MBMetadataWindow new.
 	window mainWindow: aMainWindow.
 	aMainWindow selectedMetadata
-	ifNotNil: [window selectedMetadata: ((window splitMetadata: (window mainWindow selectedMetadata)) at: #label)].
+	ifNotNil: [window selectedMetadata: (MBMetadataWindow getMetadataLabelFor: (window mainWindow selectedMetadata))].
 	^ ToolBuilder default open: window

@@ -1,9 +1,8 @@
 building
 buildHeaderViews
-	
 	| headerViews albumButtonSpec metadataButtonSpec |
 	headerViews := OrderedCollection new.
-	
+
 	albumButtonSpec := self builder pluggableButtonSpec new.
 	albumButtonSpec 
 		model: self;

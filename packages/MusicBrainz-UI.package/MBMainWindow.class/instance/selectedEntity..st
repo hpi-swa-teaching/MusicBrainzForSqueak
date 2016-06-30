@@ -6,4 +6,4 @@ selectedEntity: anObject
 		changed: #selectedEntity;
 		changed: #isAlbumOrTrackSelected;
 		changed: #getMetadata;
-		changed: #isNewTrack
+		changed: #isNewTrackSelected
