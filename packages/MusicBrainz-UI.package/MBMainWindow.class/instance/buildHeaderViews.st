@@ -6,7 +6,7 @@ buildHeaderViews
 	albumButtonSpec := self builder pluggableButtonSpec new.
 	albumButtonSpec 
 		model: self;
-		frame: (0@0 corner: 0.65@0.05);
+		frame: (0@0.05 corner: 0.65@0.10);
 		label: #'labelTextForAlbumTree';
 		enabled: false.
 	

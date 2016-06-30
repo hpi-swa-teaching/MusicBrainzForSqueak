@@ -4,11 +4,9 @@ buildWith: aBuilder
 	self builder: aBuilder.
 	windowSpec := self buildWindow.
 	windowSpec children 
+		add: self buildMenuButton;
 		add: self buildAlbumTreeView;
 		add: self buildMetadataView;
-		add: self buildLoadButton;
-		add: self buildSaveButton;
-		add: self buildImportButton;
 		add: self buildEditMetadataButton;
 		add: self buildWriteTrackButton;
 		add: self buildCoverView;
