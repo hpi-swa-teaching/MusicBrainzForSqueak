@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedDirectory",
-		"files",
-		"importMethod" ],
-	"name" : "MBFileSelectionWindow",
+		"mainWindow" ],
+	"name" : "MBSubwindow",
 	"pools" : [
 		 ],
-	"super" : "MBSubwindow",
+	"super" : "MBWindow",
 	"type" : "normal" }

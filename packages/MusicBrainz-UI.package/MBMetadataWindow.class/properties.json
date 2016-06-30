@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder",
-		"selectedMetadata",
-		"mainWindow" ],
+		"selectedMetadata" ],
 	"name" : "MBMetadataWindow",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "MBSubwindow",
 	"type" : "normal" }

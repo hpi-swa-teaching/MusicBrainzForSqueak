@@ -1,6 +1,6 @@
-initialization
+as yet unclassified
 openFrom: aMainWindow
 	| window |
-	window := MBFileSelectionWindow new.
+	window := self new.
 	window mainWindow: aMainWindow.
 	^ ToolBuilder default open: window

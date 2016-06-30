@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"selectedEntity",
-		"builder",
 		"coverView",
 		"importWindow",
 		"data",
@@ -17,5 +16,5 @@
 	"name" : "MBMainWindow",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "MBWindow",
 	"type" : "normal" }
