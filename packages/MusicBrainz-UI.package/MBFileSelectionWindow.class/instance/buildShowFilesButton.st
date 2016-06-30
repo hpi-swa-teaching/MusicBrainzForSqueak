@@ -1,4 +1,4 @@
-UI elements
+building
 buildShowFilesButton
 	| buttonSpec |
 	buttonSpec := self builder pluggableButtonSpec new.

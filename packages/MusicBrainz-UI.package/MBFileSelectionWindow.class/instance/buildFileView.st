@@ -1,4 +1,4 @@
-UI elements
+building
 buildFileView
 	| treeSpec |
 	treeSpec := self builder pluggableTreeSpec new.

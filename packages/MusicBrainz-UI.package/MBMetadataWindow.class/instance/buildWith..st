@@ -1,9 +1,9 @@
-as yet unclassified
+building
 buildWith: aBuilder 
 	| windowSpec |
 	self builder: aBuilder.	
 	windowSpec := self buildWindow.
 	windowSpec children 
-		add: self buildAvailableMetadataList;
+		add: self buildLocalMetadataList;
 		add: self buildInputField.
 	^ self builder build: windowSpec

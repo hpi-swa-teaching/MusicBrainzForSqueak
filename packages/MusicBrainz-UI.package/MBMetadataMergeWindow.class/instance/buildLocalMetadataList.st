@@ -1,11 +1,11 @@
 building
-buildMBMetadataList 
+buildLocalMetadataList 
 	| metadataSpec |
 	metadataSpec := self builder pluggableMultiSelectionListSpec new.
 	^ metadataSpec 
 		model: self;
-"		list: #getMetadata;
-		getSelected: #selectedMetadata;
+		list: #getLocalMetadata;
+"		getSelected: #selectedMetadata;
 		setSelected: #selectedMetadata:;"
-		frame: (0.65@0.05 corner: 1@0.9)
+		frame: (0.3@0.05 corner: 0.65@0.9)
 		

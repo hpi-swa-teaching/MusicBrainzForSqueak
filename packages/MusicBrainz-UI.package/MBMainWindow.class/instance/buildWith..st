@@ -13,6 +13,7 @@ buildWith: aBuilder
 		add: self buildLoadMetadataButton;
 		add: self buildPlayButton;
 		add: self buildOpenMBIDButton;
+		add: self buildMergeButton;
 		add: self buildPlayNewTrackButton;
 		addAll: self buildHeaderViews.
 	

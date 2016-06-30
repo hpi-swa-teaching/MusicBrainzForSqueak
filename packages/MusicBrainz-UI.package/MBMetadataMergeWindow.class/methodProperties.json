@@ -2,8 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildAvailableMetadataList" : "mv 6/30/2016 11:49",
-		"buildMBMetadataList" : "mv 6/30/2016 13:55",
-		"buildWindow" : "mv 6/30/2016 11:49",
-		"buildWith:" : "mv 6/30/2016 13:56",
-		"closeButton" : "mv 6/30/2016 13:55" } }
+		"buildAcceptButton" : "mv 6/30/2016 14:36",
+		"buildCancelButton" : "mv 6/30/2016 14:36",
+		"buildHeaderViews" : "mv 6/30/2016 14:55",
+		"buildLabelMetadataList" : "mv 6/30/2016 14:51",
+		"buildLocalMetadataList" : "mv 6/30/2016 14:59",
+		"buildMBMetadataList" : "mv 6/30/2016 14:59",
+		"buildWindow" : "mv 6/30/2016 14:51",
+		"buildWith:" : "mv 6/30/2016 14:37",
+		"closeButton" : "mv 6/30/2016 13:55",
+		"getLocalMetadata" : "mv 6/30/2016 14:55",
+		"getMetadataLabels" : "mv 6/30/2016 14:56" } }
