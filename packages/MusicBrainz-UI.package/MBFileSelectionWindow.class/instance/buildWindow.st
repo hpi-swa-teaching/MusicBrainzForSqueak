@@ -1,4 +1,4 @@
-UI elements
+building
 buildWindow
 	| windowSpec |
 	windowSpec := self builder pluggableWindowSpec new.

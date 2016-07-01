@@ -1,11 +1,11 @@
-as yet unclassified
+building
 buildMBMetadataList 
 	| metadataSpec |
-	metadataSpec := self builder pluggableListSpec new.
+	metadataSpec := self builder pluggableMultiSelectionListSpec new.
 	^ metadataSpec 
 		model: self;
-"		list: #getMetadata;
-		getSelected: #selectedMetadata;
-		setSelected: #selectedMetadata:;"
-		frame: (0.5@0.1 corner: 1@1)
+		list: #getMBMetadata;
+		getSelectionList: #metadataToMergeAt:;
+		setSelectionList: #metadataToMergeAt:Put:;
+		frame: (0.65@0.05 corner: 1@0.9)
 		

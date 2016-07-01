@@ -1,4 +1,4 @@
-UI elements
+building
 buildWith: aBuilder 
 	| windowSpec |
 	self builder: aBuilder.	

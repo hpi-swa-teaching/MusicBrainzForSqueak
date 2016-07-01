@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"XMLCache" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MBRequestCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

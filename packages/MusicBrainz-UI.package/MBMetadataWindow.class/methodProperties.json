@@ -3,10 +3,10 @@
 		"getMetadataLabelFor:" : "tm 6/28/2016 18:48",
 		"openFrom:" : "tm 6/28/2016 18:49" },
 	"instance" : {
-		"buildAvailableMetadataList" : "tm 6/25/2016 17:32",
 		"buildInputField" : "tm 6/25/2016 17:32",
+		"buildLocalMetadataList" : "mv 6/30/2016 14:34",
 		"buildWindow" : "tm 6/25/2016 17:03",
-		"buildWith:" : "tm 6/25/2016 14:22",
+		"buildWith:" : "mv 6/30/2016 14:34",
 		"closeButton" : "tm 6/25/2016 14:34",
 		"getMetadata" : "tm 6/28/2016 18:30",
 		"selectedMetadata" : "tm 6/25/2016 14:25",

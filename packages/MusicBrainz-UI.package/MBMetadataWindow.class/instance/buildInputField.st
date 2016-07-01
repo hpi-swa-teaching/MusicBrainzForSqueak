@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildInputField
 	| metadataSpec |
 	metadataSpec := self builder pluggableInputFieldSpec new.

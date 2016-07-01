@@ -1,4 +1,4 @@
-UI elements
+building
 buildDirectoryTreeView
 	| treeSpec |
 	treeSpec := self builder pluggableTreeSpec new.

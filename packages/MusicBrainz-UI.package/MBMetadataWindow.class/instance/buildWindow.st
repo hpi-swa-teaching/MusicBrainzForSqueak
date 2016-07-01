@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWindow
 	| windowSpec |
 	windowSpec := self builder pluggableWindowSpec new.
