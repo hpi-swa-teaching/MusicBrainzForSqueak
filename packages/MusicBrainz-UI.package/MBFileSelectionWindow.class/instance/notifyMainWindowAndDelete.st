@@ -2,4 +2,5 @@ importing
 notifyMainWindowAndDelete 
 	self mainWindow 
 		importFiles: self files;
-		importWindow: nil
+		importWindow: nil.
+	self dependents do: [ :each | each delete]

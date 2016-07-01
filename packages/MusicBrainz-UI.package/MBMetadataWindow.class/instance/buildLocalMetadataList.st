@@ -7,5 +7,5 @@ buildLocalMetadataList
 		list: #getMetadata;
 		getSelected: #selectedMetadata;
 		setSelected: #selectedMetadata:;
-		frame: (0@0.1 corner: 1@1)
+		frame: (0@0.1 corner: 1@0.9)
 		

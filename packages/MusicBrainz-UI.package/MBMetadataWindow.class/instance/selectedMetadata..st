@@ -1,4 +1,6 @@
 accessing
 selectedMetadata: anObject
 	selectedMetadata := anObject.
-	self changed: #showInInputField
+	self 
+		changed: #showInInputField;
+		changed: #isMetadataSelected
