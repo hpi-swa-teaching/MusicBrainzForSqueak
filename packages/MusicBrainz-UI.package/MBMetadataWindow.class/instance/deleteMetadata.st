@@ -1,6 +1,6 @@
-as yet unclassified
+metadata actions
 deleteMetadata
 	self 
 		updateMetadata: '';
-		getMetadata.
+		getMetadataLabels.
 	self mainWindow selectedMetadata: nil

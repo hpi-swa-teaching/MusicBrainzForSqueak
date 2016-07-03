@@ -1,12 +1,11 @@
 accessing
 getCover
-
-	^ cover ifNil: [
+	^ self cover ifNil: [
 		"Load cover from directory or musicbrainz"
 		| newCover |
 		newCover := self loadCoverFromDirectory.
-		(newCover isNil)
+		newCover isNil
 			ifTrue: [self cover: self loadFrontcoverFromMB]
 			ifFalse: 	[self cover: newCover].
-		^ cover
+		^ self cover
 	]

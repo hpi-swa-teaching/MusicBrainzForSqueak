@@ -1,10 +1,11 @@
 building
 clearViews
-	
-	self localMetadata: nil.
-	self mBMetadata: nil.
-	self changed: #getMetadataLabels;
+	self 
+		localMetadata: nil;
+		mBMetadata: nil;
+		changed: #getMetadataLabels;
 		changed: #getLocalMetadata;
 		changed: #getMBMetadata.
-	self mainWindow changed: #getMetadata;
+	self mainWindow 
+		changed: #getMetadata;
 		changed: #albums.

@@ -2,13 +2,13 @@ accessing
 addTrack: aMBTrack
 	
 	| newalbum |
-	aMBTrack albumentity: nil.
+	aMBTrack albumEntity: nil.
 	aMBTrack metadata at: #Album ifAbsent:
 	[self albums do: [:each | 
 		(each getTitle = 'Unknown')
 		ifTrue: [
 			(each tracklist) add: aMBTrack.
-			aMBTrack albumentity: each.
+			aMBTrack albumEntity: each.
 			^ self
 			]
 		]
@@ -18,21 +18,21 @@ addTrack: aMBTrack
 		(each getTitle = (aMBTrack metadata at: #Album))
 		ifTrue: [
 			(each tracklist) add: aMBTrack.
-			aMBTrack albumentity: each.
+			aMBTrack albumEntity: each.
 			]
 		].
-	aMBTrack albumentity
+	aMBTrack albumEntity
 		ifNil: [
 			newalbum := MBAlbum new.
 			newalbum tracklist add: aMBTrack.
-			aMBTrack albumentity: newalbum.
+			aMBTrack albumEntity: newalbum.
 			newalbum metadata at: #Title put: (aMBTrack metadata at: #Album).
 			aMBTrack metadata at: #Artist ifPresent:
 				[:artist | newalbum metadata at: #Artist put: artist].
 			self albums add: newalbum
 			].
 		
-	(aMBTrack cover isNil not and: aMBTrack albumentity cover isNil)
-		ifTrue: [aMBTrack albumentity cover: aMBTrack cover.
+	(aMBTrack cover isNil not and: aMBTrack albumEntity cover isNil)
+		ifTrue: [aMBTrack albumEntity cover: aMBTrack cover.
 				aMBTrack cover: nil].
 	aMBTrack cover ifNotNil: [aMBTrack cover: nil]

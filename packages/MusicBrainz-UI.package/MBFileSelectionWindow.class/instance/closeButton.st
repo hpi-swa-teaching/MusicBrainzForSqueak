@@ -1,3 +1,3 @@
-UI elements
+building
 closeButton
 	self mainWindow importWindow: nil

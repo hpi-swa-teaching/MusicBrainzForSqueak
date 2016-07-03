@@ -4,7 +4,7 @@ buildLocalMetadataList
 	metadataSpec := self builder pluggableListSpec new.
 	^ metadataSpec 
 		model: self;
-		list: #getMetadata;
+		list: #getMetadataLabels;
 		getSelected: #selectedMetadata;
 		setSelected: #selectedMetadata:;
 		frame: (0@0.1 corner: 1@0.9)

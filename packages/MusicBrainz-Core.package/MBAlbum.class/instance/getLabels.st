@@ -1,7 +1,5 @@
 accessing
 getLabels
-
 	self metadata at: #Label ifAbsent:
 		[^ OrderedCollection new].
-	
-	^ (self metadata at: #Label) splitBy: '/' asOrderedCollection.
+	^ (self metadata at: #Label) splitBy: '/' asOrderedCollection

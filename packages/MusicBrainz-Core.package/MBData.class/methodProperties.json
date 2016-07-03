@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTrack:" : "mv 6/29/2016 10:08",
+		"addTrack:" : "tm 7/3/2016 14:49",
 		"albums" : "mv 6/25/2016 13:23",
 		"albums:" : "mv 6/25/2016 13:14",
 		"doesAlreadyExist:" : "mv 6/25/2016 15:00",
@@ -10,6 +10,6 @@
 		"importFiles:" : "mv 6/25/2016 13:38",
 		"loadFromDisk" : "mv 6/25/2016 13:19",
 		"loadMetadataFromMBFor:" : "tm 6/27/2016 17:51",
-		"moveToNewAlbum:" : "mv 6/29/2016 10:01",
+		"moveToNewAlbum:" : "tm 7/3/2016 14:49",
 		"saveToDisk" : "mv 6/25/2016 14:00",
 		"updateMetadataIn:set:to:" : "mv 7/1/2016 11:31" } }

@@ -1,3 +1,3 @@
 accessing
 asString
-	self subclassResponsibility
+	^ self subclassResponsibility

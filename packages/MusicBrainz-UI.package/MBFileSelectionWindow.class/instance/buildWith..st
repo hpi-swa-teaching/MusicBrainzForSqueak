@@ -1,7 +1,7 @@
 building
 buildWith: aBuilder 
 	| windowSpec |
-	self builder: aBuilder.	
+	self builder: aBuilder.
 	windowSpec := self buildWindow.
 	windowSpec children 
 		add: self buildDirectoryTreeView;

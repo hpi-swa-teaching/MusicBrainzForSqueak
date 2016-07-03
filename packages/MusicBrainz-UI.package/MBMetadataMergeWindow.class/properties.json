@@ -8,10 +8,9 @@
 	"instvars" : [
 		"localMetadata",
 		"MBMetadata",
-		"metadataToMerge",
-		"selectedEntity" ],
+		"metadataToMerge" ],
 	"name" : "MBMetadataMergeWindow",
 	"pools" : [
 		 ],
-	"super" : "MBSubwindow",
+	"super" : "MBAbstractMetadataWindow",
 	"type" : "normal" }

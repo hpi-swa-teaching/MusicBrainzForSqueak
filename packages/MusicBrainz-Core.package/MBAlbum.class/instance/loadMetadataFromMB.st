@@ -1,6 +1,5 @@
 loadFromMB
 loadMetadataFromMB
-
 	(self mbid = '')
 		ifTrue: [(self askToFindMBID = '') ifTrue: [^ nil]].
 	super loadMetadataFromMB.

@@ -1,3 +1,3 @@
-file and directory accessing
+building
 fileLocalName: aFile
 	^ aFile name

@@ -10,5 +10,5 @@
 	"name" : "MBMetadataWindow",
 	"pools" : [
 		 ],
-	"super" : "MBSubwindow",
+	"super" : "MBAbstractMetadataWindow",
 	"type" : "normal" }

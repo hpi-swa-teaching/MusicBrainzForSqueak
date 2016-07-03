@@ -1,6 +1,5 @@
-building
+accessing
 getMetadataLabels
-
 	| metadata |
 	metadata := OrderedCollection new.
 	self selectedEntity metadata keysDo: [ :each | metadata add: each].

@@ -1,3 +1,3 @@
-as yet unclassified
+building
 closeButton
 	self mainWindow metadataWindow: nil

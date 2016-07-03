@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 getMetadataLabelFor: aString
 	^ (aString splitBy: ': ') first

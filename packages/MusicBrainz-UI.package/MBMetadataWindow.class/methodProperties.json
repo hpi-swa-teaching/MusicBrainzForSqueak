@@ -1,18 +1,18 @@
 {
 	"class" : {
 		"getMetadataLabelFor:" : "tm 6/28/2016 18:48",
-		"openFrom:" : "tm 6/28/2016 18:49" },
+		"openFrom:" : "tm 7/3/2016 14:00" },
 	"instance" : {
 		"buildDeleteButton" : "tm 7/1/2016 10:56",
 		"buildInputField" : "tm 6/25/2016 17:32",
-		"buildLocalMetadataList" : "tm 7/1/2016 11:17",
-		"buildWindow" : "tm 6/25/2016 17:03",
-		"buildWith:" : "tm 7/1/2016 10:55",
+		"buildLocalMetadataList" : "tm 7/3/2016 14:08",
+		"buildWindow" : "tm 7/3/2016 13:48",
+		"buildWith:" : "tm 7/3/2016 14:00",
 		"closeButton" : "tm 6/25/2016 14:34",
-		"deleteMetadata" : "tm 7/1/2016 13:14",
-		"getMetadata" : "tm 6/28/2016 18:30",
+		"deleteMetadata" : "tm 7/3/2016 14:08",
 		"isMetadataSelected" : "tm 7/1/2016 10:57",
 		"selectedMetadata" : "tm 6/25/2016 14:25",
 		"selectedMetadata:" : "tm 7/1/2016 10:57",
-		"showInInputField" : "tm 6/25/2016 17:29",
-		"updateMetadata:" : "mv 6/28/2016 23:05" } }
+		"showInInputField" : "tm 7/3/2016 14:03",
+		"updateMetadata:" : "tm 7/3/2016 14:02",
+		"updateViews" : "tm 7/3/2016 14:08" } }

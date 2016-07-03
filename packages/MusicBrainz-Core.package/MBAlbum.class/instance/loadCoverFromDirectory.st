@@ -1,7 +1,6 @@
 as yet unclassified
 loadCoverFromDirectory
-
-self tracklist do: [:track |
+	self tracklist do: [:track |
 	| pathToTrack |
 	pathToTrack := (FileDirectory on: track filepath) containingDirectory.
 	(pathToTrack exists)
@@ -19,4 +18,4 @@ self tracklist do: [:track |
 	(pathToTrack fileExists: 'cover.jpg')
 		ifTrue: [^ JPEGReadWriter2 formFromFileNamed: pathToTrack fullName, pathToTrack pathNameDelimiter, 'cover.jpg']
 	].
-^ nil
+	^ nil

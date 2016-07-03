@@ -1,6 +1,6 @@
-as yet unclassified
+metadata actions
 showInInputField
 	self selectedMetadata
 		ifNotNil: 
-		[^ self mainWindow selectedEntity metadata at: self selectedMetadata ifAbsent: [^ '']].
+		[^ self selectedEntity metadata at: self selectedMetadata ifAbsent: [^ '']].
 	^ ''

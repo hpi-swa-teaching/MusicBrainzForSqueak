@@ -4,7 +4,7 @@ buildWindow
 	windowSpec := self builder pluggableWindowSpec new.
 	^ windowSpec 
 		model: self;
-		extent: 400 @ 400;
+		extent: 400@400;
 		label: 'Metadata';
 	      closeAction: #closeButton;
 		children: OrderedCollection new

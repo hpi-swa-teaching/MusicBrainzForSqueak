@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"openFrom:" : "mv 6/30/2016 14:15" },
+		"openFrom:" : "tm 7/3/2016 14:16" },
 	"instance" : {
 		"buildWith:" : "mv 6/30/2016 14:09",
+		"getMetadataLabels" : "tm 7/3/2016 14:07",
 		"mainWindow" : "mv 6/30/2016 14:06",
 		"mainWindow:" : "mv 6/30/2016 14:06" } }

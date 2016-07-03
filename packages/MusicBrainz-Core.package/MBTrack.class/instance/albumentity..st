@@ -1,3 +1,3 @@
 accessing
-albumentity: anObject
-	albumentity := anObject
+albumEntity: anObject
+	albumEntity := anObject

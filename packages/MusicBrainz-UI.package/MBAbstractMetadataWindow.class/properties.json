@@ -1,15 +1,14 @@
 {
-	"category" : "MusicBrainz-Core",
+	"category" : "MusicBrainz-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"filepath",
-		"albumEntity" ],
-	"name" : "MBTrack",
+		"selectedEntity" ],
+	"name" : "MBAbstractMetadataWindow",
 	"pools" : [
 		 ],
-	"super" : "MBEntity",
+	"super" : "MBSubwindow",
 	"type" : "normal" }

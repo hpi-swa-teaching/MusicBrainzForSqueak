@@ -1,3 +1,0 @@
-building
-closeButton
-	^ nil

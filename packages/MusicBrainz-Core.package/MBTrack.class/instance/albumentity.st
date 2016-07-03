@@ -1,3 +1,3 @@
 accessing
-albumentity
-	^ albumentity
+albumEntity
+	^ albumEntity
