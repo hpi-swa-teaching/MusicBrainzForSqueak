@@ -10,8 +10,9 @@
 		"testDefaultCoverSized" : "mv 6/25/2016 12:46",
 		"testGetFrontcoverFor" : "tm 6/21/2016 14:05",
 		"testGetMBIDForAlbum" : "mv 6/25/2016 12:49",
-		"testGetMBIDForReleaseNamedFetchFirst" : "tm 6/27/2016 18:06",
 		"testGetMBIDForTrack" : "tm 6/27/2016 18:08",
+		"testGetMBMetadataForAbout" : "mv 7/3/2016 13:12",
 		"testMBAlbumSeachFields" : "mv 6/25/2016 12:39",
+		"testMBQueryStrings" : "mv 7/3/2016 13:06",
 		"testMBTrackSeachFields" : "mv 6/25/2016 12:39",
 		"testStandardUserAgent" : "tm 5/27/2016 16:42" } }

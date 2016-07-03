@@ -1,3 +1,3 @@
 accessing
 removeFromCache: anURL
-	MBRequestCache xMLCache remove: anURL ifAbsent: [nil]
+	MBRequestCache xMLCache removeKey: anURL ifAbsent: [nil]

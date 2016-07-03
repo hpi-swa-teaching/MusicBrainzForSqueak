@@ -11,10 +11,8 @@
 		"getFrontcoverFor:" : "mv 6/1/2016 19:08",
 		"getFrontcoverFor:size:" : "mv 6/4/2016 12:48",
 		"getMBIDForAlbum:" : "mv 6/30/2016 11:44",
-		"getMBIDForReleaseNamed:FetchFirst:" : "mv 6/1/2016 19:11",
 		"getMBIDForTrack:" : "mv 6/30/2016 11:44",
 		"getMBMetadataFor:About:" : "mv 6/30/2016 23:46",
-		"sendQuery:forEntity:" : "mv 6/9/2016 00:18",
 		"sendRequestTo:" : "mv 6/30/2016 22:35",
 		"standardUserAgent" : "mv 5/7/2016 23:24" },
 	"instance" : {
