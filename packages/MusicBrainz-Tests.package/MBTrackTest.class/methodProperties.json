@@ -5,6 +5,7 @@
 		"setUp" : "mv 6/25/2016 12:23",
 		"testAlbumEntity" : "mv 6/25/2016 12:30",
 		"testAsString" : "mv 6/25/2016 12:23",
+		"testAvailableMetadata" : "mv 7/3/2016 13:23",
 		"testConvertMilliSecToMinutes" : "mv 6/25/2016 12:23",
 		"testFindMBID" : "mv 6/25/2016 12:30",
 		"testGetArtists" : "mv 6/4/2016 17:13",

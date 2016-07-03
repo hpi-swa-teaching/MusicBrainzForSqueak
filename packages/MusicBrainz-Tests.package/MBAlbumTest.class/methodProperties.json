@@ -6,6 +6,7 @@
 		"album:" : "mv 5/10/2016 10:59",
 		"setUp" : "mv 6/4/2016 14:55",
 		"testAsString" : "JR 6/19/2016 17:17",
+		"testAvailableMetadata" : "mv 7/3/2016 13:24",
 		"testFindMBID" : "mv 6/25/2016 12:32",
 		"testGetArtists" : "mv 6/4/2016 17:11",
 		"testGetCover" : "mv 6/4/2016 17:15",
