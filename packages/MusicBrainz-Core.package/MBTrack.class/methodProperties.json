@@ -1,11 +1,13 @@
 {
 	"class" : {
 		"availableMetadata" : "tm 6/25/2016 17:27",
-		"entityName" : "pb 5/21/2016 12:41" },
+		"entityName" : "pb 5/21/2016 12:41",
+		"standardMetadataKeys" : "JR 7/6/2016 18:56",
+		"standardMetadataKeysForTrack" : "JR 7/6/2016 18:52" },
 	"instance" : {
 		"albumEntity" : "tm 7/3/2016 14:49",
 		"albumEntity:" : "tm 7/3/2016 14:49",
-		"asString" : "tm 7/3/2016 14:49",
+		"asString" : "JR 7/6/2016 19:43",
 		"convertMillisecToMinutes:" : "TM 5/22/2016 15:22",
 		"filepath" : "pb 5/21/2016 12:11",
 		"filepath:" : "pb 5/21/2016 12:11",
