@@ -2,7 +2,7 @@
 	"class" : {
 		"availableMetadata" : "tm 6/25/2016 17:20",
 		"entityName" : "tm 5/26/2016 11:31",
-		"standardMetadataKeys" : "JR 7/6/2016 18:56",
+		"essentialMetadataKeys" : "JR 7/7/2016 01:13",
 		"textFrames" : "pb 6/1/2016 19:31" },
 	"instance" : {
 		"asString" : "tm 7/3/2016 14:41",
@@ -14,7 +14,7 @@
 		"getArtists" : "tm 7/3/2016 14:42",
 		"getMBID" : "tm 7/3/2016 14:42",
 		"getTitle" : "tm 7/3/2016 14:42",
-		"hasEssentialMetadata" : "JR 7/6/2016 18:58",
+		"hasEssentialMetadata" : "JR 7/7/2016 01:14",
 		"initialize" : "mv 6/2/2016 00:18",
 		"isAlbum" : "tm 7/3/2016 14:43",
 		"isTrack" : "tm 7/3/2016 14:43",

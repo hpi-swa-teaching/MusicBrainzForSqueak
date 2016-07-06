@@ -1,3 +1,3 @@
 as yet unclassified
-standardMetadataKeysForTrack 
+essentialMetadataKeys
 	^ #(#Artist #Year #Title #Album #Length)

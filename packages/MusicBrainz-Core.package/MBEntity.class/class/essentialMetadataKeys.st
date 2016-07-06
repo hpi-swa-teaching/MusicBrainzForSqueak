@@ -1,3 +1,3 @@
 as yet unclassified
-standardMetadataKeys
+essentialMetadataKeys
 	^ self subclassResponsibility 

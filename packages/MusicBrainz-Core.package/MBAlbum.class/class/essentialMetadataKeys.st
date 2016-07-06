@@ -1,3 +1,3 @@
 as yet unclassified
-standardMetadataKeys
+essentialMetadataKeys
 	^ #(#Artist #Year #Title #Label)
