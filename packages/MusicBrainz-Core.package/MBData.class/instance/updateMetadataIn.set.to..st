@@ -3,10 +3,11 @@ updateMetadataIn: aMBEntity set: aLabel to: aValue
 
 	| valuesToAdoptInTracks |
 	valuesToAdoptInTracks := #(#'Genre' #'Label' #'Year' #'Title') asOrderedCollection.
-	(aValue = '')
-		ifTrue: [aMBEntity metadata removeKey: aLabel ifAbsent: []. ^ self].
-	
 	aMBEntity metadata at: aLabel put: aValue.
+	
+	(aValue = '')
+		ifTrue: [aMBEntity metadata removeKey: aLabel ifAbsent: []].
+	
 	(aLabel = 'Album' and: aMBEntity isTrack)
 		ifTrue: [self moveToNewAlbum: aMBEntity].
 		
