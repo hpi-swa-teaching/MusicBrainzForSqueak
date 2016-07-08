@@ -2,9 +2,9 @@ building
 toggleMenuList
 	| menuLabels menuValues |
 	menuLabels := OrderedCollection new.
-	menuLabels add: 'Load STON file from disk';
-		add:  'Save STON file to disk';
-		add: 'Import files from disk';
+	menuLabels add: 'Load library';
+		add:  'Save library';
+		add: 'Import new files';
 		add: 'Currently cached: ', MBRequestCache countURLsinCache;
 		add: 'Clear cache'.
 	menuValues := OrderedCollection new.

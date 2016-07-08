@@ -7,7 +7,7 @@ testBuildHeaderViews
 		assert: headerViews class = OrderedCollection;
 		assert: headerViews first class = PluggableButtonSpec;
 		assert: headerViews first model class = MBMainWindow;
-		assert: headerViews first frame = (0@0 corner: 0.65@0.05);
+		assert: headerViews first frame = (0.2@0 corner: 0.65@0.05);
 		assert: headerViews first label = 'labelTextForAlbumTree';
 		assert: headerViews first enabled = false;
 		
