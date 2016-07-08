@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildInputFields" : "mv 7/8/2016 12:46",
+		"buildLabelFields" : "mv 7/8/2016 12:14",
+		"buildWindow" : "mv 7/8/2016 11:29",
+		"buildWith:" : "mv 7/8/2016 12:05",
+		"initialize" : "mv 7/8/2016 12:20",
+		"labelWidth" : "mv 7/8/2016 11:59",
+		"lineHeight" : "mv 7/8/2016 12:07",
+		"setSetting:" : "mv 7/8/2016 12:47",
+		"settings" : "mv 7/8/2016 11:45",
+		"settings:" : "mv 7/8/2016 11:44",
+		"showInInputField" : "mv 7/8/2016 12:46",
+		"showInInputField:" : "mv 7/8/2016 12:28" } }
