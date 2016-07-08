@@ -1,5 +1,5 @@
 writing
-writeMetaData: aDictionary
+writeMetadata: aDictionary
 	| flags unchangedFrames newFrames newFile streamsize buffer|
 	[newFile := self getTempFile.
 	self seekID3.

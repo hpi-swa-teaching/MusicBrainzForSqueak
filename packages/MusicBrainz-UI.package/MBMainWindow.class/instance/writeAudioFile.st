@@ -1,6 +1,9 @@
 im&ex-porting
 writeAudioFile
-	| parser track |
-	track := self selectedEntity.
-	parser := MBMP3Parser new openStreamOn: track filepath.
-	parser writeMetaData: track metadata
+	(self selectedEntity isTrack)
+		ifTrue: [
+			self data writeAudioFile: self selectedEntity].
+	(self selectedEntity isAlbum)
+		ifTrue: [
+			self selectedEntity tracklist do: [:each |
+				self data writeAudioFile: each]]
