@@ -5,5 +5,6 @@ buildWith: aBuilder
 	windowSpec := self buildWindow.
 	windowSpec children 
 		addAll: self buildLabelFields;
-		addAll: self buildInputFields.
+		addAll: self buildInputFields;
+		add: self buildAcceptButton.
 	^ self builder build: windowSpec

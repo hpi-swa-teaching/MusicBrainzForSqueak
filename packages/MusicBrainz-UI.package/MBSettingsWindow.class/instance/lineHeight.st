@@ -1,3 +1,3 @@
 as yet unclassified
 lineHeight
-	^ 0.055
+	^ 0.1
