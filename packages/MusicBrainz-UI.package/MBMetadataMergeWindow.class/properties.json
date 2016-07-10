@@ -1,0 +1,16 @@
+{
+	"category" : "MusicBrainz-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"localMetadata",
+		"MBMetadata",
+		"metadataToMerge" ],
+	"name" : "MBMetadataMergeWindow",
+	"pools" : [
+		 ],
+	"super" : "MBAbstractMetadataWindow",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+labels
+labelForShowFilesButton 
+	^ 'Show files'

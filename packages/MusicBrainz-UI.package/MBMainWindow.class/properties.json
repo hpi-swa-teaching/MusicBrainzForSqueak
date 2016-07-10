@@ -1,0 +1,20 @@
+{
+	"category" : "MusicBrainz-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedEntity",
+		"coverView",
+		"importWindow",
+		"data",
+		"selectedMetadata",
+		"player",
+		"metadataWindow" ],
+	"name" : "MBMainWindow",
+	"pools" : [
+		 ],
+	"super" : "MBWindow",
+	"type" : "normal" }
