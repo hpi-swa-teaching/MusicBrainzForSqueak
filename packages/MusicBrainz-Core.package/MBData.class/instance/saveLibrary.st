@@ -1,3 +1,3 @@
 accessing
-saveToDisk
+saveLibrary
 	MBSTONHandler saveSTONOf: self albums

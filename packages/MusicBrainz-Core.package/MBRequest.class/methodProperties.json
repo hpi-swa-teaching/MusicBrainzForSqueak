@@ -4,7 +4,8 @@
 		"MBQueryStrings" : "mv 6/30/2016 22:45",
 		"MBTrackSearchFields" : "mv 6/24/2016 18:37",
 		"MBXMLparseDictionary" : "mv 6/30/2016 22:45",
-		"baseURL" : "mv 6/25/2016 17:39",
+		"baseURL" : "mv 7/10/2016 12:04",
+		"baseURL:" : "mv 7/10/2016 12:01",
 		"coverBaseURL" : "mv 5/30/2016 19:07",
 		"createMBIDRequestURLFor:" : "mv 6/30/2016 23:51",
 		"defaultCoverSized:" : "mv 6/4/2016 12:27",
@@ -13,7 +14,11 @@
 		"getMBIDForAlbum:" : "mv 6/30/2016 11:44",
 		"getMBIDForTrack:" : "mv 6/30/2016 11:44",
 		"getMBMetadataFor:About:" : "mv 6/30/2016 23:46",
+		"password" : "mv 7/10/2016 12:25",
+		"password:" : "mv 7/10/2016 12:25",
 		"sendRequestTo:" : "mv 6/30/2016 22:35",
-		"standardUserAgent" : "mv 5/7/2016 23:24" },
+		"standardUserAgent" : "mv 5/7/2016 23:24",
+		"username" : "mv 7/10/2016 12:25",
+		"username:" : "mv 7/10/2016 12:25" },
 	"instance" : {
 		 } }

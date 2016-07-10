@@ -2,8 +2,8 @@ as yet unclassified
 testSaveToDisk
 	| albumsBeforeSave |
 	albumsBeforeSave := self mainWindow albums.
-	self mainWindow data saveToDisk.
-	self mainWindow data loadFromDisk.
+	self mainWindow data saveLibrary.
+	self mainWindow data loadLibrary.
 	self 
 		assert: self mainWindow albums first getTitle
 		equals: albumsBeforeSave first getTitle

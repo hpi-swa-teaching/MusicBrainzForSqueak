@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"deleteLocalSTON" : "mv 7/10/2016 12:10",
 		"loadFromLocalSTON" : "tm 6/19/2016 13:31",
 		"path" : "tm 6/13/2016 17:04",
 		"saveSTONOf:" : "tm 5/27/2016 16:28" },

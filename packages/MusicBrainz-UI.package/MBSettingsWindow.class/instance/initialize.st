@@ -1,8 +1,8 @@
 as yet unclassified
 initialize
 	self settings: (Dictionary newFrom: {
-			'Endpoint' -> 'http://musicbrainz.org'.
-			'Username' -> 'LePapé'.
-			'Password' -> 'Sicherheit'.
+			'Endpoint' -> MBRequest baseURL.
+			'Username' -> MBRequest username.
+			'Password' -> MBRequest password.
 			'Autosave' -> true.
 		})

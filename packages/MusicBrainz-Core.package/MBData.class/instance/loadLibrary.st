@@ -1,5 +1,5 @@
 accessing
-loadFromDisk
+loadLibrary
 	| albums |
 	albums := MBSTONHandler loadFromLocalSTON.
 	albums ifNotNil: 
