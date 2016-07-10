@@ -4,5 +4,5 @@ initialize
 			'Endpoint' -> MBRequest baseURL.
 			'Username' -> MBRequest username.
 			'Password' -> MBRequest password.
-			'Autosave' -> true.
+			'Autoload' -> true.
 		})

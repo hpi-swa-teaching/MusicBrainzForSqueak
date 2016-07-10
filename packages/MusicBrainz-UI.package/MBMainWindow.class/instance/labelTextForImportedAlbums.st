@@ -1,3 +1,0 @@
-metadataView
-labelTextForImportedAlbums
- 	^ 'Imported Albums'

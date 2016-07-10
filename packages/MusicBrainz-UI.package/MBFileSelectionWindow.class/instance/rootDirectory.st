@@ -1,3 +1,0 @@
-accessing
-rootDirectory
-	^ {FileDirectory on: ''}

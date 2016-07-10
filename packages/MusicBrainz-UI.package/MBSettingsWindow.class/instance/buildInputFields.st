@@ -48,4 +48,16 @@ buildInputFields
 	inputSpecs add: inputSpec.
 	inputHeight := inputHeight + self lineHeight.
 
+	"AUTOLOAD"
+	inputSpec := self builder pluggableCheckBoxSpec new.
+	inputSpec 
+		frame: (self labelWidth@inputHeight corner: 1@(inputHeight + self lineHeight));
+		model: self;
+		label: #labelForAutoload;
+		state: #showInInputFieldAutoload;
+		enabled: true;
+		action: #setAutoload:.
+	inputSpecs add: inputSpec.
+	inputHeight := inputHeight + self lineHeight.
+
 	^ inputSpecs

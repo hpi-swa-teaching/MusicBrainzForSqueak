@@ -1,3 +1,0 @@
-labels
-labelForShowFilesButton 
-	^ 'Show files'
