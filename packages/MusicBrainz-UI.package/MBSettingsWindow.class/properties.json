@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settings" ],
+	"name" : "MBSettingsWindow",
+	"pools" : [
+		 ],
+	"super" : "MBSubwindow",
+	"type" : "normal" }

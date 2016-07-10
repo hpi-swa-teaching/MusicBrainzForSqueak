@@ -6,4 +6,4 @@ buildLoadButton
 		model: self;
 		frame: (0.0@0.95 corner: 0.125@1);
 		label: 'Load';
-		action: #loadFromDisk
+		action: #loadLibrary

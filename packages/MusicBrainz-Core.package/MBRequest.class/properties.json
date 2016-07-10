@@ -3,7 +3,9 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"BaseURL",
+		"Password",
+		"Username" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

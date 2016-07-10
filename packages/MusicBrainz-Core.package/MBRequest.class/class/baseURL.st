@@ -1,5 +1,3 @@
-settings
+accessing
 baseURL
-
-"	^ 'http://mb.mvoelker.me/ws/2/'"
-	^ 'http://musicbrainz.org/ws/2/'
+	^ BaseURL ifEmpty: [MBRequest baseURL: 'http://musicbrainz.org/ws/2/']
