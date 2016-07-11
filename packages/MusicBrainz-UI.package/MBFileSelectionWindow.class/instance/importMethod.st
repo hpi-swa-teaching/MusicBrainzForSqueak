@@ -1,3 +1,3 @@
 accessing
 importMethod
-	^ importMethod ifNil: [^ 1]
+	^ importMethod ifNil: [^ false]

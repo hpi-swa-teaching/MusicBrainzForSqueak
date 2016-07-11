@@ -7,5 +7,5 @@ buildWith: aBuilder
 		add: self buildDirectoryTreeView;
 		add: self buildFileView;
 		add: self buildImportButton;
-		add: self buildShowFilesButton.
+		add: self buildImportMethodCheckBox.
 	^ self builder build: windowSpec

@@ -1,0 +1,3 @@
+building
+labelForImportMethodCheckBox
+	^ self class labelForImportMethodSelection
