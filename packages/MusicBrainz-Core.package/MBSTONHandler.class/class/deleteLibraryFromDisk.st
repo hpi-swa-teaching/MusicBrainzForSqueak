@@ -1,5 +1,5 @@
 saving and loading
-deleteLocalSTON
+deleteLibraryFromDisk
 
 	(MBSTONHandler path entryAt: 'albums.ston' ifAbsent: [nil]) notNil
 	ifTrue: [

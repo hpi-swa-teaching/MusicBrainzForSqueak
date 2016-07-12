@@ -1,3 +1,3 @@
 accessing
 password
-	^ Password
+	^ Password ifNil: [^ '']

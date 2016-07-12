@@ -3,6 +3,6 @@ selectedDirectory: anObject
 	selectedDirectory := anObject.
 	self 
 		files: #();
-		importMethod: false;
+		importRecursively: false;
 		changed: #selectedDirectory;
 		changed: #files

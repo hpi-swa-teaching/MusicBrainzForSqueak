@@ -1,5 +1,5 @@
 file and directory accessing
 collectFilesFrom: aDirectory
-	self importMethod
+	self importRecursively
 		ifTrue: [	^ self recursivelyFindFilesFrom: aDirectory]
 		ifFalse: [ ^ self findFilesFrom: aDirectory]

@@ -1,0 +1,4 @@
+settings
+saveSettings
+
+	MBSTONHandler saveSettingsToDisk: self settings

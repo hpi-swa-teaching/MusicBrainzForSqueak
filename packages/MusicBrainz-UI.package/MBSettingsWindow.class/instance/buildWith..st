@@ -6,5 +6,7 @@ buildWith: aBuilder
 	windowSpec children 
 		addAll: self buildLabelFields;
 		addAll: self buildInputFields;
+		add: self buildResetButton;
+		add: self buildResetToDefaultButton;
 		add: self buildAcceptButton.
 	^ self builder build: windowSpec

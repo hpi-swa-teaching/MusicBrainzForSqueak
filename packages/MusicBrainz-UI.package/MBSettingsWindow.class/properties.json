@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"settings" ],
+		"settings",
+		"autoloadCheckboxState" ],
 	"name" : "MBSettingsWindow",
 	"pools" : [
 		 ],

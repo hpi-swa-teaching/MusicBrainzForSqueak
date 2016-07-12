@@ -1,3 +1,3 @@
 accessing
 username
-	^ Username
+	^ Username ifNil: [^ '']

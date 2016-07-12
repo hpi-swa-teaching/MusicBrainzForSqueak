@@ -21,7 +21,7 @@ buildInputFields
 		frame: (self labelWidth@inputHeight corner: 1@(inputHeight + self lineHeight));
 		model: self;
 		getText: #showInInputFieldEndpoint;
-		setText: #setEndpoint:;
+		editText: #setEndpoint:;
 		indicateUnacceptedChanges: true.
 	inputSpecs add: inputSpec.
 	inputHeight := inputHeight + self lineHeight.
@@ -32,7 +32,7 @@ buildInputFields
 		frame: (self labelWidth@inputHeight corner: 1@(inputHeight + self lineHeight));
 		model: self;
 		getText: #showInInputFieldUsername;
-		setText: #setUsername:;
+		editText: #setUsername:;
 		indicateUnacceptedChanges: true.
 	inputSpecs add: inputSpec.
 	inputHeight := inputHeight + self lineHeight.
@@ -43,7 +43,7 @@ buildInputFields
 		frame: (self labelWidth@inputHeight corner: 1@(inputHeight + self lineHeight));
 		model: self;
 		getText: #showInInputFieldPassword;
-		setText: #setPassword:;
+		editText: #setPassword:;
 		indicateUnacceptedChanges: true.
 	inputSpecs add: inputSpec.
 	inputHeight := inputHeight + self lineHeight.
@@ -54,9 +54,8 @@ buildInputFields
 		frame: (self labelWidth@inputHeight corner: 1@(inputHeight + self lineHeight));
 		model: self;
 		label: #labelForAutoload;
-		state: #showInInputFieldAutoload;
-		enabled: true;
-		action: #setAutoload:.
+		state: #autoloadCheckboxState;
+		action: #setAutoload.
 	inputSpecs add: inputSpec.
 	inputHeight := inputHeight + self lineHeight.
 

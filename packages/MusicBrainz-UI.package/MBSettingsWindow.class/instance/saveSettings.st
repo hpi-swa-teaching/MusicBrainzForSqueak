@@ -1,10 +1,5 @@
 as yet unclassified
 saveSettings
-	((self settings at: 'Endpoint') isEmpty not)
-		ifTrue: [MBRequest baseURL: ((self settings at: 'Endpoint') asString)].
-	((self settings at: 'Username') isEmpty not)
-		ifTrue: [MBRequest username: ((self settings at: 'Username') asString)].
-	((self settings at: 'Endpoint') isEmpty not)
-		ifTrue: [MBRequest password: ((self settings at: 'Password') asString)].
-	((self settings at: 'Autoload') isEmpty not)
-		ifTrue: [self inform: ('Autoload to', self settings at: 'Autoload')]
+	self mainWindow data settings: self settings.
+	self settings: (Dictionary newFrom: self settings). "We really need a new object here to avoid unwanted changes in data"
+	self mainWindow data applySettings

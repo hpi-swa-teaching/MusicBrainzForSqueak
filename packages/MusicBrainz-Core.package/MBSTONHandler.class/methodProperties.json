@@ -1,8 +1,12 @@
 {
 	"class" : {
-		"deleteLocalSTON" : "mv 7/10/2016 12:10",
-		"loadFromLocalSTON" : "tm 6/19/2016 13:31",
+		"deleteLibraryFromDisk" : "mv 7/12/2016 10:59",
+		"loadFromFile:" : "mv 7/12/2016 11:41",
+		"loadLibraryFromDisk" : "mv 7/12/2016 11:04",
+		"loadSettingsFromDisk" : "mv 7/12/2016 11:04",
 		"path" : "tm 6/13/2016 17:04",
-		"saveSTONOf:" : "tm 5/27/2016 16:28" },
+		"save:toFile:" : "mv 7/12/2016 11:02",
+		"saveLibraryToDisk:" : "mv 7/12/2016 11:02",
+		"saveSettingsToDisk:" : "mv 7/12/2016 11:03" },
 	"instance" : {
 		 } }
