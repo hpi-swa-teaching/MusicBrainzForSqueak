@@ -4,8 +4,10 @@ loadMetadataFromMB
 		ifTrue: [(self askToFindMBID = '') ifTrue: [^ nil]].
 	super loadMetadataFromMB.
 	(self getLabels isEmpty)
-		ifTrue: [self metadata at: #Label put: self loadLabelsFromMB].
+		ifTrue: [
+			(self loadLabelsFromMB) ifNotNilDo: [:aString | self metadata at: #Label put: aString]].
 	self metadata at: #Year ifAbsent: [
-		self metadata at: #Year put: self loadYearFromMB].
+			(self loadYearFromMB) ifNotNilDo: [:aString | self metadata at: #Year put: aString]].
 	(self getMedia isEmpty)
-		ifTrue: [self metadata at: #Media put: self loadMediaFromMB]
+		ifTrue: [
+			(self loadMediaFromMB) ifNotNilDo: [:aString | self metadata at: #Media put: aString]]

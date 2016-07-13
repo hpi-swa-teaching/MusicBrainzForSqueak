@@ -1,6 +1,8 @@
 loadFromMB
 loadMetadataFromMB
 	self getArtists isEmpty
-		ifTrue: [self metadata at: #Artist put: self loadArtistsFromMB].
+		ifTrue: [
+			(self loadArtistsFromMB) ifNotNilDo: [:aString | self metadata at: #Artist put: aString ]].
 	self getTitle isEmpty
-		ifTrue: [self metadata at: #Title put: self loadTitleFromMB]
+		ifTrue: [
+			(self loadTitleFromMB) ifNotNilDo: [:aString | self metadata at: #Title put: aString]]
