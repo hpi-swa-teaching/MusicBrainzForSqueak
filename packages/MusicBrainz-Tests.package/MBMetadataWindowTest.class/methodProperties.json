@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mainWindow" : "JR 7/13/2016 22:56",
+		"mainWindow:" : "JR 7/13/2016 22:57",
+		"metadataWindow" : "JR 7/13/2016 22:39",
+		"metadataWindow:" : "JR 7/13/2016 22:40",
+		"setUp" : "JR 7/13/2016 23:34",
+		"testBuildDeleteButton" : "JR 7/13/2016 22:39",
+		"testBuildInputField" : "JR 7/13/2016 22:46",
+		"testBuildLocalMetadataList" : "JR 7/13/2016 22:49",
+		"testBuildWindow" : "JR 7/13/2016 23:15",
+		"testBuildWith" : "JR 7/13/2016 22:55",
+		"testCloseButton" : "JR 7/13/2016 23:23",
+		"testDeleteMetadata" : "JR 7/13/2016 23:26",
+		"testIsMetadataSelected" : "JR 7/13/2016 23:37",
+		"testShowInInputField" : "JR 7/13/2016 23:39",
+		"testUpdateViews" : "JR 7/13/2016 23:09" } }
