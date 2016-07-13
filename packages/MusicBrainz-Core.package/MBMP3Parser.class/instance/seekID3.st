@@ -1,12 +1,12 @@
 parsing
 seekID3
-	| read state |
+	| state |
 	state := 1.
-	[read := self stream next.
-	read
-		ifNil: [^ false].
-	read asCharacter = ('ID3' at: state)
+	[self stream next asCharacter
+			= ('ID3' at: state)
 		ifTrue: [state := state + 1]
 		ifFalse: [state := 1].
 	state = 4
-		ifTrue: [^ true]] repeat
+		ifTrue: [^ true]]
+		doWhileFalse: [self stream atEnd].
+	^ false

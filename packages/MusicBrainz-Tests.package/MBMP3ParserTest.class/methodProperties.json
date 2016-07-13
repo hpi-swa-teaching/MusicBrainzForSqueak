@@ -20,6 +20,6 @@
 		"testParseAudio" : "pb 6/25/2016 15:31",
 		"testSeekID3" : "nt 6/22/2016 16:51",
 		"testSetID3Size" : "nt 6/22/2016 17:01",
-		"testSkipFrame" : "nt 6/22/2016 18:23",
+		"testSkipBytes" : "nt 7/13/2016 13:39",
 		"testTextFrames" : "pb 6/19/2016 18:18",
 		"testValidVersion" : "nt 6/22/2016 16:52" } }

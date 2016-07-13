@@ -1,12 +1,9 @@
 parsing
 parseAudio
-	| flags |
-	self seekID3.
+	[self seekID3.
 	self validVersion
-		ifFalse: [self error: 'Invalid ID3 Version']
-		ifTrue: [
-			flags := self stream next.  "Wofür werden die gebraucht? und kann der untere Teil nicht in ein ifTrue:?"
-			self 
-				setID3Size;
-				parseFrames.
-			self stream close]
+		ifTrue: ["Skip Flags"
+			self skipBytes: 1.
+			self setID3Size; parseFrames]
+		ifFalse: [self error: 'Invalid ID3 Version']]
+		ensure: [self stream close]

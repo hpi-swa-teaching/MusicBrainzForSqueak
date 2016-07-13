@@ -15,5 +15,5 @@ copyUnchangedFrames: aDictionary
 				 		addAll: (self stream next: 2);
 						addAll: (self copyFrame: frameSize).
 					frames addAll: frame.]
-			ifTrue: [self skipFrame: frameSize+2]
+			ifTrue: [self skipBytes: frameSize+2]
 	] repeat
