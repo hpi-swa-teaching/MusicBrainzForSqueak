@@ -1,6 +1,6 @@
 loadFromMB
 loadMetadataFromMB
-	(self mbid = '')
+	(self mbid = '' or: self mbid isNil)
 		ifTrue: [(self askToFindMBID = '') ifTrue: [^ nil]].
 	super loadMetadataFromMB.
 	(self getLabels isEmpty)
