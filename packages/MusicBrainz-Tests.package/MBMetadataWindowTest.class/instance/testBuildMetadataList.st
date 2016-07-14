@@ -1,8 +1,8 @@
 as yet unclassified
-testBuildLocalMetadataList
+testBuildMetadataList
 	| metadataSpec |
 	self metadataWindow builder: MorphicToolBuilder new.
-	metadataSpec := self metadataWindow buildLocalMetadataList.
+	metadataSpec := self metadataWindow buildMetadataList.
 	self assert: metadataSpec class = PluggableListSpec;
 		 assert: metadataSpec model class = MBMetadataWindow;
 		 assert: metadataSpec frame

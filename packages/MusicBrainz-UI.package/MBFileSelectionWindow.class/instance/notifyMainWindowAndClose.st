@@ -1,5 +1,5 @@
 importing
-notifyMainWindowAndDelete 
+notifyMainWindowAndClose 
 	self mainWindow 
 		importFiles: self files;
 		importWindow: nil.

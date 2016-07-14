@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"abstractMetadataWindow" : "tm 7/12/2016 14:29",
+		"abstractMetadataWindow:" : "tm 7/12/2016 14:29",
+		"setUp" : "tm 7/12/2016 14:28",
+		"testGetMetadataLabels" : "tm 7/12/2016 14:48",
+		"testSelectedEntity" : "tm 7/12/2016 14:31" } }

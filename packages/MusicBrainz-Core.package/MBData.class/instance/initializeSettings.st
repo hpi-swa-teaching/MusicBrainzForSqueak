@@ -5,7 +5,6 @@ initializeSettings
 			self settings: savedSettings.
 			self applySettings]
 		ifNil: [
-			self inform: 'Initializing settings.'.
 			self settings: (Dictionary newFrom: {
 					'Endpoint' -> MBRequest baseURL.
 					'Username' -> MBRequest username.

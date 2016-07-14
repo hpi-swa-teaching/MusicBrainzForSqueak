@@ -5,14 +5,14 @@
 	"instance" : {
 		"buildDeleteButton" : "tm 7/1/2016 10:56",
 		"buildInputField" : "tm 6/25/2016 17:32",
-		"buildLocalMetadataList" : "tm 7/3/2016 14:08",
+		"buildMetadataList" : "tm 7/12/2016 17:37",
 		"buildWindow" : "tm 7/3/2016 13:48",
-		"buildWith:" : "tm 7/3/2016 14:00",
+		"buildWith:" : "tm 7/12/2016 17:37",
 		"closeButton" : "tm 6/25/2016 14:34",
 		"deleteMetadata" : "tm 7/3/2016 14:08",
-		"isMetadataSelected" : "tm 7/1/2016 10:57",
+		"isMetadataSelected" : "tm 7/12/2016 17:38",
 		"selectedMetadata" : "tm 6/25/2016 14:25",
 		"selectedMetadata:" : "tm 7/1/2016 10:57",
 		"showInInputField" : "tm 7/3/2016 14:03",
 		"updateMetadata:" : "JR 7/6/2016 19:38",
-		"updateViews" : "JR 7/6/2016 19:34" } }
+		"updateViews" : "tm 7/12/2016 17:30" } }

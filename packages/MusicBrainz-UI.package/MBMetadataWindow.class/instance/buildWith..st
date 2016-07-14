@@ -4,7 +4,7 @@ buildWith: aBuilder
 	self builder: aBuilder.	
 	windowSpec := self buildWindow.
 	windowSpec children 
-		add: self buildLocalMetadataList;
+		add: self buildMetadataList;
 		add: self buildInputField;
 		add: self buildDeleteButton.
 	^ self builder build: windowSpec

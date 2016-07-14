@@ -3,7 +3,7 @@ updateViews
 	self mainWindow 
 		changed: #getMetadata;
 		changed: #albums;
-		changed: #getAlbumName:.
+		changed: #getEntityName:.
 	self 
 		selectedMetadata: nil;
 		changed: #getMetadataLabels;

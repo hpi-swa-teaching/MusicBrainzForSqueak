@@ -1,3 +1,3 @@
 albumTreeView
-getAlbumName: anObject
+getEntityName: anObject
 	^ anObject asString

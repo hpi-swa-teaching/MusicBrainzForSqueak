@@ -1,5 +1,5 @@
 building
-buildLocalMetadataList 
+buildMetadataList 
 	| metadataSpec |
 	metadataSpec := self builder pluggableListSpec new.
 	^ metadataSpec 

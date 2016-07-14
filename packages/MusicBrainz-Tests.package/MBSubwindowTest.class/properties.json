@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subWindow" ],
+	"name" : "MBSubwindowTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

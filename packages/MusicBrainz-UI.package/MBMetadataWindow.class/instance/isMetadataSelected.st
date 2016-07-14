@@ -1,3 +1,3 @@
 accessing
 isMetadataSelected 
-	^ (self selectedMetadata = nil) not
+	^ self selectedMetadata ~= nil

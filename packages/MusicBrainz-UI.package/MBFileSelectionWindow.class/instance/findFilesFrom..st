@@ -5,6 +5,6 @@ findFilesFrom: aDirectory
 	aDirectory entries
 		do: [:entry | entry isDirectory
 				ifFalse: [
-						(self isNotFiltered: entry)
+						(self isSupported: entry)
 						ifTrue: [files add: entry]]].
 	^ files

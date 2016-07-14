@@ -6,6 +6,6 @@ recursivelyFindFilesFrom: aDirectory
 		do: [:entry | entry isDirectory
 				ifTrue: [files addAll: (self recursivelyFindFilesFrom: (FileDirectory on: entry fullName))]
 				ifFalse: [
-						(self isNotFiltered: entry)
+						(self isSupported: entry)
 						ifTrue: [files add: entry]]].
 	^ files

@@ -2,5 +2,6 @@
 	"class" : {
 		"openFrom:" : "tm 7/3/2016 14:16" },
 	"instance" : {
+		"getMetadataLabels" : "tm 7/12/2016 14:44",
 		"selectedEntity" : "tm 7/3/2016 14:14",
 		"selectedEntity:" : "tm 7/3/2016 14:14" } }

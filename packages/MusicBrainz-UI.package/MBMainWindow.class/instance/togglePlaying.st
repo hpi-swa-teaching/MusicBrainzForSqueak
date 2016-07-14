@@ -1,5 +1,5 @@
 metadataView
-playSong
+togglePlaying
 	self player
 		ifNotNil: [self player isPlaying
 				ifTrue: [self player pause.

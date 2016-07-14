@@ -7,7 +7,7 @@ copyUnchangedFrames: aDictionary
 			ifTrue: [^frames].
 		tag := self nextFrameTag.
 		frameSize := self getFrameSize.
-		(aDictionary includesKey: (MBMP3Parser textFrames at: tag asSymbol ifAbsent: []))
+		(aDictionary includesKey: (self class textFrames at: tag asSymbol ifAbsent: []))
 			ifFalse: [frame := OrderedCollection new.
 					frame
 						addAll: (tag asOrderedCollection);

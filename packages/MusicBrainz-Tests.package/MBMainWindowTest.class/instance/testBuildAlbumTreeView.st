@@ -6,7 +6,7 @@ testBuildAlbumTreeView
 	self assert: treeSpec class = PluggableTreeSpec;
 		 assert: treeSpec model class = MBMainWindow;
 		 assert: treeSpec roots = 'albums';
-		 assert: treeSpec label = 'getAlbumName:';
+		 assert: treeSpec label = 'getEntityName:';
 		 assert: treeSpec getSelected = 'selectedEntity';
 		 assert: treeSpec setSelected = 'selectedEntity:';
 		 assert: treeSpec frame
