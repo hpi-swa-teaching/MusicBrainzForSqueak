@@ -1,6 +1,6 @@
-saving and loading
+deleting
 deleteLibraryFromDisk
-
-	(MBSTONHandler path entryAt: 'albums.ston' ifAbsent: [nil]) notNil
-	ifTrue: [
-		MBSTONHandler path deleteFileNamed: 'albums.ston']
+	(self path
+			entryAt: 'albums.ston'
+			ifAbsent: []) notNil
+		ifTrue: [self path deleteFileNamed: 'albums.ston']

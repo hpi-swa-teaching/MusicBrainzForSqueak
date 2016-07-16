@@ -1,3 +1,3 @@
-accessing
+caching
 clearCache
-	MBRequestCache xMLCache: Dictionary new.
+	self xMLCache: Dictionary new.

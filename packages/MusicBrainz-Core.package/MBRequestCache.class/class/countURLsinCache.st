@@ -1,4 +1,3 @@
 accessing
 countURLsinCache
-	
-	^ MBRequestCache xMLCache size
+	^ self xMLCache size

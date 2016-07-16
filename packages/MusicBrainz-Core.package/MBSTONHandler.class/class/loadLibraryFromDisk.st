@@ -1,3 +1,3 @@
-saving and loading
+loading
 loadLibraryFromDisk
-	^ MBSTONHandler loadFromFile: 'albums.ston'
+	^ self loadFromFile: 'albums.ston'

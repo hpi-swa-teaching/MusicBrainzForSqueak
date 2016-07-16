@@ -1,3 +1,3 @@
-saving and loading
+saving
 saveSettingsToDisk: anObject 
-	MBSTONHandler save: anObject toFile: 'settings.ston'
+	self save: anObject toFile: 'settings.ston'

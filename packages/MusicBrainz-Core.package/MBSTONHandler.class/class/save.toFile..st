@@ -1,7 +1,7 @@
-saving and loading
+saving
 save: anObject toFile: aString
 	| stonString fileDirectory |
-	fileDirectory := MBSTONHandler path.
+	fileDirectory := self path.
 	stonString := STON toString: anObject.
 	(fileDirectory forceNewFileNamed: aString)
 		nextPutAll: stonString

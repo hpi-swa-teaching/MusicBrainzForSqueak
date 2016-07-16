@@ -8,7 +8,7 @@ testCountURLsinCache
 		equals: SmallInteger 
 		description: 'Number of URLs in Cache should be an integer'.
 	startCount := MBRequestCache countURLsinCache.
-	MBRequestCache addToCache: testURL Containing: 'testString'.
+	MBRequestCache addToCache: testURL containing: 'testString'.
 	self
 		assert: MBRequestCache countURLsinCache 
 		equals: startCount + 1

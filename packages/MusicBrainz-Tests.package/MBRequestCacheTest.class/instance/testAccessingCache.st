@@ -4,7 +4,7 @@ testAccessingCache
 	| testURL testObject |
 	testURL := 'http://example.org'.
 	testObject := 'This is a test string'.
-	MBRequestCache addToCache: testURL Containing: testObject.
+	MBRequestCache addToCache: testURL containing: testObject.
 	self
 		assert: (MBRequestCache xMLCache includesKey: testURL)
 		description: 'AddToCache should have added the url'.

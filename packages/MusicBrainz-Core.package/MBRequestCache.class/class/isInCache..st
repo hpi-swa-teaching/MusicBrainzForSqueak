@@ -1,3 +1,3 @@
-accessing
+caching
 isInCache: anURL
-	^ MBRequestCache xMLCache includesKey: anURL
+	^ self xMLCache includesKey: anURL

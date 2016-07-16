@@ -1,4 +1,4 @@
-as yet unclassified
+playing
 resume
 	| currentPosition |
 	currentPosition := self soundPosition.

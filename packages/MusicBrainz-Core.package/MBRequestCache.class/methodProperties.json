@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"addToCache:Containing:" : "mv 6/30/2016 22:24",
-		"clearCache" : "mv 6/30/2016 22:18",
-		"countURLsinCache" : "mv 6/30/2016 22:35",
-		"getURLsinCache" : "mv 6/30/2016 22:27",
-		"isInCache:" : "mv 6/30/2016 22:23",
-		"removeFromCache:" : "mv 7/3/2016 13:01",
-		"requestFromCache:" : "mv 6/30/2016 22:26",
+		"addToCache:containing:" : "tm 7/16/2016 12:21",
+		"clearCache" : "tm 7/16/2016 12:20",
+		"countURLsinCache" : "tm 7/16/2016 12:20",
+		"getURLsinCache" : "tm 7/16/2016 12:19",
+		"isInCache:" : "tm 7/16/2016 12:19",
+		"removeFromCache:" : "tm 7/16/2016 12:19",
+		"requestFromCache:" : "tm 7/16/2016 12:19",
 		"xMLCache" : "mv 6/30/2016 22:29",
 		"xMLCache:" : "mv 6/30/2016 22:15" },
 	"instance" : {

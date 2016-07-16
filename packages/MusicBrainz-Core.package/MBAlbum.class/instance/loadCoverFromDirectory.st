@@ -1,4 +1,4 @@
-as yet unclassified
+loadFromMB
 loadCoverFromDirectory
 	self tracklist do: [:track |
 	| pathToTrack |

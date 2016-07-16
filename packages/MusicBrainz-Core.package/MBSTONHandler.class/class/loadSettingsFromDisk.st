@@ -1,3 +1,3 @@
-saving and loading
+loading
 loadSettingsFromDisk
-	^ MBSTONHandler loadFromFile: 'settings.ston'
+	^ self loadFromFile: 'settings.ston'

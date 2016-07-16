@@ -1,3 +1,3 @@
-accessing
+caching
 requestFromCache: anURL
-	^ MBRequestCache xMLCache at: anURL ifAbsent: [nil]
+	^ self xMLCache at: anURL ifAbsent: [nil]

@@ -1,3 +1,3 @@
-saving and loading
+saving
 saveLibraryToDisk: anObject 
-	MBSTONHandler save: anObject toFile: 'albums.ston'
+	self save: anObject toFile: 'albums.ston'

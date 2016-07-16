@@ -10,5 +10,5 @@ sendRequestTo: aString
 	resp isSuccess ifFalse:["^self error: resp status" ^ nil].
 	reply := UTF8TextConverter new decodeString: resp content.
 	xmldoc := XMLDOMParser parseDocumentFrom: reply readStream.
-	xmldoc ifNotNil: [MBRequestCache addToCache: aString Containing: xmldoc].
+	xmldoc ifNotNil: [MBRequestCache addToCache: aString containing: xmldoc].
 	^ xmldoc

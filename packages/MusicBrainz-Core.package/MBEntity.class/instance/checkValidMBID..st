@@ -1,4 +1,4 @@
-accessing
+loadFromMB
 checkValidMBID: aString
 	
 	| newMBID hexDigits |

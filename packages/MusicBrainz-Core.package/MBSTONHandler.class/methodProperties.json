@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"deleteLibraryFromDisk" : "mv 7/12/2016 10:59",
-		"loadFromFile:" : "mv 7/12/2016 11:41",
-		"loadLibraryFromDisk" : "mv 7/12/2016 11:04",
-		"loadSettingsFromDisk" : "mv 7/12/2016 11:04",
+		"deleteLibraryFromDisk" : "tm 7/16/2016 12:16",
+		"loadFromFile:" : "tm 7/16/2016 12:15",
+		"loadLibraryFromDisk" : "tm 7/16/2016 12:15",
+		"loadSettingsFromDisk" : "tm 7/16/2016 12:15",
 		"path" : "tm 6/13/2016 17:04",
-		"save:toFile:" : "tm 7/14/2016 14:07",
-		"saveLibraryToDisk:" : "mv 7/12/2016 11:02",
-		"saveSettingsToDisk:" : "mv 7/12/2016 11:03" },
+		"save:toFile:" : "tm 7/16/2016 12:15",
+		"saveLibraryToDisk:" : "tm 7/16/2016 12:15",
+		"saveSettingsToDisk:" : "tm 7/16/2016 12:15" },
 	"instance" : {
 		 } }

@@ -1,11 +1,8 @@
 library
 saveLibrary
 	| progressBar |
-
-	progressBar := ProgressMorph new openInWorld.
-	progressBar label: 'Saving library'.
-	progressBar done: 0.
-	
+	progressBar := ProgressMorph new openInWorld label: 'Saving library'.
 	MBSTONHandler saveLibraryToDisk: self albums.
-	progressBar done: 1.
-	progressBar delete
+	progressBar 
+		done: 1;
+		delete

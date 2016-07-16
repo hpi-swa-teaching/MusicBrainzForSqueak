@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 convertMillisecToMinutes: aNumber
 	| lengthInSeconds numMinutes numSeconds |
 	lengthInSeconds := aNumber / 1000 roundDownTo: 1.

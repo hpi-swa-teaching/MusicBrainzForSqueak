@@ -1,12 +1,10 @@
 library
 loadLibrary
 	| albums progressBar |
-	
-	progressBar := ProgressMorph new openInWorld.
-	progressBar label: 'Loading library'.
-	progressBar done: 0.	
+	progressBar := ProgressMorph new openInWorld label: 'Loading library'.
 	albums := MBSTONHandler loadLibraryFromDisk.
 	albums ifNotNil: 
 		[self albums: albums].
-	progressBar done: 1.
-	progressBar delete
+	progressBar 
+		done: 1;
+		delete

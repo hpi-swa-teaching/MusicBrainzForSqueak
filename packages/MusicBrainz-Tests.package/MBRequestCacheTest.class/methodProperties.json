@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "mv 7/3/2016 12:43",
-		"testAccessingCache" : "mv 7/3/2016 13:01",
+		"testAccessingCache" : "tm 7/16/2016 12:21",
 		"testClearCache" : "mv 7/3/2016 13:18",
-		"testCountURLsinCache" : "mv 7/3/2016 13:02",
+		"testCountURLsinCache" : "tm 7/16/2016 12:21",
 		"testGetURLsinCache" : "mv 7/3/2016 12:59" } }

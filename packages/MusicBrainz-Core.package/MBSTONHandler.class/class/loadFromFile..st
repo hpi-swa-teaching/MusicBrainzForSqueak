@@ -1,8 +1,9 @@
-saving and loading
+loading
 loadFromFile: aString
 	| fileStream |
-	(MBSTONHandler path entryAt: aString ifAbsent: [nil]) notNil
-	ifTrue: [
-		fileStream := MBSTONHandler path readOnlyFileNamed: aString.
+	(self path 
+		entryAt: aString 
+		ifAbsent: [nil]) notNil
+	ifTrue: [fileStream := self path readOnlyFileNamed: aString.
 		[^ STON fromString: fileStream contents] on: Exception do: [ ^ nil]].
 	^ nil

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 availableMetadata 
 	^ OrderedCollection newFrom: MBMP3Parser textFrames values
