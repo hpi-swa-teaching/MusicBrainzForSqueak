@@ -1,9 +1,10 @@
 accessing
 asString
-	| label length |
+	| label length artists |
 	label := self addTracknumber.
-	self hasEssentialMetadata
-		ifFalse: [label := label , '(!) '].
+	artists:= self metadata at: #Artist. 
+	label := (label , self getTitle, self class labelSeparator, artists asString).
 	length := self getLengthInMinutes ifNil: [''].
-	label := label , self getTitle, ' ', length.
+	length ~= ''
+		ifTrue: [label := label, self class labelSeparator, length].
 	^ label

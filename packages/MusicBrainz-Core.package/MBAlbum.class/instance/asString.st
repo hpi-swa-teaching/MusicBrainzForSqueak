@@ -1,10 +1,7 @@
 accessing
 asString
 	| label |
-	label:= ''.
-	self hasEssentialMetadata 
-		ifFalse: [label:= '(!) '].
-	label := label, self getTitle.
+	label := self getTitle.
 	self getArtists
-		ifNotEmpty: [label := label , ' - ' , self getArtists asCommaString].
+		ifNotEmpty: [label := label, self class labelSeparator, self getArtists asCommaString].
 	^ label

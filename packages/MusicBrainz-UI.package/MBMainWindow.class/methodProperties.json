@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"albums" : "tm 6/28/2016 18:25",
-		"buildAlbumTreeView" : "tm 7/16/2016 18:42",
+		"buildAlbumTreeView" : "JR 7/25/2016 17:17",
 		"buildCoverView" : "mv 6/14/2016 14:48",
 		"buildEditMetadataButton" : "tm 6/25/2016 15:16",
 		"buildHeaderViews" : "mv 7/8/2016 10:51",
@@ -49,6 +49,7 @@
 		"selectedEntity:" : "tm 6/28/2016 18:13",
 		"selectedMetadata" : "tm 6/25/2016 15:25",
 		"selectedMetadata:" : "tm 6/25/2016 15:25",
+		"setIcon:" : "JR 7/25/2016 17:17",
 		"toggleImportWindow" : "tm 6/28/2016 18:06",
 		"toggleMenuList" : "mv 7/10/2016 12:34",
 		"toggleMetadataWindow" : "tm 6/28/2016 18:06",
