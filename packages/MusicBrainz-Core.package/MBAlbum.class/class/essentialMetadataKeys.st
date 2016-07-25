@@ -1,3 +1,3 @@
 accessing
 essentialMetadataKeys
-	^ #(#Artist #Year #Title #Label)
+	^ #(#Artist #Year #Title)
