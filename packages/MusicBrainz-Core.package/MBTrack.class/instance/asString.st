@@ -1,9 +1,10 @@
 accessing
 asString
-	| label length artists |
+	| label length |
 	label := self addTracknumber.
-	artists:= self metadata at: #Artist. 
-	label := (label , self getTitle, self class labelSeparator, artists asString).
+	label := label , self getTitle.
+	self getArtists ~= self albumEntity getArtists
+		ifTrue: [label := label, self class labelSeparator, self getArtists asCommaString].
 	length := self getLengthInMinutes ifNil: [''].
 	length ~= ''
 		ifTrue: [label := label, self class labelSeparator, length].
