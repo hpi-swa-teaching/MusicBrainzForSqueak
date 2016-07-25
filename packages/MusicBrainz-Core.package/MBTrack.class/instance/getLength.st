@@ -1,3 +1,3 @@
 accessing
 getLength
-	^ self metadata at: #Length ifAbsent: [nil]
+	^ self metadata at: #Length ifAbsent: [^ nil]

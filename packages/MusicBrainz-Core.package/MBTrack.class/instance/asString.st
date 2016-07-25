@@ -1,8 +1,9 @@
 accessing
 asString
-	| label |
+	| label length |
 	label := self addTracknumber.
 	self hasEssentialMetadata
 		ifFalse: [label := label , '(!) '].
-	label := label , self getTitle.
+	length := self getLength ifNil: [''].
+	label := label , self getTitle, ' ', length.
 	^ label

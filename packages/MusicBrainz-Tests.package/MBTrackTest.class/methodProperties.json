@@ -10,7 +10,6 @@
 		"testFindMBID" : "mv 6/25/2016 12:30",
 		"testGetArtists" : "mv 6/4/2016 17:13",
 		"testGetLength" : "mv 5/24/2016 19:49",
-		"testGetLengthInMinutes" : "mv 5/24/2016 19:56",
 		"testGetTitle" : "mv 6/4/2016 17:14",
 		"testIsMP3" : "mv 6/25/2016 12:19",
 		"testLoadArtistsFromMB" : "mv 6/4/2016 15:47",
