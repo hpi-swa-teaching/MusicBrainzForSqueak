@@ -1,4 +1,4 @@
 accessing
 getAllMBIDs
 
-self tracks do: [:each | each findMBID]
+	self tracks do: [:each | each findMBID]

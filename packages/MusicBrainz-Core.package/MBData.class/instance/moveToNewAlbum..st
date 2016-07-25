@@ -1,6 +1,6 @@
 accessing
 moveToNewAlbum: aMBTrack
-"The metadata at Album should already be changed to new value, but albumentity not"
+"The metadata at Album should already be changed to new value, but albumentity shouldn't"
 	| oldAlbum |
 	oldAlbum := aMBTrack albumEntity.
 	oldAlbum tracklist remove: aMBTrack ifAbsent:[].
