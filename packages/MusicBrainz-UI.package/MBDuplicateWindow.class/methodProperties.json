@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"labelForWindow" : "JR 7/25/2016 18:14",
+		"openFrom:" : "JR 7/25/2016 18:01" },
+	"instance" : {
+		"buildDeleteButton" : "JR 7/25/2016 18:06",
+		"buildListView" : "JR 7/25/2016 19:52",
+		"buildWindow" : "JR 7/25/2016 18:13",
+		"buildWith:" : "JR 7/25/2016 18:04",
+		"closeButton" : "JR 7/25/2016 19:37",
+		"deleteSelectedTracks" : "JR 7/25/2016 20:02",
+		"duplicates" : "JR 7/25/2016 19:53",
+		"duplicates:" : "JR 7/25/2016 19:51",
+		"selectedEntitiesToDelete" : "JR 7/25/2016 19:32",
+		"selectedEntitiesToDelete:" : "JR 7/25/2016 19:30",
+		"selectedEntitiesToDeleteAt:" : "JR 7/25/2016 19:34",
+		"selectedEntitiesToDeleteAt:Put:" : "JR 7/25/2016 19:36" } }

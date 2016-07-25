@@ -6,6 +6,7 @@ toggleMenuList
 		add:  'Save library';
 		add: 'Delete library';
 		add: 'Import new files';
+		add: 'Filter duplicates';
 		add: 'Settings...';
 		add: 'Currently cached: ', MBRequestCache countURLsinCache;
 		add: 'Clear cache'.
@@ -14,7 +15,8 @@ toggleMenuList
 		add: [self data saveLibrary];
 		add: [self data deleteLibrary];
 		add: [self toggleImportWindow];
+		add: [MBDuplicateWindow openFrom: self];
 		add: [MBSettingsWindow openFrom: self];
 		add: [];
 		add: [MBRequestCache clearCache].
-	(UIManager default chooseFrom: menuLabels values: menuValues lines: #(3 4 5)) value.
+	(UIManager default chooseFrom: menuLabels values: menuValues lines: #(3 6)) value.

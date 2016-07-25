@@ -1,0 +1,15 @@
+{
+	"category" : "MusicBrainz-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedEntitiesToDelete",
+		"duplicates" ],
+	"name" : "MBDuplicateWindow",
+	"pools" : [
+		 ],
+	"super" : "MBSubwindow",
+	"type" : "normal" }
