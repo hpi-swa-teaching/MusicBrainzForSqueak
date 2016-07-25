@@ -1,4 +1,4 @@
-as yet unclassified
+writing
 overwriteFileWith: aFile
 	| buffer streamsize |
 	streamsize := self stream contents size.

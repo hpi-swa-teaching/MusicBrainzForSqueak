@@ -1,4 +1,4 @@
-as yet unclassified
+writing
 writeID3HeaderWith: aDictionary to: aFile 
 		aFile
 		nextPutAll: 'ID3';

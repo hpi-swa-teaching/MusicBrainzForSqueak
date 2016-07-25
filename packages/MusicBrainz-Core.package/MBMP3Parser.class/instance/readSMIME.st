@@ -1,4 +1,4 @@
-as yet unclassified
+parsingFrames
 readSMIME
 	|smime|
 	smime := '' , self stream next asCharacter.

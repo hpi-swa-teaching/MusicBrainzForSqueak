@@ -1,6 +1,7 @@
 parsing
 parseFrames
-	[| tag frameSize |
+	[self framesFinished]
+		whileFalse:  [| tag frameSize |
 	tag := self nextFrameTag.
 	frameSize := self getFrameSize.
 	"Skip Flags"
@@ -10,4 +11,3 @@ parseFrames
 		ifFalse: [tag = 'APIC'
 				ifTrue: [self readAPIC: frameSize]
 				ifFalse: [self skipBytes: frameSize]]]
-		doWhileFalse: [self framesFinished]

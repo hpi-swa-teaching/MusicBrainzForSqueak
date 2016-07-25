@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 prepareFile
 	self seekID3.
 	self validVersion

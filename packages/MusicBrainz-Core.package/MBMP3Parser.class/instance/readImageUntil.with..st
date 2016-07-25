@@ -1,4 +1,4 @@
-as yet unclassified
+parsingFrames
 readImageUntil: aPosition with: aString
 
 	| imagestream |

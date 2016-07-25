@@ -1,4 +1,4 @@
-as yet unclassified
+writing
 cleanUp: aFile
 self stream close.
 	aFile close.

@@ -1,4 +1,4 @@
-as yet unclassified
+parsingFrames
 setMetadataFor: aSymbol with: aCollection
 
 	| label |

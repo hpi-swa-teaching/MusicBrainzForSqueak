@@ -1,4 +1,4 @@
-as yet unclassified
+writing
 createUpdatedFramesFrom: aDictionary 
 	| newFrames |
 	newFrames := self copyUnchangedFrames: aDictionary.
