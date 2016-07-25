@@ -4,6 +4,6 @@ asString
 	label := self addTracknumber.
 	self hasEssentialMetadata
 		ifFalse: [label := label , '(!) '].
-	length := self getLength ifNil: [''].
+	length := self getLengthInMinutes ifNil: [''].
 	label := label , self getTitle, ' ', length.
 	^ label
