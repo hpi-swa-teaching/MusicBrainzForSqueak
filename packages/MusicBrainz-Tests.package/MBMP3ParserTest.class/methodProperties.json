@@ -17,7 +17,6 @@
 		"testCreateTextFrameWith" : "nt 6/22/2016 18:11",
 		"testGetFrameSize" : "nt 6/22/2016 17:30",
 		"testNextFrameTag" : "nt 6/22/2016 17:26",
-		"testParseAudio" : "pb 6/25/2016 15:31",
 		"testSeekID3" : "nt 6/22/2016 16:51",
 		"testSetID3Size" : "nt 6/22/2016 17:01",
 		"testSkipBytes" : "nt 7/13/2016 13:39",
