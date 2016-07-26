@@ -1,4 +1,5 @@
 accessing
 getLengthInMinutes
-	self getLength ifNil: [^ ''].
-	^ (self convertMillisecToMinutes: self getLength)
+	self getLength
+		ifNil: [^ nil]
+		ifNotNilDo: [:length | ^ (self convertMillisecToMinutes: length)]

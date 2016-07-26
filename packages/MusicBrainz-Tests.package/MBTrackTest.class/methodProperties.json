@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mv 6/25/2016 12:23",
+		"setUp" : "mv 7/26/2016 12:01",
 		"testAlbumEntity" : "tm 7/3/2016 14:49",
-		"testAsString" : "JR 7/25/2016 17:21",
+		"testAsString" : "mv 7/26/2016 12:04",
 		"testAvailableMetadata" : "mv 7/3/2016 13:23",
 		"testConvertMilliSecToMinutes" : "mv 6/25/2016 12:23",
 		"testFindMBID" : "mv 6/25/2016 12:30",

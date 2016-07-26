@@ -8,7 +8,7 @@ updateMetadataIn: aMBEntity set: aLabel to: aValue
 	(aValue = '')
 		ifTrue: [aMBEntity metadata removeKey: aLabel ifAbsent: []].
 	
-	(aLabel = 'Album' and: aMBEntity isTrack)
+	(aLabel = #'Album' and: aMBEntity isTrack)
 		ifTrue: [self moveToNewAlbum: aMBEntity].
 		
 	(aMBEntity isAlbum and: (valuesToAdoptInTracks includes: aLabel))
@@ -16,6 +16,4 @@ updateMetadataIn: aMBEntity set: aLabel to: aValue
 			aMBEntity tracklist do: [:each | 
 				(aLabel = #'Title')
 					ifTrue: [	each metadata at: #'Album' put: aValue]
-					ifFalse: [self updateMetadataIn: each set: aLabel to: aValue]
-				]			
-			].
+					ifFalse: [self updateMetadataIn: each set: aLabel to: aValue]	]].
