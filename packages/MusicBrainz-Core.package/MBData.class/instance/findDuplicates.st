@@ -4,7 +4,7 @@ findDuplicates
 	| tracks duplicates currentTrack duplicatesForTrack |
 	tracks := self tracks.
 	duplicates := OrderedCollection new.
-	[tracks size > 0]
+	[tracks isEmpty not]
 		whileTrue: [
 			currentTrack := tracks first.
 			duplicatesForTrack := tracks select: [:each | self compareTrack: each with: currentTrack].
