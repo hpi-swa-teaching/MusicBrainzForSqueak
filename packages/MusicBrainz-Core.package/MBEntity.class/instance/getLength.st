@@ -1,4 +1,4 @@
-loadFromMB
+accessing
 getLength 
 
 	^ self subclassResponsibility
