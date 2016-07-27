@@ -7,6 +7,7 @@
 		"setUp" : "mv 6/4/2016 14:55",
 		"testAsString" : "JR 7/25/2016 17:20",
 		"testAvailableMetadata" : "mv 7/3/2016 13:24",
+		"testEssentialMetadataKeys" : "tm 7/27/2016 13:16",
 		"testFindMBID" : "mv 6/25/2016 12:32",
 		"testGetArtists" : "mv 6/4/2016 17:11",
 		"testGetCover" : "mv 6/4/2016 17:15",

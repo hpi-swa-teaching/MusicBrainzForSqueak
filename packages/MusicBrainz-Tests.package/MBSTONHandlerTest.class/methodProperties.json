@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mv 5/26/2016 10:12",
-		"testLoadFromLocalSTON" : "mv 7/12/2016 11:00",
-		"testPath" : "TM 5/31/2016 21:09",
-		"testSaveSTONOf" : "mv 7/12/2016 11:00",
-		"testWriteAndRead" : "tm 6/1/2016 22:46" } }
+		"testDeleteLibraryFromDisk" : "tm 7/27/2016 14:08",
+		"testLoadFromFile" : "tm 7/27/2016 13:55",
+		"testLoadLibraryFromDisk" : "tm 7/27/2016 13:58",
+		"testLoadSettingsFromDisk" : "tm 7/27/2016 13:59",
+		"testPath" : "tm 7/27/2016 13:41",
+		"testSaveLibraryToDisk" : "tm 7/27/2016 13:50",
+		"testSaveSettingsToDisk" : "tm 7/27/2016 13:51",
+		"testSaveToFile" : "tm 7/27/2016 13:53" } }

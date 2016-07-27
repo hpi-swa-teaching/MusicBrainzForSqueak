@@ -1,6 +1,10 @@
 as yet unclassified
 testPath
-	self
-		assert: (MBSTONHandler path) class superclass
-		equals: FileDirectory
-		description: 'Returned value is not a FileDirectory'
+	| fileDirectory |
+	fileDirectory := MBSTONHandler path.
+	self 
+		assert: fileDirectory class superclass
+		equals: FileDirectory;
+		
+		assert: fileDirectory fullName
+		equals: Smalltalk imagePath, '\albums'
