@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"errorIcon" : "pb 7/27/2016 14:47",
-		"pauseIcon" : "pb 7/27/2016 14:49",
-		"playIcon" : "pb 7/27/2016 14:50" },
+		"errorIcon" : "tm 7/27/2016 19:40",
+		"pauseIcon" : "tm 7/27/2016 19:40",
+		"playIcon" : "tm 7/27/2016 19:39" },
 	"instance" : {
 		"albums" : "tm 6/28/2016 18:25",
 		"buildAlbumTreeView" : "JR 7/25/2016 17:17",

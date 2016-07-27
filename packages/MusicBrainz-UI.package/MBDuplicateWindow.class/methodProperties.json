@@ -7,10 +7,11 @@
 		"buildListView" : "JR 7/25/2016 19:52",
 		"buildWindow" : "tm 7/27/2016 16:01",
 		"buildWith:" : "JR 7/25/2016 18:04",
-		"deleteSelectedTracks" : "tm 7/27/2016 16:02",
+		"deleteSelectedTracks" : "tm 7/27/2016 19:42",
 		"duplicates" : "JR 7/25/2016 19:53",
 		"duplicates:" : "JR 7/25/2016 19:51",
-		"selectedEntitiesToDelete" : "JR 7/25/2016 19:32",
+		"selectedEntitiesToDelete" : "tm 7/27/2016 19:41",
 		"selectedEntitiesToDelete:" : "JR 7/25/2016 19:30",
 		"selectedEntitiesToDeleteAt:" : "JR 7/25/2016 19:34",
-		"selectedEntitiesToDeleteAt:Put:" : "JR 7/25/2016 19:36" } }
+		"selectedEntitiesToDeleteAt:Put:" : "JR 7/25/2016 19:36",
+		"updateViews" : "tm 7/27/2016 19:41" } }
