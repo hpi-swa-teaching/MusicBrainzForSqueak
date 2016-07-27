@@ -6,8 +6,7 @@ getFrontcoverFor: aString size: anotherString
 	anotherString = #small
 		ifTrue: [requestURL := requestURL , '/front-250']
 		ifFalse: [requestURL := requestURL , '/front-500'].
-	resp := (WebClient) new httpGet: requestURL.
-	resp isSuccess
-		ifFalse: [^ MBRequest defaultCoverSized: anotherString].
+	resp := WebClient new httpGet: requestURL.
+	resp isSuccess ifFalse: [^ MBRequest defaultCoverSized: anotherString].
 	stream := RWBinaryOrTextStream with: resp content.
 	^ JPEGReadWriter2 formFromStream: stream
