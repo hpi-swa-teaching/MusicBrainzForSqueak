@@ -6,6 +6,6 @@ testGetMetadataImage
 		selectedEntity: MBMockData mockAlbum;
 	 	getMetadataImage.
 	self 
-		assert: musicBrainz model getMetadataImage class = MBMainWindow;
-		assert: musicBrainz model coverView morphClass = ImageMorph.
+		assert: MBMainWindow equals: musicBrainz model getMetadataImage class;
+		assert: ImageMorph equals: musicBrainz model coverView morphClass.
 	musicBrainz delete.

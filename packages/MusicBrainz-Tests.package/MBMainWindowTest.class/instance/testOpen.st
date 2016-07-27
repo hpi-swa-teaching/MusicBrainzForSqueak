@@ -2,5 +2,5 @@ as yet unclassified
 testOpen
 	| window |
 	window := MBMainWindow open.
-	self assert: window class = PluggableSystemWindow.
+	self assert: PluggableSystemWindow equals: window class.
 	window delete.

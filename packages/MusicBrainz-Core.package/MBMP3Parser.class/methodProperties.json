@@ -14,7 +14,6 @@
 		"deleteNullBytesFrom:" : "tm 6/16/2016 08:39",
 		"framesFinished" : "tm 7/12/2016 18:01",
 		"getFrameSize" : "pb 6/4/2016 12:47",
-		"getPictureLength" : "nt 7/27/2016 15:40",
 		"getTempFile" : "pb 6/25/2016 12:44",
 		"id3size" : "pb 5/28/2016 17:18",
 		"id3size:" : "pb 5/28/2016 17:19",
@@ -33,7 +32,6 @@
 		"setID3Size" : "pb 6/4/2016 12:46",
 		"setMetadataFor:with:" : "nt 7/27/2016 15:00",
 		"skipBytes:" : "nt 7/12/2016 18:04",
-		"skipType" : "nt 7/27/2016 15:33",
 		"validVersion" : "nt 7/14/2016 10:27",
 		"writeID3HeaderWith:to:" : "nt 7/15/2016 14:01",
 		"writeMetadata:" : "nt 7/25/2016 15:59" } }

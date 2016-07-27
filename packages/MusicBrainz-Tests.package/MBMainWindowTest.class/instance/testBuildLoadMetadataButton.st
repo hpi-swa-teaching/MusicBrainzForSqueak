@@ -4,8 +4,8 @@ testBuildLoadMetadataButton
 	self mainWindow builder: MorphicToolBuilder new.
 	buttonSpec := self mainWindow buildLoadMetadataButton.
 	self 
-		assert: buttonSpec class = PluggableButtonSpec;
-		assert: buttonSpec model class = MBMainWindow;
-		assert: buttonSpec frame = (0.65@0.95 corner: 0.85@1);
-		assert: buttonSpec label = 'Load Metadata from MusicBrainz';
-		assert: buttonSpec action = 'loadMetadataFromMB'
+		assert: PluggableButtonSpec equals: buttonSpec class;
+		assert: MBMainWindow equals: buttonSpec model class;
+		assert: (0.65@0.95 corner: 0.85@1) equals: buttonSpec frame;
+		assert: 'Load Metadata from MusicBrainz' equals: buttonSpec label;
+		assert: 'loadMetadataFromMB' equals: buttonSpec action

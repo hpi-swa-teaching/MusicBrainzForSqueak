@@ -1,4 +1,3 @@
 as yet unclassified
 testGetEntityName
-	self assert: (self mainWindow getEntityName: MBMockData mockAlbum)
-			= 'Epsilon - Kygo'
+	self assert: 'Epsilon - Kygo' equals: (self mainWindow getEntityName: MBMockData mockAlbum)

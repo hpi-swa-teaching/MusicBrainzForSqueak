@@ -6,6 +6,7 @@
 		"getBigEndianInteger" : "pb 6/7/2016 18:25",
 		"getLittleEndianInteger" : "pb 6/7/2016 00:03",
 		"getNumberOfComments" : "nt 7/27/2016 15:08",
+		"getPictureLength" : "nt 7/27/2016 17:05",
 		"getUTF8StringSized:" : "pb 6/25/2016 12:50",
 		"parseAudio" : "nt 7/27/2016 15:14",
 		"parsePictureBlock" : "nt 7/27/2016 16:30",
@@ -13,5 +14,6 @@
 		"processBlockOfType:of:" : "nt 7/27/2016 16:30",
 		"seekFLAC" : "nt 7/27/2016 16:40",
 		"seekParseableBlocks" : "nt 7/27/2016 14:38",
+		"skipType" : "nt 7/27/2016 17:05",
 		"skipVendorComments" : "nt 7/27/2016 15:06",
 		"underStandsKey:" : "mv 6/18/2016 11:34" } }

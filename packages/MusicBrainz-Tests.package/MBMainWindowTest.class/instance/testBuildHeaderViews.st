@@ -4,15 +4,14 @@ testBuildHeaderViews
 	self mainWindow builder: MorphicToolBuilder new.
 	headerViews := self mainWindow buildHeaderViews.
 	self 
-		assert: headerViews class = OrderedCollection;
-		assert: headerViews first class = PluggableButtonSpec;
-		assert: headerViews first model class = MBMainWindow;
-		assert: headerViews first frame = (0.2@0 corner: 0.65@0.05);
-		assert: headerViews first label = 'labelTextForAlbumTree';
-		assert: headerViews first enabled = false;
-		
-		assert: headerViews second class = PluggableButtonSpec;
-		assert: headerViews second model class = MBMainWindow;
-		assert: headerViews second frame = (0.65@0 corner: 1@0.05);
-		assert: headerViews second label = 'labelTextForCoverView';
-		assert: headerViews second enabled = false
+		assert: OrderedCollection equals: headerViews class;
+		assert: PluggableButtonSpec equals: headerViews first class;
+		assert: MBMainWindow equals: headerViews first model class;
+		assert: (0.2@0 corner: 0.65@0.05) equals: headerViews first frame;
+		assert: 'labelTextForAlbumTree' equals: headerViews first label;
+		assert: false equals: headerViews first enabled;
+		assert: PluggableButtonSpec equals: headerViews second class;
+		assert: MBMainWindow equals: headerViews second model class;
+		assert: (0.65@0 corner: 1@0.05) equals: headerViews second frame;
+		assert: 'labelTextForCoverView' equals: headerViews second label;
+		assert: false equals: headerViews second enabled

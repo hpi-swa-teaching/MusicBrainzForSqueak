@@ -4,8 +4,8 @@ testBuildWindow
 	self mainWindow builder: MorphicToolBuilder new.
 	windowSpec := self mainWindow buildWindow.
 	self 
-		assert: windowSpec class = PluggableWindowSpec;
-		assert: windowSpec model class = MBMainWindow;
-		assert: windowSpec extent = (763@512);
-		assert: windowSpec label = 'MusicBrainz';
-		assert: windowSpec children = OrderedCollection new
+		assert: PluggableWindowSpec equals: windowSpec class;
+		assert: MBMainWindow equals: windowSpec model class;
+		assert: (763@512) equals: windowSpec extent;
+		assert: 'MusicBrainz' equals: windowSpec label;
+		assert: OrderedCollection new equals: windowSpec children
