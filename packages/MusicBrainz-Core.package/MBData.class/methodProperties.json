@@ -3,7 +3,7 @@
 		"labelsToAdoptInTracks" : "mv 7/27/2016 10:40" },
 	"instance" : {
 		"addFile:" : "mv 7/25/2016 22:10",
-		"addNewAlbumFor:" : "mv 7/27/2016 10:30",
+		"addNewAlbumFor:" : "mv 7/27/2016 19:25",
 		"addTrack:" : "mv 7/27/2016 10:12",
 		"addTrackToExistingAlbum:" : "mv 7/27/2016 10:23",
 		"addTrackToUnknownAlbum:" : "mv 7/27/2016 10:16",
@@ -14,7 +14,7 @@
 		"compareTrack:with:" : "mv 7/25/2016 22:13",
 		"copyMetadataFrom:to:" : "mv 7/27/2016 10:31",
 		"deleteLibrary" : "mv 7/25/2016 22:14",
-		"doesAlreadyExist:" : "tm 7/27/2016 12:24",
+		"doesAlreadyExist:" : "mv 7/27/2016 19:29",
 		"findDuplicates" : "mv 7/27/2016 11:14",
 		"getAllMBIDs" : "mv 7/27/2016 11:14",
 		"getCurrentSettings" : "mv 7/27/2016 11:04",

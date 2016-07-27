@@ -5,6 +5,6 @@ testGetTracklistForAlbum
 		equals: OrderedCollection
 		description: 'getTracklistForAlbum should return an OrderedCollection'.
 	self
-		assert: (((self data getTracklistForAlbum: MBMockData mockAlbum) first) metadata at: #Title)
-		equals: 'Epsilon - Original Remix'
-		description: ''
+		assert: (((self data getTracklistForAlbum: MBMockData mockAlbum) first) class)
+		equals: MBTrack 
+		description: 'Elements in album tracklist should be a MBTrack'

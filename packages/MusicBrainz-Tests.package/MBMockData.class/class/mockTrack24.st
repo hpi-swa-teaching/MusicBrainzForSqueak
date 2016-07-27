@@ -7,5 +7,5 @@ mockTrack24
                                at: #Title put: 'Wasting My Young Years';
                                at: #Album put: 'If You Wait';
                                at: #Artist put: 'London Grammar'.
-		    track filepath: 'C:/Users/Benutzer/test.mp3'.
+		    track filepath: 'C:/Users/Benutzer/test24.mp3'.
                 ^ track

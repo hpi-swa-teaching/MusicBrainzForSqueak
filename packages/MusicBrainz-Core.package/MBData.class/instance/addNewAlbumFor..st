@@ -5,4 +5,5 @@ addNewAlbumFor: aMBTrack
 	newAlbum := MBAlbum new.
 	self setReferencesIn: newAlbum containing: aMBTrack.
 	self copyMetadataFrom: aMBTrack to: newAlbum.
-	self albums add: newAlbum
+	self albums add: newAlbum.
+	^ newAlbum

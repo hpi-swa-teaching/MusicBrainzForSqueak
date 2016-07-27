@@ -7,5 +7,5 @@ mockTrack22
                                at: #Title put: 'Stay Awake';
                                at: #Album put: 'If You Wait';
                                at: #Artist put: 'London Grammar'.
-		    track filepath: 'C:/Users/Benutzer/test.mp3'.
+		    track filepath: 'C:/Users/Benutzer/test22.mp3'.
                 ^ track

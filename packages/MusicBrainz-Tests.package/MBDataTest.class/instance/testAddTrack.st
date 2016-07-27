@@ -5,5 +5,6 @@ testAddTrack
 	self data addTrack: newTrack.
 	self
 		assert: (self data albums
-				do: [:album | album tracklist
-						do: [:track | ^ track filepath = MBMockData mockTrack filepath]])
+					anySatisfy: [:album | album tracklist
+						anySatisfy: [:track | track filepath = MBMockData mockTrack filepath]])
+		description: 'New track is not in any album'.
