@@ -1,5 +1,9 @@
 {
 	"class" : {
+		"labelForResetButton" : "JR 7/27/2016 14:03",
+		"labelForResetToDefaultButton" : "JR 7/27/2016 14:07",
+		"labelForSaveButton" : "JR 7/27/2016 13:58",
+		"labelForSettingsWindow" : "JR 7/27/2016 14:10",
 		"openFrom:" : "mv 7/12/2016 12:25" },
 	"instance" : {
 		"autoloadCheckboxState" : "mv 7/12/2016 12:19",
@@ -7,9 +11,9 @@
 		"buildAcceptButton" : "mv 7/10/2016 11:51",
 		"buildInputFields" : "mv 7/12/2016 12:36",
 		"buildLabelFields" : "mv 7/10/2016 12:33",
-		"buildResetButton" : "mv 7/12/2016 12:46",
-		"buildResetToDefaultButton" : "mv 7/12/2016 12:46",
-		"buildWindow" : "mv 7/8/2016 11:29",
+		"buildResetButton" : "JR 7/27/2016 14:03",
+		"buildResetToDefaultButton" : "JR 7/27/2016 14:06",
+		"buildWindow" : "JR 7/27/2016 14:11",
 		"buildWith:" : "mv 7/12/2016 12:47",
 		"labelForAutoload" : "mv 7/12/2016 12:17",
 		"labelWidth" : "mv 7/8/2016 11:59",

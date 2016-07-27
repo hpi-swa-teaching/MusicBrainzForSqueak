@@ -5,5 +5,5 @@ buildWindow
 	^ windowSpec 
 		model: self;
 		extent: 400@400;
-		label: 'Settings';
+		label: self class labelForSettingsWindow;
 		children: OrderedCollection new

@@ -1,9 +1,9 @@
 as yet unclassified
 buildResetButton
-	|  acceptButtonSpec |
-	acceptButtonSpec := self builder pluggableButtonSpec new.
-	^ acceptButtonSpec 
+	|  resetButtonSpec |
+	resetButtonSpec := self builder pluggableButtonSpec new.
+	^ resetButtonSpec 
 		model: self;
 		frame: (0@0.95 corner: 0.5@1);
-		label: 'Reset';
+		label: self class labelForResetButton;
 		action: #resetSettings
