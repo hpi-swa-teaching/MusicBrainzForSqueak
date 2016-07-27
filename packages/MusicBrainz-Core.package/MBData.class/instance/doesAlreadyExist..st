@@ -4,5 +4,5 @@ doesAlreadyExist: aFile
 		do: [:album |
 			album tracklist
 				detect: [:track |	track filepath = aFile fullName]
-				ifFound: [^ true]].
-	^ false
+				ifFound: [^ true]
+				ifNone: [ ^ false] ].
