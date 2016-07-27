@@ -7,6 +7,6 @@ testBuildEditMetadataButton
 		assert: PluggableButtonSpec equals: buttonSpec class;
 		assert: MBMainWindow equals: buttonSpec model class;
 		assert: (0.85@0.95 corner: 1@1) equals: buttonSpec frame;
-		assert: 'Edit Metadata' equals: buttonSpec label;
+		assert: MBMainWindow labelForEditMetadataButton equals: buttonSpec label;
 		assert: 'isAlbumOrTrackSelected' equals: buttonSpec enabled;
 		assert: 'toggleMetadataWindow' equals: buttonSpec action

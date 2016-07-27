@@ -7,5 +7,5 @@ testBuildWindow
 		assert: PluggableWindowSpec equals: windowSpec class;
 		assert: MBMainWindow equals: windowSpec model class;
 		assert: (763@512) equals: windowSpec extent;
-		assert: 'MusicBrainz' equals: windowSpec label;
+		assert: MBMainWindow labelForWindow equals: windowSpec label;
 		assert: OrderedCollection new equals: windowSpec children

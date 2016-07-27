@@ -1,0 +1,3 @@
+icons
+labelForMenuButton
+	^ 'Menu'

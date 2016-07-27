@@ -5,6 +5,6 @@ buildOpenMBIDButton
 	^ buttonSpec
 		model: self;
 		frame: (0.4@0.95 corner: 0.525@1);
-		label: 'Open in Browser';
+		label: self class labelForOpenMBIDButton;
 		enabled: #isAlbumOrTrackSelected;
 		action: #openMBIDinBrower

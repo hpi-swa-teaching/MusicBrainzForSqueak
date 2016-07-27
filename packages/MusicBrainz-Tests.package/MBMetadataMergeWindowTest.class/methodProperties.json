@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mainWindow" : "JR 7/27/2016 17:01",
+		"mainWindow:" : "JR 7/27/2016 17:01",
+		"metadataMergeWindow" : "JR 7/27/2016 17:01",
+		"metadataMergeWindow:" : "JR 7/27/2016 17:01",
+		"selectedEntity" : "JR 7/27/2016 17:59",
+		"selectedEntity:" : "JR 7/27/2016 17:59",
+		"setUp" : "JR 7/27/2016 18:15",
+		"testBuildAcceptButton" : "JR 7/27/2016 18:17",
+		"testBuildAvailableMetadataList" : "JR 7/27/2016 18:18",
+		"testBuildCancelButton" : "JR 7/27/2016 18:18",
+		"testBuildLabelMetadataList" : "JR 7/27/2016 18:18",
+		"testBuildMBMetadataList" : "JR 7/27/2016 18:18",
+		"testBuildMetadataList" : "JR 7/27/2016 18:18",
+		"testBuildWindow" : "JR 7/27/2016 18:19",
+		"testBuildWith" : "JR 7/27/2016 18:09",
+		"testClearViews" : "JR 7/27/2016 18:19",
+		"testGetLocalMetadata" : "JR 7/27/2016 19:12",
+		"testGetMBMetadata" : "JR 7/27/2016 19:11",
+		"testMetadataToMerge" : "JR 7/27/2016 21:17",
+		"testMetadataToMergeAt" : "JR 7/27/2016 21:26",
+		"testOpenFrom" : "JR 7/27/2016 18:28" } }

@@ -5,5 +5,5 @@ buildWindow
 	^ windowSpec 
 		model: self;
 		extent: 600@400;
-		label: 'Merge Metadata-Information';
+		label: self class labelForWindow;
 		children: OrderedCollection new

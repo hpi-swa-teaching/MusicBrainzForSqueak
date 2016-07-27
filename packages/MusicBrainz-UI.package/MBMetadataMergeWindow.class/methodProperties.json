@@ -1,14 +1,17 @@
 {
 	"class" : {
+		"labelForCancelButton" : "JR 7/27/2016 17:08",
+		"labelForSaveButton" : "JR 7/27/2016 17:04",
+		"labelForWindow" : "JR 7/27/2016 17:20",
 		"openFrom:" : "tm 7/3/2016 14:16" },
 	"instance" : {
-		"buildAcceptButton" : "tm 7/27/2016 16:27",
+		"buildAcceptButton" : "JR 7/27/2016 21:29",
 		"buildAvailableMetadataList" : "tm 7/27/2016 16:27",
 		"buildHeaderViews" : "mv 6/30/2016 14:55",
 		"buildLabelMetadataList" : "mv 6/30/2016 14:51",
 		"buildMBMetadataList" : "mv 6/30/2016 23:01",
 		"buildMetadataList" : "tm 7/12/2016 17:37",
-		"buildWindow" : "tm 7/27/2016 16:13",
+		"buildWindow" : "JR 7/27/2016 17:21",
 		"buildWith:" : "tm 7/27/2016 16:26",
 		"clearViews" : "tm 7/3/2016 13:56",
 		"getLocalMetadata" : "mv 6/30/2016 23:27",

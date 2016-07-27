@@ -1,0 +1,3 @@
+icons
+labelForMergeButton
+	^ 'Merge'

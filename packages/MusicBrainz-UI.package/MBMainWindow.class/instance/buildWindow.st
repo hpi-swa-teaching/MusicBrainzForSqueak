@@ -6,5 +6,5 @@ buildWindow
 		model: self;
 		extent: 763 @ 512;
 		closeAction: #closeButton;
-		label: 'MusicBrainz';
+		label: self class labelForWindow;
 		children: OrderedCollection new

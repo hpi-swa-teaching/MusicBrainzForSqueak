@@ -5,6 +5,6 @@ buildLoadMetadataButton
 	^ buttonSpec
 		model: self;
 		frame: (0.65@0.95 corner: 0.85@1);
-		label: 'Load Metadata from MusicBrainz';
+		label: self class labelForLoadMetadataButton;
 		enabled: #isAlbumOrTrackSelected;
 		action: #loadMetadataFromMB

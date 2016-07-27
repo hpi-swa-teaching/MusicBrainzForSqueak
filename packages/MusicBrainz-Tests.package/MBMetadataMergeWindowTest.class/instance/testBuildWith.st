@@ -1,5 +1,5 @@
 as yet unclassified
 testBuildWith
 	| window |
-	window := self settingsWindow buildWith: MorphicToolBuilder new.
+	window := self metadataMergeWindow buildWith: MorphicToolBuilder new.
 	self assert: window class = PluggableSystemWindow

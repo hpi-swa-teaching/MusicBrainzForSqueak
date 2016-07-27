@@ -5,6 +5,6 @@ buildEditMetadataButton
 	^ buttonSpec
 		model: self;
 		frame: (0.85@0.95 corner: 1@1);
-		label: 'Edit Metadata';
+		label: self class labelForEditMetadataButton;
 		enabled: #isAlbumOrTrackSelected;
 		action: #toggleMetadataWindow
