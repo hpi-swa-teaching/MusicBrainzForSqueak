@@ -1,4 +1,4 @@
 accessing
 isAlbumOrTrackSelected
-	^ self selectedEntity ~= nil
+	^ self selectedEntity notNil
 	

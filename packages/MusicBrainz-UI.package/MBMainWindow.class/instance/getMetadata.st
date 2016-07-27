@@ -1,8 +1,8 @@
 metadataView
 getMetadata
 	| metadata |
-	self selectedEntity = nil
-		ifTrue: [^ #()].
+	self selectedEntity 
+		ifNil: [^ #()].
 	self getMetadataImage.
 	self selectedEntity getMBID.
 	metadata := OrderedCollection new.

@@ -10,7 +10,7 @@ buildHeaderViews
 		label: #'labelTextForAlbumTree';
 		enabled: false.
 	
-	metadataButtonSpec:= self builder pluggableButtonSpec new.	
+	metadataButtonSpec := self builder pluggableButtonSpec new.	
 	metadataButtonSpec
 		model: self;
 		frame: (0.65@0 corner: 1@0.05);
