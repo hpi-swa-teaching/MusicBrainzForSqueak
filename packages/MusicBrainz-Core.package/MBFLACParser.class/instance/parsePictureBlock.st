@@ -1,21 +1,16 @@
 parsing
 parsePictureBlock
-	| type MIMELength MIME descriptionLength pictureLength imageStream|
+	| MIME imageStream |
 	imageStream := RWBinaryOrTextStream on: OrderedCollection new.
-	
-	type := self getBigEndianInteger.
-	MIMELength := self getBigEndianInteger.
-	MIME := self getUTF8StringSized: MIMELength.
-	descriptionLength := self getBigEndianInteger.
-	self stream position: self stream position + descriptionLength.
-	4 timesRepeat: [self getBigEndianInteger].
-	pictureLength := self getBigEndianInteger.
-
-	pictureLength timesRepeat: [imageStream nextPut: self stream next].
-	
-	(MIME = 'image/jpeg')
-				ifTrue: [self track cover: (JPEGReadWriter2 formFromStream: (imageStream))].
-	(MIME = 'image/png')
-				ifTrue: [self track cover: (PNGReadWriter formFromStream: (imageStream))].
-				
-			"oberen teil auslagern?"
+	self skipType.
+	MIME := self getUTF8StringSized: self getBigEndianInteger.
+	self skipBytes: self getBigEndianInteger + 16.
+	self getPictureLength
+		timesRepeat: [imageStream nextPut: self stream next].
+	"imageStream nextPutAll: (self stream next: (self getPictureLength))."
+	MIME = 'image/jpeg'
+		ifTrue: [self track
+				cover: (JPEGReadWriter2 formFromStream: imageStream)].
+	MIME = 'image/png'
+		ifTrue: [self track
+				cover: (PNGReadWriter formFromStream: imageStream)]

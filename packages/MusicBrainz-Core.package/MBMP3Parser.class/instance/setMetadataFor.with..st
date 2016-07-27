@@ -2,7 +2,7 @@ parsingFrames
 setMetadataFor: aSymbol with: aCollection
 
 	| label |
-	label := MBMP3Parser textFrames
+	label := self class textFrames
 				at: aSymbol
 				ifAbsent: [self inform: 'Included an unknown tag: T' , aSymbol.
 					('T' , aSymbol) asSymbol].

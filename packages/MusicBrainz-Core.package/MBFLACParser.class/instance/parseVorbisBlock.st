@@ -1,16 +1,8 @@
 parsing
 parseVorbisBlock
-	|vendorCommentLength numberOfComments commentLength comment|
-	vendorCommentLength := self getLittleEndianInteger.
-	self stream position: self stream position +vendorCommentLength.
-	
-	numberOfComments := self getLittleEndianInteger.
-	
-	numberOfComments timesRepeat: [
-		comment := ''.
-		commentLength := self getLittleEndianInteger.
-		comment := self getUTF8StringSized: commentLength.
-		self addCommentToTrack: comment.
-		].
-	
-"schleifenkörper auslagern?"
+	| commentLength |
+	self skipVendorComments.
+	self getNumberOfComments
+		timesRepeat: [commentLength := self getLittleEndianInteger.
+			self
+				addCommentToTrack: (self getUTF8StringSized: commentLength)]

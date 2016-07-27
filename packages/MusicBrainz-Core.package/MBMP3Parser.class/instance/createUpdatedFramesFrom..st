@@ -5,6 +5,6 @@ createUpdatedFramesFrom: aDictionary
 	aDictionary
 		keysAndValuesDo: [:aTag :aContent | newFrames
 				addAll: (self
-						createTextFrame: (MBMP3Parser textFrames keyAtValue: aTag)
+						createTextFrame: (self class textFrames keyAtValue: aTag)
 						With: aContent)].
 	^ newFrames
