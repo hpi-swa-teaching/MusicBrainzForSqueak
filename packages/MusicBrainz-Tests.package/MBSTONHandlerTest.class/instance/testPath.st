@@ -7,4 +7,4 @@ testPath
 		equals: FileDirectory;
 		
 		assert: fileDirectory fullName
-		equals: Smalltalk imagePath, '\albums'
+		equals: Smalltalk imagePath, FileDirectory slash, 'albums'

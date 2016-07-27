@@ -13,7 +13,11 @@
 		"testBuildWindow" : "JR 7/13/2016 23:15",
 		"testBuildWith" : "JR 7/13/2016 22:55",
 		"testCloseButton" : "JR 7/13/2016 23:23",
-		"testDeleteMetadata" : "JR 7/13/2016 23:26",
+		"testDeleteMetadata" : "tm 7/27/2016 14:41",
+		"testGetMetadataLabelFor" : "tm 7/27/2016 14:44",
 		"testIsMetadataSelected" : "JR 7/13/2016 23:37",
+		"testOpenFrom" : "tm 7/27/2016 14:46",
+		"testSelectedMetadata" : "tm 7/27/2016 14:32",
 		"testShowInInputField" : "JR 7/13/2016 23:39",
-		"testUpdateViews" : "JR 7/13/2016 23:09" } }
+		"testUpdateMetadata" : "tm 7/27/2016 14:37",
+		"testUpdateViews" : "tm 7/27/2016 14:38" } }

@@ -4,5 +4,5 @@ testCloseButton
 	window := MBFileSelectionWindow openFrom: MBMainWindow new.
 	window model mainWindow importWindow: window.
 	window model closeButton.
-	self assert: window model mainWindow importWindow = nil.
+	self assert: window model mainWindow importWindow isNil.
 	window delete

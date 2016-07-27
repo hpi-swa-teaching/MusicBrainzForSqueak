@@ -1,3 +1,8 @@
 as yet unclassified
 testUpdateViews
-	self assert: self metadataWindow selectedMetadata = nil
+	self metadataWindow
+		selectedMetadata: 'Title';
+		updateViews.
+	self 
+		assert: self metadataWindow selectedMetadata
+		equals: nil
