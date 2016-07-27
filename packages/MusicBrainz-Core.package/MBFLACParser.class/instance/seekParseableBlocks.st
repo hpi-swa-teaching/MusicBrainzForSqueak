@@ -1,11 +1,11 @@
 parsing
 seekParseableBlocks
-	| blockinfo length lastBlock |
+	| blockInfo length lastBlock |
 	lastBlock := false.
 	[lastBlock]
-		whileFalse: [blockinfo := self stream next.
+		whileFalse: [blockInfo := self stream next.
 			length := 0.
 			#(16 8 0 )
 				do: [:each | length := length + (self stream next << each)].
-			 self processBlockOfType: (blockinfo bitAnd: 127) of: length.
-			lastBlock := blockinfo allMask: 128]
+			 self processBlockOfType: (blockInfo bitAnd: 127) of: length.
+			lastBlock := blockInfo allMask: 128]
