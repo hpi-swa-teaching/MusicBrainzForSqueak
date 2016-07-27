@@ -1,7 +1,7 @@
 building
 setIcon: anMBEntity 
 	[anMBEntity hasEssentialMetadata
-		ifFalse: [^ UiSilkIcons errorIcon]]
+		ifFalse: [^ self class errorIcon]]
 	on: Error 
 	do: [].
 	^ nil

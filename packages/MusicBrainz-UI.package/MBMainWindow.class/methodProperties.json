@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"errorIcon" : "pb 7/27/2016 14:47",
+		"pauseIcon" : "pb 7/27/2016 14:49",
+		"playIcon" : "pb 7/27/2016 14:50" },
 	"instance" : {
 		"albums" : "tm 6/28/2016 18:25",
 		"buildAlbumTreeView" : "JR 7/25/2016 17:17",
@@ -33,7 +35,7 @@
 		"isAlbumOrTrackSelected" : "tm 6/28/2016 18:15",
 		"isNewTrackSelected" : "tm 6/28/2016 18:15",
 		"isWriteableTrackSelected" : "mv 7/8/2016 11:11",
-		"labelForPlayerButton" : "pb 7/27/2016 13:33",
+		"labelForPlayerButton" : "pb 7/27/2016 15:01",
 		"labelTextForAlbumTree" : "tm 6/19/2016 16:37",
 		"labelTextForCoverView" : "tm 6/19/2016 16:38",
 		"labelTextForImportedAlbums" : "tm 6/19/2016 16:38",
@@ -49,7 +51,7 @@
 		"selectedEntity:" : "tm 6/28/2016 18:13",
 		"selectedMetadata" : "tm 6/25/2016 15:25",
 		"selectedMetadata:" : "tm 6/25/2016 15:25",
-		"setIcon:" : "tm 7/26/2016 16:17",
+		"setIcon:" : "pb 7/27/2016 14:55",
 		"toggleImportWindow" : "tm 6/28/2016 18:06",
 		"toggleMenuList" : "JR 7/25/2016 18:12",
 		"toggleMetadataWindow" : "tm 6/28/2016 18:06",
