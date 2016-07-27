@@ -17,6 +17,5 @@ createMBIDRequestURLFor: aMBEntity
 	(aMBEntity isAlbum)
 		ifTrue: [(aMBEntity tracklist size > 0)
 		ifTrue: 	[requestURL := requestURL, 'tracks:', aMBEntity tracklist size, '+']].
-		
 	
-	^ requestURL copyFrom: 1 to: requestURL size - 1
+	^ requestURL allButLast
