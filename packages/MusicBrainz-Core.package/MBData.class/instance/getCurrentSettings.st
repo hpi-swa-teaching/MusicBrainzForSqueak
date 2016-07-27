@@ -1,5 +1,5 @@
-accessing
-defaultSettings
+settings
+getCurrentSettings
 	^ Dictionary newFrom: {
 					'Endpoint' -> MBRequest baseURL.
 					'Username' -> MBRequest username.

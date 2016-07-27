@@ -1,10 +1,9 @@
 accessing
 albums
-	albums 
-		ifNil: [
+	^ albums ifNil: [
 			| unknownAlbum |
 			self albums: OrderedCollection new.
 			unknownAlbum := MBAlbum new.
 			unknownAlbum metadata at: #Title put: 'Unknown'.
-			self albums add: unknownAlbum].
-	^ albums
+			self albums add: unknownAlbum.
+			self albums]

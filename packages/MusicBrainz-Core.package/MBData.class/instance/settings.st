@@ -1,3 +1,3 @@
 accessing
 settings
-	^ settings ifNil: [^ self class defaultSettings]
+	^ settings ifNil: [self getCurrentSettings]

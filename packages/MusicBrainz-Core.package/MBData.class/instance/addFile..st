@@ -1,4 +1,4 @@
-accessing
+file handling
 addFile: aFile
 	| parser |
 	(self doesAlreadyExist: aFile)

@@ -1,4 +1,4 @@
-accessing
+file handling
 importFiles: aFileCollection
 	| progressBar  |
 	progressBar := ProgressMorph new openInWorld label: 'Processing: Import'.

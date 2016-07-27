@@ -1,7 +1,8 @@
-accessing
+file handling
 doesAlreadyExist: aFile 
 	self albums
-		do: [:album | album tracklist
-				do: [:track | track filepath = aFile fullName
-						ifTrue: [^ true]]].
+		do: [:album |
+			album tracklist
+				detect: [:track |	track filepath = aFile fullName]
+				ifFound: [^ true]].
 	^ false

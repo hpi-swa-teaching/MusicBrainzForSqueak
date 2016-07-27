@@ -1,5 +1,5 @@
-accessing
-getTracklistForAlbum: anObject
-	(anObject isAlbum) 
-		ifTrue: [^ self sortTracklistFor: anObject]
+metadata-management
+getTracklistForAlbum: aMBAlbum
+	(aMBAlbum isAlbum) 
+		ifTrue: [^ self sortTracklistFor: aMBAlbum]
 		ifFalse: [^ OrderedCollection new]

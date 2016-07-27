@@ -1,19 +1,10 @@
-accessing
+metadata-management
 updateMetadataIn: aMBEntity set: aLabel to: aValue
 
-	| valuesToAdoptInTracks |
-	valuesToAdoptInTracks := #(#'Genre' #'Label' #'Year' #'Title') asOrderedCollection.
 	aMBEntity metadata at: aLabel put: aValue.
-	
 	(aValue = '')
 		ifTrue: [aMBEntity metadata removeKey: aLabel ifAbsent: []].
-	
-	(aLabel = #'Album' and: aMBEntity isTrack)
+	(aMBEntity isTrack and: aLabel = #'Album')
 		ifTrue: [self moveToNewAlbum: aMBEntity].
-		
-	(aMBEntity isAlbum and: (valuesToAdoptInTracks includes: aLabel))
-		ifTrue: [
-			aMBEntity tracklist do: [:each | 
-				(aLabel = #'Title')
-					ifTrue: [	each metadata at: #'Album' put: aValue]
-					ifFalse: [self updateMetadataIn: each set: aLabel to: aValue]	]].
+	(aMBEntity isAlbum and: (self class labelsToAdoptInTracks includes: aLabel))
+		ifTrue: [self updateMetadataInContainedTracksOf: aMBEntity set: aLabel to: aValue]

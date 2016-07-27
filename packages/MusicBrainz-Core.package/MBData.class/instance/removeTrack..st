@@ -1,4 +1,4 @@
-accessing
+track handling
 removeTrack: anMBTrack 
 	| album |
 	album := anMBTrack albumEntity.

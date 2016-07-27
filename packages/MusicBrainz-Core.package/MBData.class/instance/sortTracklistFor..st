@@ -1,10 +1,8 @@
-accessing
-sortTracklistFor: anObject 
+metadata-management
+sortTracklistFor: aMBAlbum 
 	| tracks |
-	tracks := anObject tracklist.
-	[tracks
-		sort: [:aTrack :anotherTrack |
+	tracks := aMBAlbum tracklist.
+	^ [tracks sort: [:aTrack :anotherTrack |
 			(aTrack metadata at: #'Track Number') asInteger < (anotherTrack metadata at: #'Track Number') asInteger]]
 		on: Error
-		do: [].
-	^ tracks
+		do: [aMBAlbum tracklist]

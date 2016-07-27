@@ -1,4 +1,3 @@
-accessing
+metadata-management
 loadMetadataFromMBFor: aMBEntity
-	aMBEntity ifNil: [^ nil].
-	aMBEntity loadMetadataFromMB
+	aMBEntity ifNotNilDo: [:entity | entity loadMetadataFromMB]

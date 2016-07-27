@@ -1,4 +1,4 @@
-accessing
+metadata-management
 getAllMBIDs
 
-	self tracks do: [:each | each findMBID]
+	self collectAllTracks do: [:each | each findMBID]

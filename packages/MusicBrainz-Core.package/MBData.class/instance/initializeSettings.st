@@ -5,4 +5,4 @@ initializeSettings
 			self settings: savedSettings.
 			self applySettings]
 		ifNil: [
-			self settings: self class defaultSettings].
+			self settings: self getCurrentSettings].

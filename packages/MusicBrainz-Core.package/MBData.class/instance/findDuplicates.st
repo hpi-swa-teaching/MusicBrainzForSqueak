@@ -1,8 +1,8 @@
-accessing
+metadata-management
 findDuplicates
 
 	| tracks duplicates currentTrack duplicatesForTrack |
-	tracks := self tracks.
+	tracks := self collectAllTracks.
 	duplicates := OrderedCollection new.
 	[tracks isEmpty not]
 		whileTrue: [

@@ -1,4 +1,4 @@
-accessing
+track handling
 compareTrack: anMBTrack with: anotherMBTrack 
 
 	^ ((anMBTrack getArtists  = anotherMBTrack getArtists)

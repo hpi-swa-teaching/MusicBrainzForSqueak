@@ -1,4 +1,4 @@
-accessing
+track handling
 moveToNewAlbum: aMBTrack
 "The metadata at Album should already be changed to new value, but albumentity shouldn't"
 	| oldAlbum |

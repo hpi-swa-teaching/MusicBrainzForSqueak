@@ -1,4 +1,4 @@
-accessing
+file handling
 writeAudioFile: aMBTrack
 	| parser |
 	(aMBTrack isMP3)
