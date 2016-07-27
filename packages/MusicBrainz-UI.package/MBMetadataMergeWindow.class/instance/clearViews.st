@@ -1,4 +1,4 @@
-building
+actions
 clearViews
 	self 
 		localMetadata: nil;

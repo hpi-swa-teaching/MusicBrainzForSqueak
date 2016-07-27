@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildAvailableMetadataList 
 	| metadataSpec |
 	metadataSpec := self builder pluggableListSpec new.

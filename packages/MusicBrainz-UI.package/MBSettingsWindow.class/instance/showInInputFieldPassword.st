@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 showInInputFieldPassword
 	^ self settings at: 'Password'

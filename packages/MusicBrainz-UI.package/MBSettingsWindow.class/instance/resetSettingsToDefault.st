@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetSettingsToDefault
 	self mainWindow data resetSettings.
 	self resetSettings

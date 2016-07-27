@@ -1,4 +1,4 @@
-building
+accessing
 getLocalMetadata
 
 	| metadata |

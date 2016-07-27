@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 showInInputFieldEndpoint
 	^ self settings at: 'Endpoint'

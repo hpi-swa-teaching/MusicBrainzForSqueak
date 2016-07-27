@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 openFrom: aMainWindow
 	| window |
 	window := self new.

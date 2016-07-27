@@ -1,6 +1,6 @@
-as yet unclassified
+building
 buildAcceptButton
-	|  acceptButtonSpec |
+	| acceptButtonSpec |
 	acceptButtonSpec := self builder pluggableButtonSpec new.
 	^ acceptButtonSpec 
 		model: self;

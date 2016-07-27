@@ -1,7 +1,8 @@
-as yet unclassified
+resetting
 resetSettings
 	self settings: (Dictionary newFrom: self mainWindow data settings).
-	self changed: #showInInputFieldEndpoint;
+	self 
+		changed: #showInInputFieldEndpoint;
 		changed: #showInInputFieldUsername;
 		changed: #showInInputFieldPassword;
 		changed: #autoloadCheckboxState

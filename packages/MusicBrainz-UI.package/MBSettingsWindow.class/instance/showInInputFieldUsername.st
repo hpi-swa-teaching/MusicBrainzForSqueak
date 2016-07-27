@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 showInInputFieldUsername
 	^ self settings at: 'Username'

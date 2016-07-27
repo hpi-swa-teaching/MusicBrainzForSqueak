@@ -1,4 +1,4 @@
-building
+accessing
 getMBMetadata
 
 	| metadata labels |

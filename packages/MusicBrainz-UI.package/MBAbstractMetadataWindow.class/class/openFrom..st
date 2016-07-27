@@ -1,3 +1,3 @@
-as yet unclassified
+opening
 openFrom: aMainWindow
 	^ self subclassResponsibility

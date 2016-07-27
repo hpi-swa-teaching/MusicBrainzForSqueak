@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildResetButton
 	|  resetButtonSpec |
 	resetButtonSpec := self builder pluggableButtonSpec new.

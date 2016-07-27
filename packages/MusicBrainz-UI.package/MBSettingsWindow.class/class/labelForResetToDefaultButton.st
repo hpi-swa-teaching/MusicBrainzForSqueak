@@ -1,3 +1,3 @@
-as yet unclassified
+labels
 labelForResetToDefaultButton
 	^ 'Reset to Default'

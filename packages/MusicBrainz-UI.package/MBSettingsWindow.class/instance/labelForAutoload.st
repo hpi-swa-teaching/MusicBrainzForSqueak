@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 labelForAutoload
 	^ 'Load library on start up'

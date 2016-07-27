@@ -1,4 +1,4 @@
-accessing
+building
 buildWith: aBuilder 
 	| windowSpec |
 	self builder: aBuilder.	
@@ -8,6 +8,5 @@ buildWith: aBuilder
 		add: self buildMetadataList;
 		add: self buildMBMetadataList;
 		add: self buildAcceptButton;
-		add: self buildCancelButton;
 		addAll: self buildHeaderViews.
 	^ self builder build: windowSpec

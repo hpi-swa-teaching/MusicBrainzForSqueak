@@ -1,4 +1,4 @@
-initialization
+opening
 openFrom: aMainWindow
 	| window |
 	window := self new.

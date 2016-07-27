@@ -1,4 +1,4 @@
-building
+actions
 saveMerge
 	self metadataToMerge
 		doWithIndex: [:selected :index | 

@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildDeleteButton
 	| buttonSpec |
 	buttonSpec := self builder pluggableButtonSpec new.

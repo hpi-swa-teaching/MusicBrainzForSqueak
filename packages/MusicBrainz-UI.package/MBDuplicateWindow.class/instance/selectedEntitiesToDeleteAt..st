@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 selectedEntitiesToDeleteAt: anIndex
 	^ self selectedEntitiesToDelete at: anIndex

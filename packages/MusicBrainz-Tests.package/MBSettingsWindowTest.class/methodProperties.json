@@ -14,14 +14,14 @@
 		"testBuildWindow" : "JR 7/27/2016 14:25",
 		"testBuildWith" : "JR 7/27/2016 14:16",
 		"testLabelForAutoload" : "JR 7/27/2016 14:18",
-		"testLabelWidth" : "JR 7/27/2016 14:18",
-		"testLineHeight" : "JR 7/27/2016 14:18",
+		"testLabelWidth" : "tm 7/27/2016 17:46",
+		"testLineHeight" : "tm 7/27/2016 17:46",
 		"testResetSettings" : "JR 7/27/2016 15:16",
 		"testResetSettingsToDefault" : "JR 7/27/2016 15:17",
-		"testSetAutoload" : "JR 7/27/2016 16:34",
 		"testSetEndpoint" : "JR 7/27/2016 15:08",
 		"testSetPassword" : "JR 7/27/2016 15:09",
 		"testSetUsername" : "JR 7/27/2016 15:11",
 		"testShowInInputFieldEndpoint" : "JR 7/27/2016 15:13",
 		"testShowInInputFieldPassword" : "JR 7/27/2016 15:13",
-		"testShowInInputFieldUsername" : "JR 7/27/2016 15:14" } }
+		"testShowInInputFieldUsername" : "JR 7/27/2016 15:14",
+		"testToggleAutoload" : "tm 7/27/2016 17:47" } }
