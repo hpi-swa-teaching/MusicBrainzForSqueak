@@ -2,16 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"request" : "mv 5/16/2016 18:52",
-		"request:" : "mv 5/16/2016 18:52",
-		"setUp" : "tm 7/27/2016 13:05",
+		"setUp" : "mv 7/28/2016 20:23",
 		"testBaseURL" : "tm 6/27/2016 18:06",
 		"testCoverBaseURL" : "mv 6/25/2016 12:40",
 		"testDefaultCoverSized" : "mv 6/25/2016 12:46",
 		"testGetFrontcoverFor" : "tm 6/21/2016 14:05",
 		"testGetMBIDForAlbum" : "mv 6/25/2016 12:49",
 		"testGetMBIDForTrack" : "tm 6/27/2016 18:08",
-		"testGetMBMetadataForAbout" : "mv 7/3/2016 13:12",
+		"testGetMBMetadataForAbout" : "mv 7/28/2016 20:06",
 		"testMBAlbumSeachFields" : "mv 6/25/2016 12:39",
 		"testMBQueryStrings" : "mv 7/3/2016 13:06",
 		"testMBTrackSeachFields" : "mv 6/25/2016 12:39",

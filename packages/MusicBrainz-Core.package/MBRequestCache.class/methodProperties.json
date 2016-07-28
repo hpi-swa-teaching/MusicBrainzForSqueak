@@ -1,13 +1,13 @@
 {
 	"class" : {
 		"addToCache:containing:" : "tm 7/16/2016 12:21",
-		"clearCache" : "tm 7/16/2016 12:20",
+		"clearCache" : "mv 7/28/2016 20:22",
 		"countURLsinCache" : "tm 7/16/2016 12:20",
 		"getURLsinCache" : "tm 7/16/2016 12:19",
 		"isInCache:" : "tm 7/16/2016 12:19",
 		"removeFromCache:" : "tm 7/16/2016 12:19",
 		"requestFromCache:" : "tm 7/16/2016 12:19",
-		"xMLCache" : "mv 6/30/2016 22:29",
+		"xMLCache" : "mv 7/28/2016 20:25",
 		"xMLCache:" : "mv 6/30/2016 22:15" },
 	"instance" : {
 		 } }

@@ -7,7 +7,7 @@ testClearCache
 	MBRequestCache clearCache.
 	self
 		assert: MBRequestCache countURLsinCache
-		equals: 0
-		description: 'clearCache should have removed every entry'.
+		equals: (MBSTONHandler loadFromFile: 'testsRequestCache.ston') size
+		description: 'clearCache should have removed every entry and added all the test cases'.
 	MBRequestCache xMLCache: cacheBackup
 		

@@ -3,7 +3,7 @@ sendRequestTo: aString
 
 	| reply resp xmldoc |
 	(MBRequestCache isInCache: aString)
-		ifTrue: [^ MBRequestCache requestFromCache: aString].
+		ifTrue: [	^ MBRequestCache requestFromCache: aString].
 	resp := WebClient httpGet: aString.
 	resp isSuccess ifFalse: [self inform: ('Seems like you are exceeding the MusicBrainz rate limiting.', Character cr, 'Grab a cup of coffee and retry later.'). ^ nil].
 	reply := UTF8TextConverter new decodeString: resp content.

@@ -1,11 +1,13 @@
 as yet unclassified
 testGetMetadataImage
+<timeout: 10>
 	| musicBrainz |
 	musicBrainz := MBMainWindow open.
 	musicBrainz model 
 		selectedEntity: MBMockData mockAlbum;
 	 	getMetadataImage.
 	self 
-		assert: MBMainWindow equals: musicBrainz model getMetadataImage class;
-		assert: ImageMorph equals: musicBrainz model coverView morphClass.
+		assert: ImageMorph
+		equals: musicBrainz model coverView morphClass
+		description: 'Class of cover should be an imageMorph.'.
 	musicBrainz delete.

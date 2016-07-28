@@ -15,8 +15,4 @@ testGetMBMetadataForAbout
 	self
 		assert: (MBRequest getMBMetadataFor: track About: #'Artist')
 		equals: 'Kygo'
-		description: 'Wrong artist was returned for track.'.
-	self
-		assert: (MBRequest getMBMetadataFor: track About: #'Label')
-		equals: nil
-		description: 'Label for track should be nil.'.
+		description: 'Wrong artist was returned for track.'
