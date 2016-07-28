@@ -1,7 +1,8 @@
 parsing
 getFrameSize
 	| size |
-	size := 0.
-	#(24 16 8 0 )
-		do: [:each | size := size + (self stream next << each)].
+	size := ((self stream next) bitShift: 24) asInteger.
+	size := size + (self stream next bitShift: 16 asInteger).
+	size := size + (self stream next bitShift: 8 asInteger).
+	size := size + (self stream next asInteger).
 	^ size

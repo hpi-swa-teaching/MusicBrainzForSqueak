@@ -1,7 +1,8 @@
 parsing
 getLittleEndianInteger
-	|length|
-	length := 0.
-	#(0 8 16 24 )
-		do: [:each | length := length + (self stream next << each)].
+	| length |
+	length := self stream next.
+	length := length + (self stream next << 8).
+	length := length + (self stream next << 16).
+	length := length + (self stream next << 24).
 	^ length

@@ -1,7 +1,7 @@
 writing
 createUpdatedFramesFrom: aDictionary 
 	| newFrames |
-	newFrames := self copyUnchangedFrames: aDictionary.
+	newFrames := self copyUnchangedFramesNotIn: aDictionary.
 	aDictionary
 		keysAndValuesDo: [:aTag :aContent | newFrames
 				addAll: (self

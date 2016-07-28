@@ -1,0 +1,3 @@
+parsing
+skipType
+	^ self SubclassResponsibility

@@ -1,4 +1,4 @@
 parsing
 parseAudio
-	[self seekFLAC; seekParseableBlocks]
+	[self seekFLAC; parseBlocks]
 	ensure: [self stream close]
