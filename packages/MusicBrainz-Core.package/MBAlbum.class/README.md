@@ -1,4 +1,4 @@
-A MBAlbum is the MusicBrainzForSqueak representation of MusicBrainz' release/recording class.
+A MBAlbum is the simplified MusicBrainzForSqueak representation of MusicBrainz' release/recording class.
 
 Instance Variables
 	tracklist:		OrderedCollection 

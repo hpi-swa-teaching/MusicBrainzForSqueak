@@ -1,4 +1,4 @@
-A MBData is the data class for the MusicBrainzForSqueak application.
+MBData holds, manages and provides the information used by the MusicBrainzForSqueak application.
 
 Instance Variables
 	albums:		OrderedCollection

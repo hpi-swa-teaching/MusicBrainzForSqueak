@@ -1,4 +1,4 @@
-A MBTrack is the MusicBrainzForSqueak representation of MusicBrainz' track class.
+A MBTrack is the simplified MusicBrainzForSqueak representation of MusicBrainz' track class.
 
 Instance Variables
 	albumEntity:	MBAlbum
