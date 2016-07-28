@@ -1,4 +1,3 @@
 caching
 clearCache
-	self xMLCache: Dictionary new.
-	MBRequestCache xMLCache: (MBSTONHandler loadFromFile: 'testsRequestCache.ston')
+	self xMLCache: (MBSTONHandler loadFromFile: 'testsRequestCache.ston')

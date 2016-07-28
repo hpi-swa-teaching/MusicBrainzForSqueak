@@ -5,14 +5,14 @@ testGetMBMetadataForAbout
 	album := MBMockData mockAlbum.
 	track := MBMockData mockTrack.
 	self
-		assert: (MBRequest getMBMetadataFor: album About: #'Artist')
+		assert: (MBRequest getMBMetadataFor: album about: #'Artist')
 		equals: 'Kygo'
 		description: 'Wrong artist was returned for album.'.
 	self
-		assert: (MBRequest getMBMetadataFor: album About: #'Length')
+		assert: (MBRequest getMBMetadataFor: album about: #'Length')
 		equals: nil
 		description: 'Length for album should be nil.'.
 	self
-		assert: (MBRequest getMBMetadataFor: track About: #'Artist')
+		assert: (MBRequest getMBMetadataFor: track about: #'Artist')
 		equals: 'Kygo'
 		description: 'Wrong artist was returned for track.'

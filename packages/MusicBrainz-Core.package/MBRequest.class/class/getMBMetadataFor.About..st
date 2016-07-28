@@ -1,5 +1,5 @@
 request
-getMBMetadataFor: aMBEntity About: aString
+getMBMetadataFor: aMBEntity about: aString
 
 	| MBTag xmlDocument requestURL |
 	MBTag := MBRequest MBQueryStrings at: aString ifAbsent: ''.

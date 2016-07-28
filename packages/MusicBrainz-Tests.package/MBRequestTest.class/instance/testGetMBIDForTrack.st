@@ -2,6 +2,6 @@ as yet unclassified
 testGetMBIDForTrack
 
 	self
-		assert: (MBRequest getMBIDForAlbum: MBMockData mockTrack)
-		equals:  '1cdbe3b6-99bb-4a50-9950-29ebc4fcb194'
+		assert: (MBRequest getMBIDForTrack: MBMockData mockTrack)
+		equals:  '67526439-52c7-4b69-8b95-a93106fce2e4'
 		description: 'Wrong MBID for Track was returned.'
