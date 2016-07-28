@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "tm 7/28/2016 21:12",
 	"instvars" : [
-		"tracklist",
-		"media" ],
+		"tracklist" ],
 	"name" : "MBAlbum",
 	"pools" : [
 		 ],

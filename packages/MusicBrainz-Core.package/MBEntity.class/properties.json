@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"EntityName" ],
-	"commentStamp" : "",
+	"commentStamp" : "tm 7/28/2016 21:06",
 	"instvars" : [
 		"mbid",
 		"metadata",
