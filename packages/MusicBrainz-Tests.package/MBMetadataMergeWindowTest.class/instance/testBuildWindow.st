@@ -4,7 +4,7 @@ testBuildWindow
 	self metadataMergeWindow builder: MorphicToolBuilder new.
 	windowSpec := self metadataMergeWindow buildWindow.
 	self 
-		assert: windowSpec class = PluggableListSpec;
+		assert: windowSpec class = PluggableWindowSpec;
 		assert: windowSpec model class = MBMetadataMergeWindow;
 		assert: windowSpec label = MBMetadataMergeWindow labelForWindow;
 		assert: windowSpec extent = (600@400);
