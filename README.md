@@ -5,15 +5,17 @@
   ```
   Metacello new
   
-  baseline: 'MusicBrainz';
+    baseline: 'MusicBrainzForSqueak';
   
-  repository: 'github://HPI-SWA-Teaching/SWT16-Project-12:master/packages';
+    repository: 'github://HPI-SWA-Teaching/SWT16-Project-12:master/packages';
   
-  onConflict: [:ex | ex allow];
+    onConflict: [:ex | ex allow];
   
-  load
+    load
   ```
   and ask us for the default cover images.
+  
+  **Hint: Tests will not be included in this download!**
 2. Execute the command: 
   ```
   MBInstaller installMusicBrainz
