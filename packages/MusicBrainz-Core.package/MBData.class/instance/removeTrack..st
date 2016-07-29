@@ -1,7 +1,7 @@
 track handling
-removeTrack: anMBTrack 
+removeTrack: aMBTrack 
 	| album |
-	album := anMBTrack albumEntity.
-	album tracklist remove: anMBTrack ifAbsent: [].
+	album := aMBTrack albumEntity.
+	album tracklist remove: aMBTrack ifAbsent: [].
 	(album tracklist isEmpty)
 		ifTrue: [self albums remove: album ifAbsent:[]]
