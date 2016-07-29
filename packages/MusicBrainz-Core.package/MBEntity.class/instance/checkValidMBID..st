@@ -1,6 +1,5 @@
 loadFromMB
 checkValidMBID: aString
-	
 	| newMBID hexDigits digits separators |
 	newMBID := aString asLowercase.
 	(newMBID size ~= 36) ifTrue: [^ false].

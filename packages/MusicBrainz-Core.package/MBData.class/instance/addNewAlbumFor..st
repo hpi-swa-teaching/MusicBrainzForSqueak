@@ -1,6 +1,5 @@
 track handling
-addNewAlbumFor: aMBTrack
-	
+addNewAlbumFor: aMBTrack	
 	| newAlbum |
 	newAlbum := MBAlbum new.
 	self setReferencesIn: newAlbum containing: aMBTrack.

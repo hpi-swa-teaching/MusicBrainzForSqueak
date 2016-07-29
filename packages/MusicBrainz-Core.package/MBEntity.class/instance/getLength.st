@@ -1,4 +1,3 @@
 accessing
 getLength 
-
 	^ self subclassResponsibility

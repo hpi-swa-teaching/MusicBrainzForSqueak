@@ -1,6 +1,5 @@
 parsing
 xmlParseTracklistIn: aXMLDocument
-
 	|tracks|
 	tracks := OrderedCollection new.
 	aXMLDocument

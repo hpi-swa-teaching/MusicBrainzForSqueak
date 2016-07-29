@@ -1,6 +1,5 @@
 parsing
 xmlParseCountPerfectMatchesIn: aXMLDocument for: aMBEntity
-
 	| hundredScoreCounter |
 	hundredScoreCounter := 0.
 	aXMLDocument tagsNamed: (aMBEntity class entityName asSymbol) do: [:each |

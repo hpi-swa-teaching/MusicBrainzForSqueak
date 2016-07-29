@@ -1,6 +1,5 @@
 request
 letUserChooseRightMBID: aXMLDocument for: aMBEntity
-
 	| listWithLabels listWithValues |
 	listWithLabels := (self buildLabelListOfPerfectMatchesIn: aXMLDocument for: aMBEntity).
 	listWithValues :=(self buildMBIDListOfPerfectMatchesIn: aXMLDocument for: aMBEntity).

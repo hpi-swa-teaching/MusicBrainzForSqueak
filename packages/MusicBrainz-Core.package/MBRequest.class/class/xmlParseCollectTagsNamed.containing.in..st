@@ -1,6 +1,5 @@
 parsing
 xmlParseCollectTagsNamed: aString containing: anotherString in: aXMLDocument
-
 	| collection |
 	collection := ''.
 	aXMLDocument

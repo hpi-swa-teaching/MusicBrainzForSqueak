@@ -1,6 +1,5 @@
 request
 getMBIDFor: aMBEntity
-
 	| responseXML |
 	responseXML := MBRequest sendRequestTo: (MBRequest createMBIDRequestURLFor: aMBEntity).
 	responseXML ifNil: [^ ''].

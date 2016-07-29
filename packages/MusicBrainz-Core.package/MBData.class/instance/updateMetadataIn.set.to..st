@@ -1,6 +1,5 @@
 metadata-management
 updateMetadataIn: aMBEntity set: aLabel to: aValue
-
 	aMBEntity metadata at: aLabel put: aValue.
 	(aValue = '')
 		ifTrue: [aMBEntity metadata removeKey: aLabel ifAbsent: []].

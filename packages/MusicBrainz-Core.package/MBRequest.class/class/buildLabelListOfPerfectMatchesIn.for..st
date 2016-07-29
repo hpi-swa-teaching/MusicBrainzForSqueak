@@ -1,6 +1,5 @@
 request
 buildLabelListOfPerfectMatchesIn: aXMLDictionary for: aMBEntity
-	
 	| candidatesDict labelList |
 	candidatesDict := self buildDictionaryOfPerfectMatchesIn: aXMLDictionary for: aMBEntity.
 	labelList := OrderedCollection new.

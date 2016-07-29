@@ -1,6 +1,5 @@
 metadata-management
 findDuplicates
-
 	| tracks duplicates currentTrack duplicatesForTrack |
 	tracks := self collectAllTracks.
 	duplicates := OrderedCollection new.

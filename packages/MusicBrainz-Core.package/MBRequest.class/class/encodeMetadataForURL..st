@@ -1,6 +1,5 @@
 request
 encodeMetadataForURL: aString
-
 	| encodedValue |
 	encodedValue := aString asString encodeForHTTP.
 	encodedValue := encodedValue copyReplaceAll: '%00' with: ''.

@@ -1,6 +1,5 @@
 dictionary
 mbTrackSearchFields
-
 	^ Dictionary newFrom: {
 		#Title -> 'recording'.
 		#Length -> 'dur'.

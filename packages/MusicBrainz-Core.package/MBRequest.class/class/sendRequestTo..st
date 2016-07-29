@@ -1,6 +1,5 @@
 request
 sendRequestTo: aString
-
 	| response xmlDocument |
 	(MBRequestCache isInCache: aString)
 		ifTrue: [	^ MBRequestCache requestFromCache: aString].

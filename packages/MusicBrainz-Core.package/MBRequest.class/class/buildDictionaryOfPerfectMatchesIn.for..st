@@ -1,6 +1,5 @@
 request
 buildDictionaryOfPerfectMatchesIn: aXMLDictionary for: aMBEntity
-
 	| metadataDict hundredDict |
 	metadataDict := self contentDictionaryForPerfect: aMBEntity.
 	hundredDict := OrderedDictionary new.
