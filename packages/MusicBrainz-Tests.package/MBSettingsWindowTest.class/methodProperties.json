@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"mainWindow" : "JR 7/27/2016 16:37",
-		"mainWindow:" : "JR 7/27/2016 16:37",
 		"setUp" : "tm 7/27/2016 19:34",
 		"settingsWindow" : "JR 7/27/2016 13:50",
 		"settingsWindow:" : "JR 7/27/2016 13:50",
@@ -16,6 +14,7 @@
 		"testLabelForAutoload" : "JR 7/27/2016 14:18",
 		"testLabelWidth" : "tm 7/27/2016 17:46",
 		"testLineHeight" : "tm 7/27/2016 17:46",
+		"testOpenFrom" : "tm 7/29/2016 10:43",
 		"testResetSettings" : "tm 7/27/2016 19:35",
 		"testResetSettingsToDefault" : "tm 7/27/2016 19:35",
 		"testSetEndpoint" : "JR 7/27/2016 15:08",

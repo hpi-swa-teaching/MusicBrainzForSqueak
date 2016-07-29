@@ -2,6 +2,6 @@ accessing
 getMetadataLabels
 	| metadata |
 	metadata := OrderedCollection new.
-	self selectedEntity metadata keysDo: [ :each | metadata add: each].
-	metadata addAll: self selectedEntity class availableMetadata.
+	self mainWindow selectedEntity metadata keysDo: [ :each | metadata add: each].
+	metadata addAll: self mainWindow selectedEntity class availableMetadata.
 	^ metadata asSet asOrderedCollection

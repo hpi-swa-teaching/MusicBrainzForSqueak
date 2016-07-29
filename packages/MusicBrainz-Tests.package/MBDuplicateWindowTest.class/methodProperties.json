@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"duplicateWindow" : "tm 7/29/2016 10:51",
+		"duplicateWindow:" : "tm 7/29/2016 10:51",
+		"setUp" : "tm 7/29/2016 10:50",
+		"testBuildDeleteButton" : "tm 7/29/2016 11:01",
+		"testBuildListView" : "tm 7/29/2016 10:56",
+		"testBuildWindow" : "tm 7/29/2016 10:53",
+		"testBuildWith" : "tm 7/29/2016 10:51",
+		"testOpenFrom" : "tm 7/29/2016 11:12",
+		"testSelectedEntitesToDelete" : "tm 7/29/2016 11:08",
+		"testSelectedEntitesToDeleteAt" : "tm 7/29/2016 11:11" } }

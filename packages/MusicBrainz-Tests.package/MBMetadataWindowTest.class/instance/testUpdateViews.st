@@ -3,6 +3,4 @@ testUpdateViews
 	self metadataWindow
 		selectedMetadata: 'Title';
 		updateViews.
-	self 
-		assert: self metadataWindow selectedMetadata
-		equals: nil
+	self assert: self metadataWindow selectedMetadata isNil

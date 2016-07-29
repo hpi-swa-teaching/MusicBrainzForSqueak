@@ -1,4 +1,4 @@
 as yet unclassified
 testCloseButton
 	self metadataWindow closeButton.
-	self assert: self metadataWindow mainWindow metadataWindow = nil
+	self assert: self metadataWindow mainWindow metadataWindow isNil

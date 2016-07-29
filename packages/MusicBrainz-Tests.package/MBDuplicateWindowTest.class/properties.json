@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"metadataMergeWindow" ],
-	"name" : "MBMetadataMergeWindowTest",
+		"duplicateWindow" ],
+	"name" : "MBDuplicateWindowTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

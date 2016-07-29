@@ -1,7 +1,7 @@
 as yet unclassified
 testOpenFrom
 	| window |
-	window := MBMetadataWindow openFrom: (MBMainWindow new selectedEntity: MBMockData mockAlbum).
+	window := MBSettingsWindow openFrom: (MBMainWindow new).
 	self 
 		assert: window class 
 		equals: PluggableSystemWindow.

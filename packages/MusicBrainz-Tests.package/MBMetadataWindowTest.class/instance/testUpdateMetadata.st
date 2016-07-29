@@ -4,5 +4,5 @@ testUpdateMetadata
 		selectedMetadata: 'Title';
 		updateMetadata: 'Teststring'.
 	self 
-		assert: (self metadataWindow selectedEntity metadata at: #Title)
+		assert: (self metadataWindow mainWindow selectedEntity metadata at: #Title)
 		equals: 'Teststring'

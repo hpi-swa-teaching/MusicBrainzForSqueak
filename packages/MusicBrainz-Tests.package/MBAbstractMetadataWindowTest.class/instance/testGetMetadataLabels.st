@@ -1,6 +1,5 @@
 as yet unclassified
 testGetMetadataLabels
-	self abstractMetadataWindow selectedEntity: MBMockData mockAlbum.
 	self 
 		assert: self abstractMetadataWindow getMetadataLabels
 		equals: (OrderedCollection newFrom: #('Language' 'Country' #Artist 'Year' #Media 'Quality' 'Barcode' 'Comment' #Title #Label))

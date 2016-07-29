@@ -2,4 +2,6 @@ as yet unclassified
 testBuildWith
 	| window |
 	window := self metadataMergeWindow buildWith: MorphicToolBuilder new.
-	self assert: window class = PluggableSystemWindow
+	self 
+		assert: PluggableSystemWindow
+		equals: window class
