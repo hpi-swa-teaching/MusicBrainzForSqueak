@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCopyFileToFile
 	|originStream targetStream |
 	originStream := FileStream fileNamed: (Smalltalk imagePath, '\albums\test.mp3').

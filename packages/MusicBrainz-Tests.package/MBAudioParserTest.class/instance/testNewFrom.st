@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testNewFrom
 	| aFileObject parser |
 	aFileObject := nil.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCreateID3SizeBytes
 
 	|comparisonCollection|

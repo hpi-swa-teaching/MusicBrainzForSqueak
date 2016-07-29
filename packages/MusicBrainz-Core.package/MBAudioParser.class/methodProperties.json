@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"newFrom:" : "tm 6/8/2016 21:10",
+		"copyBufferSize" : "pb 7/29/2016 11:02",
+		"magicIdentifier" : "pb 7/29/2016 12:06",
+		"newFrom:" : "pb 7/29/2016 10:57",
 		"textFrames" : "tm 7/3/2016 14:39" },
 	"instance" : {
-		"copyFile:toFile:" : "pb 6/25/2016 12:02",
+		"copyFile:toFile:" : "pb 7/29/2016 11:03",
 		"initialize" : "tm 6/8/2016 21:09",
 		"openStreamOn:" : "TM 6/7/2016 21:22",
 		"parseAudio" : "tm 6/8/2016 21:09",
 		"parsePictureBlockAs:with:" : "nt 7/28/2016 20:54",
+		"seekMagicIdentifier" : "pb 7/29/2016 11:43",
 		"skipBytes:" : "nt 7/27/2016 14:53",
 		"skipType" : "nt 7/28/2016 22:12",
 		"stream" : "mv 6/7/2016 19:03",

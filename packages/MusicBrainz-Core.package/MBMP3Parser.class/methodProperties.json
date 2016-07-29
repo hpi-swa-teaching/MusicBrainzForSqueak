@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"ID3HeaderSize" : "tm 7/3/2016 14:39",
+		"magicIdentifier" : "pb 7/29/2016 11:30",
 		"textFrames" : "pb 6/19/2016 14:04" },
 	"instance" : {
 		"areFramesFinished" : "nt 7/28/2016 22:52",
@@ -22,13 +23,12 @@
 		"overwriteFileWith:" : "nt 7/28/2016 23:16",
 		"parseAPIC:" : "nt 7/28/2016 22:17",
 		"parseAudio" : "nt 7/15/2016 11:21",
-		"parseFrames" : "nt 7/28/2016 23:10",
+		"parseFrames" : "pb 7/29/2016 12:16",
 		"parseTextFrom:with:" : "nt 7/28/2016 22:06",
-		"prepareFile" : "nt 7/28/2016 23:10",
+		"prepareFile" : "pb 7/29/2016 11:33",
 		"readSMIME" : "nt 7/14/2016 10:28",
 		"readUTF16" : "nt 7/27/2016 18:53",
 		"readUTF8" : "nt 7/27/2016 18:51",
-		"seekID3" : "nt 7/28/2016 21:30",
 		"setID3Size" : "nt 7/28/2016 23:29",
 		"setMetadataFor:with:" : "nt 7/27/2016 15:00",
 		"skipDiscriptionWith:" : "nt 7/28/2016 21:01",

@@ -1,8 +1,9 @@
 {
 	"class" : {
+		"magicIdentifier" : "pb 7/29/2016 11:40",
 		"textFrames" : "tm 6/8/2016 21:35" },
 	"instance" : {
-		"addCommentToTrack:" : "nt 7/28/2016 23:34",
+		"addCommentToTrack:" : "pb 7/29/2016 12:01",
 		"getBigEndianInteger" : "pb 6/7/2016 18:25",
 		"getLabelOf:" : "nt 7/28/2016 23:33",
 		"getLittleEndianInteger" : "nt 7/29/2016 00:22",
@@ -10,13 +11,12 @@
 		"getPictureLength" : "nt 7/29/2016 00:23",
 		"getUTF8StringSized:" : "nt 7/29/2016 00:22",
 		"isLastBlock:" : "nt 7/28/2016 19:49",
-		"parseAudio" : "nt 7/28/2016 19:43",
-		"parseBlocks" : "nt 7/29/2016 00:24",
-		"parsePictureBlock" : "nt 7/29/2016 00:26",
+		"parseAudio" : "pb 7/29/2016 11:35",
+		"parseBlocks" : "pb 7/29/2016 11:59",
+		"parsePictureBlock" : "pb 7/29/2016 12:02",
 		"parseType:" : "nt 7/28/2016 19:51",
-		"parseVorbisBlock" : "nt 7/27/2016 16:16",
+		"parseVorbisBlock" : "pb 7/29/2016 11:19",
 		"processBlockOf:with:" : "nt 7/28/2016 19:52",
-		"seekFLAC" : "nt 7/27/2016 16:40",
 		"skipDiscription" : "nt 7/29/2016 00:26",
 		"skipType" : "tm 7/27/2016 19:36",
 		"skipVendorComments" : "nt 7/27/2016 15:06",

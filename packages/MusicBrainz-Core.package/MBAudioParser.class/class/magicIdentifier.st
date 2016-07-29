@@ -1,3 +1,3 @@
 parsing
-parseAudio
+magicIdentifier 
 	^ self subclassResponsibility

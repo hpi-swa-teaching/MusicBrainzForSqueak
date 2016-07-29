@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 skipVendorComments
 	self skipBytes: self getLittleEndianInteger.

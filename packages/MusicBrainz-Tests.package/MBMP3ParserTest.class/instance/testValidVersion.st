@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testValidVersion
 
 	self emptyParser stream ascii.

@@ -7,4 +7,4 @@ parseBlocks
 	length := length + self stream next.
 	self processBlockOf: (self parseType: blockInfo) with: length.
 	(self isLastBlock: blockInfo)
-		ifTrue: [^ true]] repeat "rekursion"
+		ifTrue: [^ true]] repeat

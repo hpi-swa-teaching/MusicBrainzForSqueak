@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 getNumberOfComments
 ^ self getLittleEndianInteger

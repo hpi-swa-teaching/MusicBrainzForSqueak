@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSetID3Size
 
 	self emptyParser stream ascii.

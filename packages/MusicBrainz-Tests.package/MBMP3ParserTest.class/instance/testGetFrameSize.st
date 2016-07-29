@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testGetFrameSize
 
 	self emptyParser stream ascii.

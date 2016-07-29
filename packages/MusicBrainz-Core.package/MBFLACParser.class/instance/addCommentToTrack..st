@@ -1,10 +1,10 @@
 parsing
 addCommentToTrack: aString 
-	| key value delimeterPos label |
-	delimeterPos := aString
-				indexOf: $=
-				ifAbsent: [self error: 'Vorbis Comment malformed'].
-	key := aString copyFrom: 1 to: delimeterPos - 1.
-	label := self getLabelOf: key.
-	value := aString copyFrom: delimeterPos + 1 to: aString size.
-	self track metadata at: label put: value
+	| value label splitString|
+	splitString := aString splitBy: '='.
+	splitString size = 2
+		ifTrue: [ label := self getLabelOf: (splitString first).
+				value := splitString second.
+				self track metadata at: label put: value]
+		 ifFalse: [self error: 'Vorbis Comment malformed']
+	

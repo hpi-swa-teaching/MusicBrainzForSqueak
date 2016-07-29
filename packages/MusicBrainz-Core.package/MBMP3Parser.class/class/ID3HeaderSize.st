@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 ID3HeaderSize
 	^ 10

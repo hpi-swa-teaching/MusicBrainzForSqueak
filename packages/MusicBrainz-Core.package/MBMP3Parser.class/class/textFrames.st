@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 textFrames
 	^ Dictionary newFrom:{
 		#TALB -> #'Album'.

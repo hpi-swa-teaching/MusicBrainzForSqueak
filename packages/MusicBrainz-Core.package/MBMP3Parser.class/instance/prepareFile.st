@@ -1,6 +1,6 @@
 parsing
 prepareFile
-	self seekID3.
+	self seekMagicIdentifier.
 	self validVersion
 		ifFalse: [self error: 'Invalid ID3 Version'].
 	self skipFlagsOfSize: 1.

@@ -1,7 +1,6 @@
-as yet unclassified
+instance creation
 newFrom: aFileObject 
 	| parser |
-	parser := nil.
 	aFileObject extension = 'mp3'
 		ifTrue: [parser := MBMP3Parser new].
 	aFileObject extension = 'flac'

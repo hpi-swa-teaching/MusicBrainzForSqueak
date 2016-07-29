@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCopyFrame
 	self emptyParser stream reset.
 	self emptyParser stream nextPutAll: #($T $E $S $T ).

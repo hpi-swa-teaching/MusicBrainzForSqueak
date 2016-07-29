@@ -1,7 +1,6 @@
 parsing
 parsePictureBlock
-	| mime imageStream |
-	imageStream := RWBinaryOrTextStream on: OrderedCollection new.
+	| mime |
 	self skipType.
 	mime := self getUTF8StringSized: self getBigEndianInteger.
 	self skipDiscription.
