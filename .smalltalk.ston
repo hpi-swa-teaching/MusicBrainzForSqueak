@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'MusicBrainz',
+      #baseline : 'MusicBrainzForSqueak',
       #directory : 'packages',
       #load : [ 'Tests' ],
       #platforms : [ #squeak ]

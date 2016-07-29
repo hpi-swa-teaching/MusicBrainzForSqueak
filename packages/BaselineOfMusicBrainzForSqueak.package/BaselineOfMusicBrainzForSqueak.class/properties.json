@@ -1,5 +1,5 @@
 {
-	"category" : "BaselineOfMusicBrainz",
+	"category" : "BaselineOfMusicBrainzForSqueak",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "tm 7/28/2016 21:19",
 	"instvars" : [
 		 ],
-	"name" : "BaselineOfMusicBrainz",
+	"name" : "BaselineOfMusicBrainzForSqueak",
 	"pools" : [
 		 ],
 	"super" : "BaselineOf",
