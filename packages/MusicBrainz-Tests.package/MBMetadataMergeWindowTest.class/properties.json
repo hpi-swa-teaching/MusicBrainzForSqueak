@@ -1,0 +1,16 @@
+{
+	"category" : "MusicBrainz-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"metadataMergeWindow",
+		"mainWindow",
+		"selectedEntity" ],
+	"name" : "MBMetadataMergeWindowTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

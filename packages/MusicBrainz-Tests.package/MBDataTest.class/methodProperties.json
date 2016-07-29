@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"data" : "mv 6/25/2016 14:40",
+		"data:" : "mv 6/25/2016 14:40",
+		"setUp" : "mv 7/27/2016 17:47",
+		"testAddNewAlbumFor" : "mv 7/27/2016 19:24",
+		"testAddTrack" : "mv 7/27/2016 17:44",
+		"testAddTrackToExistingAlbum" : "mv 7/27/2016 18:08",
+		"testAddTrackToUnknownAlbum" : "mv 7/27/2016 18:18",
+		"testAlbums" : "mv 7/27/2016 18:22",
+		"testCollectAllTracks" : "mv 7/27/2016 18:25",
+		"testCompareTrack" : "mv 7/27/2016 18:28",
+		"testCopyMetadataFromTo" : "mv 7/27/2016 18:34",
+		"testFindDuplicates" : "mv 7/29/2016 02:12",
+		"testGetCurrentSettings" : "mv 7/27/2016 18:43",
+		"testGetTracklistForAlbum" : "mv 7/27/2016 17:50",
+		"testIsAutoloadEnabled" : "mv 7/27/2016 18:48",
+		"testMoveToNewAlbum" : "mv 7/29/2016 02:08",
+		"testRemoveTrack" : "mv 7/29/2016 02:06",
+		"testSetReferenceInContaining" : "mv 7/27/2016 18:54",
+		"testSortTracklistFor" : "mv 7/27/2016 19:06",
+		"testUpdateMetadataInContainedTracksOfSetTo" : "mv 7/27/2016 19:14",
+		"testUpdateMetadataInsetto" : "mv 6/30/2016 09:28" } }

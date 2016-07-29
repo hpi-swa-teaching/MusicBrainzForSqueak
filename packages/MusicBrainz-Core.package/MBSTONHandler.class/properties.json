@@ -1,0 +1,14 @@
+{
+	"category" : "MusicBrainz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tm 7/28/2016 21:15",
+	"instvars" : [
+		 ],
+	"name" : "MBSTONHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
