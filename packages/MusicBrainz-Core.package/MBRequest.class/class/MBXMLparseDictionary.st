@@ -1,5 +1,5 @@
 dictionary
-MBXMLparseDictionary
+mbXMLparseDictionary
 
 	^ Dictionary newFrom: {
 		#'Artist' -> [:xml | self xmlParseCollectTagsNamed: #artist containing: #name in: xml].

@@ -2,7 +2,7 @@ as yet unclassified
 testMBAlbumSeachFields
 
 	self
-		assert: MBRequest MBAlbumSearchFields class
+		assert: MBRequest mbAlbumSearchFields class
 		equals: 	Dictionary 
 		description: 'MBAlbumSearchFields should return a dictionary'
 	

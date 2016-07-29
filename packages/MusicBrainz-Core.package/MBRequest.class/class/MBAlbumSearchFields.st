@@ -1,5 +1,5 @@
 dictionary
-MBAlbumSearchFields
+mbAlbumSearchFields
 
 	^ Dictionary newFrom: {
 		#Title -> 'release'.

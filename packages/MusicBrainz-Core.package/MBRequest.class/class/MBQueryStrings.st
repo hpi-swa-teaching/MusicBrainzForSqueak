@@ -1,5 +1,5 @@
 dictionary
-MBQueryStrings
+mbQueryStrings
 
 	^ Dictionary newFrom: {
 		#Album -> 'releases'.

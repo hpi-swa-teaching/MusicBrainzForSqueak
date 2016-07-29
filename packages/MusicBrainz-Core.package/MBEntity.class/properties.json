@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"EntityName" ],
+		 ],
 	"commentStamp" : "tm 7/28/2016 21:06",
 	"instvars" : [
 		"mbid",

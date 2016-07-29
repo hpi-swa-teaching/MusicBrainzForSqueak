@@ -1,5 +1,5 @@
 dictionary
-MBTrackSearchFields
+mbTrackSearchFields
 
 	^ Dictionary newFrom: {
 		#Title -> 'recording'.

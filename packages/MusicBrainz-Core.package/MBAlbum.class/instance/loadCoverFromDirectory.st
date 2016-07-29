@@ -1,6 +1,6 @@
 loadFromMB
 loadCoverFromDirectory
-	self tracklist do: [:track | "Looping through all tracks, as the files might be spread over multiple folders"
+	self tracklist do: [:track | 
 		| pathToTrack possibleFileNames |
 		pathToTrack := (FileDirectory on: track filepath) containingDirectory.
 		(pathToTrack exists) ifFalse: [^ nil].
