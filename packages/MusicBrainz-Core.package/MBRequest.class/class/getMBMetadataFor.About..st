@@ -1,6 +1,5 @@
 request
 getMBMetadataFor: aMBEntity about: aString
-
 	| MBTag xmlDocument requestURL |
 	MBTag := MBRequest MBQueryStrings at: aString ifAbsent: ''.
 	(MBTag = 'NA') ifTrue: [^ nil].
