@@ -1,4 +1,4 @@
-building
+accessing
 labelForPlayerButton
 	self player ifNotNil: [
 		self player isPlaying not

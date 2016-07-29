@@ -1,3 +1,3 @@
-building
+accessing
 labelTextForAlbumTree 
 	^ 'Albums'

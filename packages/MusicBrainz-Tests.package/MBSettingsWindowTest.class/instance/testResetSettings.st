@@ -1,4 +1,6 @@
-as yet unclassified
+TESTING: resetting
 testResetSettings
 	self settingsWindow resetSettings.
-	self assert: (self settingsWindow settings) equals: (Dictionary newFrom: self settingsWindow mainWindow data settings)
+	self 
+		assert: (self settingsWindow settings) 
+		equals: (Dictionary newFrom: self settingsWindow mainWindow data settings)

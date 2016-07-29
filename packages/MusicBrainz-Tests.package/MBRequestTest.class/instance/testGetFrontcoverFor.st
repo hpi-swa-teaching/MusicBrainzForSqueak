@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: cover
 testGetFrontcoverFor
 	| cover |
 	cover := MBRequest getFrontcoverFor: 'Devils'.

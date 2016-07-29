@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: dictionary
 testMBAlbumSeachFields
 
 	self

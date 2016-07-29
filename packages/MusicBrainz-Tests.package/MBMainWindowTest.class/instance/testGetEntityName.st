@@ -1,3 +1,5 @@
-as yet unclassified
+TESTING: albumTreeView
 testGetEntityName
-	self assert: 'Epsilon - Kygo' equals: (self mainWindow getEntityName: MBMockData mockAlbum)
+	self 
+		assert: 'Epsilon - Kygo' 
+		equals: (self mainWindow getEntityName: MBMockData mockAlbum)

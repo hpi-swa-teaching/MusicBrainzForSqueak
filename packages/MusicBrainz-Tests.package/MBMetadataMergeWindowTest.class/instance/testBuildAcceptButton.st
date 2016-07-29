@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildAcceptButton
 	| buttonSpec |
 	self metadataMergeWindow builder: MorphicToolBuilder new.

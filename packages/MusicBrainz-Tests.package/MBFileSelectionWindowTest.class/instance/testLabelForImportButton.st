@@ -1,3 +1,5 @@
 TESTING: class methods
 testLabelForImportButton
-	self assert: self fileSelectionWindow class labelForImportButton = 'Import'
+	self 
+		assert: self fileSelectionWindow class labelForImportButton 
+		equals: 'Import'

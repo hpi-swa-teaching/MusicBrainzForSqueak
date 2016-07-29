@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testSelectedMetadata
 	self metadataWindow selectedMetadata: 'Year'.
 	self

@@ -2,4 +2,6 @@ TESTING: UI elements
 testBuildWith
 	| window |
 	window := self fileSelectionWindow buildWith: MorphicToolBuilder new.
-	self assert: window class = PluggableSystemWindow
+	self 
+		assert: window class 
+		equals: PluggableSystemWindow

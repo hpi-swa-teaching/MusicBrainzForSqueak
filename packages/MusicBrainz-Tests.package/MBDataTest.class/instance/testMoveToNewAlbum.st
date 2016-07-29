@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: track handling
 testMoveToNewAlbum
 
 	| testTrack testAlbum |

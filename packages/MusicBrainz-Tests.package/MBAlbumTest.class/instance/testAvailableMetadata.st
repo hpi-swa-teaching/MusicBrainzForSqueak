@@ -1,6 +1,5 @@
-as yet unclassified
+TESTING: accessing
 testAvailableMetadata
-
 	self
 		assert: MBAlbum availableMetadata class
 		equals: OrderedCollection 

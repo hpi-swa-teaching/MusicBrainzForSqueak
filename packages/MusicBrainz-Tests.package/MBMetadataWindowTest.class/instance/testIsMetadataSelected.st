@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testIsMetadataSelected
 	self 
 		assert: self metadataWindow isMetadataSelected not

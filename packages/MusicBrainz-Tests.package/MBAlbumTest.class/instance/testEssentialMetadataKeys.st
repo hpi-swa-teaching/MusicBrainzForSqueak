@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testEssentialMetadataKeys 
 	self
 		assert: self album class essentialMetadataKeys 

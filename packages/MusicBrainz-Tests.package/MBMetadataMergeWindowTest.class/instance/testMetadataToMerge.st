@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testMetadataToMerge
 	self metadataMergeWindow metadataToMerge: nil.
 	self 

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: loading
 testLoadFromFile
 	| loadedSton |
 	MBSTONHandler save: MBMockData mockAlbum toFile: 'testfile.ston'.

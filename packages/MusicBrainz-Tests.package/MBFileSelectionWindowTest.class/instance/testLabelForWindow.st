@@ -1,3 +1,5 @@
 TESTING: class methods
 testLabelForWindow
-	self assert: self fileSelectionWindow class labelForWindow = 'Select a file directory'
+	self 
+		assert: self fileSelectionWindow class labelForWindow
+		equals: 'Select a file directory'

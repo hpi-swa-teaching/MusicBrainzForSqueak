@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: loading
 testLoadLibraryFromDisk
 	| loadedLibrary |
 	MBSTONHandler saveLibraryToDisk: MBData new albums.

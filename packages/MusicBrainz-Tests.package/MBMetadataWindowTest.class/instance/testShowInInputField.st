@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadata actions
 testShowInInputField
 	| returnValue |
 	returnValue := self metadataWindow showInInputField.

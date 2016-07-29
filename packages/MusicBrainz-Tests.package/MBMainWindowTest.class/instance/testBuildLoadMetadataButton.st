@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildLoadMetadataButton
 	| buttonSpec |
 	self mainWindow builder: MorphicToolBuilder new.

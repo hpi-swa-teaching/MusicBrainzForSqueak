@@ -1,6 +1,5 @@
-as yet unclassified
+TESTING: loadFromMB
 testFindMBID 
-
 	| album |
 	album := MBMockData mockAlbum.
 	self

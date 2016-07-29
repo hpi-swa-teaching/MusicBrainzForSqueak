@@ -1,3 +1,3 @@
-building
+accessing
 albums
 	^ self data albums

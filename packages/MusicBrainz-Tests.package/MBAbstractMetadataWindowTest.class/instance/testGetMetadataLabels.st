@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testGetMetadataLabels
 	self 
 		assert: self abstractMetadataWindow getMetadataLabels

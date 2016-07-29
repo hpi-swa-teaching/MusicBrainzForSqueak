@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: loadFromMB
 testCheckValidMBID
 
 	self

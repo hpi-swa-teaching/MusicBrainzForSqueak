@@ -1,4 +1,6 @@
-as yet unclassified
+TESTING: accessing
 testShowInInputFieldEndpoint
 
-	self assert: (self settingsWindow showInInputFieldEndpoint) equals: (self settingsWindow settings at: 'Endpoint')
+	self 
+		assert: (self settingsWindow showInInputFieldEndpoint) 
+		equals: (self settingsWindow settings at: 'Endpoint')

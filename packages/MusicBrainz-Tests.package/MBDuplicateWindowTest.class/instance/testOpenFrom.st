@@ -1,7 +1,9 @@
-as yet unclassified
+TESTING: building
 testOpenFrom
 	| window |
 	window := MBDuplicateWindow openFrom: (MBMainWindow new).
-	self assert: window class = PluggableSystemWindow.
+	self 
+		assert: window class 
+		equals: PluggableSystemWindow.
 	window delete
 	

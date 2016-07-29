@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: settings
 testPassword
 	self
 		assert: MBRequest password

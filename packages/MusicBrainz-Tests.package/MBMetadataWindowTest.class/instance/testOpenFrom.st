@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testOpenFrom
 	| window |
 	window := MBMetadataWindow openFrom: (MBMainWindow new selectedEntity: MBMockData mockAlbum).

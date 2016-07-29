@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testMetadataToMergeAt
 	| index |
 	index := 0.

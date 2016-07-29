@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildAlbumTreeView
 	| treeSpec |
 	self mainWindow builder: MorphicToolBuilder new.

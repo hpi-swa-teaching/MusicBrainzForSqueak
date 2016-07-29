@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadata-management
 testCopyMetadataFromTo
 
 	| testTrack testAlbum |

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadata-management
 testUpdateMetadataInsetto
 	| track album |
 	

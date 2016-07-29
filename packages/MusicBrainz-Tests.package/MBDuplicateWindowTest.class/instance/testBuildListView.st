@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildListView
 	| listSpec |
 	self duplicateWindow builder: MorphicToolBuilder new.

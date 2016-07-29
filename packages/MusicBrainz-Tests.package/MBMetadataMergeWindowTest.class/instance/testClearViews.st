@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: actions
 testClearViews
 	self metadataMergeWindow clearViews.
 	self 

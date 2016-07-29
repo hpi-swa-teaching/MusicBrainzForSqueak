@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testGetLocalMetadata
 	| index |
 	self metadataMergeWindow localMetadata: nil.

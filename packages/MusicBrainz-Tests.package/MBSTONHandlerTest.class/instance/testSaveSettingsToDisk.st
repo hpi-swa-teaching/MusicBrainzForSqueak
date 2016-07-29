@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: saving
 testSaveSettingsToDisk
 	MBSTONHandler saveSettingsToDisk: MBData new settings.
 	self 

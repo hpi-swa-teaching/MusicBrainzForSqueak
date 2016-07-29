@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testSelectedEntitesToDeleteAt
 	| duplicates |
 	duplicates := OrderedCollection new.

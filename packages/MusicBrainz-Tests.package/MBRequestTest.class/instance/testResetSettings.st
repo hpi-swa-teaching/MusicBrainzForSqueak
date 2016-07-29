@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: settings
 testResetSettings
 	MBRequest resetSettings.
 	self 

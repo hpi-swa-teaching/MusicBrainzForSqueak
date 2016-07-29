@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildCoverView
 	| coverSpec |
 	self mainWindow builder: MorphicToolBuilder new.

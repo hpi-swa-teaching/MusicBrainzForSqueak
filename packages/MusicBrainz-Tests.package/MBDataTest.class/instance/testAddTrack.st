@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: track handling
 testAddTrack
 	| newTrack |
 	newTrack := MBTrack new filepath: 'C:/Another/Path/to.mp3'.

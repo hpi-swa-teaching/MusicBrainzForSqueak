@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testSelectedEntity
 	self abstractMetadataWindow selectedEntity: MBMockData mockTrack.
 	self 

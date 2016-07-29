@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testPath
 	| fileDirectory |
 	fileDirectory := MBSTONHandler path.

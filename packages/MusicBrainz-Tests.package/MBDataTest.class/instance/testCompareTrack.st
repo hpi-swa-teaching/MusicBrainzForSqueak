@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: track handling
 testCompareTrack
 
 	| testTrack1 testTrack2 |

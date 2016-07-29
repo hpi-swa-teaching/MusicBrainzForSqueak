@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testAsString
 	| album |
 	album := MBAlbum new.

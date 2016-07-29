@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: saving
 testSaveToFile
 	MBSTONHandler save: MBMockData mockAlbum toFile: 'testfile.ston'.
 	self 

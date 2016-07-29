@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testAsString
 	self
 		assert: self track asString

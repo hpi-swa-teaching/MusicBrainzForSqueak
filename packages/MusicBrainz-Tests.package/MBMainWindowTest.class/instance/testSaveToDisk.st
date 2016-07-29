@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: im&ex-porting
 testSaveToDisk
 	| albumsBeforeSave |
 	albumsBeforeSave := self mainWindow albums.

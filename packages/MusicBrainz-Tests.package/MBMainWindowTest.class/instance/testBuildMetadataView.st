@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildMetadataView
 	|  listSpec |
 	self mainWindow builder: MorphicToolBuilder new.

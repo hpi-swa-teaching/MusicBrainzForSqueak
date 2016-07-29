@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildHeaderViews
 	| headerViews |
 	self mainWindow builder: MorphicToolBuilder new.

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: settings
 testUsername
 	self
 		assert: MBRequest username

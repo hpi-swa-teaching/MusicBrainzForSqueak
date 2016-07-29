@@ -1,7 +1,9 @@
-as yet unclassified
+TESTING: setting
 testSetPassword
 
 	| password |
 	password := 'tEs7'.
 	self settingsWindow setPassword: password.
-	self assert: password equals: (self settingsWindow settings at: 'Password')
+	self 
+		assert: password 
+		equals: (self settingsWindow settings at: 'Password')

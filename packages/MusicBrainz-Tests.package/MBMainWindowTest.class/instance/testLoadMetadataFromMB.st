@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadataView
 testLoadMetadataFromMB 
 	self mainWindow selectedEntity: nil.
 	self mainWindow loadMetadataFromMB.

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testEssentialMetadataKeys
 	self assert: self track class essentialMetadataKeys 
 		equals: #(#Artist #Year #Title #Album)

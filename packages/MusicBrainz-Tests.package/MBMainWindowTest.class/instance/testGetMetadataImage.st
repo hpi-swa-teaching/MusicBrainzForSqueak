@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadataView
 testGetMetadataImage
 <timeout: 10>
 	| musicBrainz |

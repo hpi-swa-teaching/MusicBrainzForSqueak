@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: saving
 testSaveSTONOf
 	| testObject answerString |
 	testObject := MBMockData mockAlbum.

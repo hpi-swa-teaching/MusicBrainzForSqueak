@@ -10,5 +10,5 @@
 		"testGetArtists" : "mv 6/4/2016 15:38",
 		"testGetTitle" : "mv 6/4/2016 15:37",
 		"testHasEssentialMetadata" : "tm 7/27/2016 13:23",
-		"testLoadMetadataFromMB" : "JR 6/19/2016 16:45",
+		"testLoadMetadataFromMB" : "tm 7/29/2016 11:24",
 		"testSetMBID" : "mv 5/24/2016 21:37" } }

@@ -1,7 +1,6 @@
-as yet unclassified
+TESTING: loadFromMB
 testLoadCoverFromDirectory
 
 	self
-		assert: self album loadCoverFromDirectory
-		equals: nil
+		assert: self album loadCoverFromDirectory isNil
 		description: 'Cover in directory should be nil!'

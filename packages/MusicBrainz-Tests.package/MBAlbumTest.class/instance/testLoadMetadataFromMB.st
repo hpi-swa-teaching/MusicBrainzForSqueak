@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: loadFromMB
 testLoadMetadataFromMB 
 
 | album |
@@ -9,6 +9,10 @@ album loadMetadataFromMB.
 album metadata at: #Year.
 album metadata at: #Label.
 
-self assert: (album metadata at: #Media) equals:  '12" Vinyl/12" Vinyl/CD'.
-self assert: (album metadata at: #Label) equals:  'Because Music'.
-self assert: (album metadata at: #Year) equals:  '2013'.
+self 
+	assert: (album metadata at: #Media) 
+	equals:  '12" Vinyl/12" Vinyl/CD';
+	assert: (album metadata at: #Label) 
+	equals:  'Because Music';
+ 	assert: (album metadata at: #Year) 
+	equals:  '2013'

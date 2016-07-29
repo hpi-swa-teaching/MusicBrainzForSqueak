@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildWith
 	| windowSpec |
 	windowSpec  := self metadataWindow buildWith: MorphicToolBuilder new.

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildWith
 	| window |
 	window := self duplicateWindow buildWith: MorphicToolBuilder new.

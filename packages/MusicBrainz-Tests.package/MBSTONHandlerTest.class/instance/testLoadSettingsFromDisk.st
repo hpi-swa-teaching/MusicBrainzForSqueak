@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: loading
 testLoadSettingsFromDisk
 	| loadedSettings |
 	MBSTONHandler saveSettingsToDisk: MBData new settings.

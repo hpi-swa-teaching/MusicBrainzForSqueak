@@ -1,6 +1,10 @@
-as yet unclassified
+TESTING: accessing
 testAutoloadCheckboxState
 
-	self assert: self settingsWindow autoloadCheckboxState equals: (self settingsWindow settings at: #Autoload).
+	self 
+		assert: self settingsWindow autoloadCheckboxState 
+		equals: (self settingsWindow settings at: #Autoload).
 	self settingsWindow autoloadCheckboxState: true.
-	self assert: self settingsWindow autoloadCheckboxState equals: true
+	self 
+		assert: self settingsWindow autoloadCheckboxState 
+		equals: true

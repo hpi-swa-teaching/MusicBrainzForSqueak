@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildResetToDefaultButton
 	| buttonSpec |
 	self settingsWindow builder: MorphicToolBuilder new.

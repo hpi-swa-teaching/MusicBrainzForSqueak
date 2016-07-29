@@ -1,4 +1,4 @@
-building
+albumTreeView
 openMBIDinBrower
 	| requestURL |
 	(self selectedEntity isNil or: (self selectedEntity mbid = ''))

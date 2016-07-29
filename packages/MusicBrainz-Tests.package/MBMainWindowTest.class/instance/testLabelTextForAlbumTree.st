@@ -1,3 +1,5 @@
-as yet unclassified
+TESTING: accessing
 testLabelTextForAlbumTree
-	self assert: 'Albums' equals: self mainWindow labelTextForAlbumTree
+	self 
+		assert: 'Albums' 
+		equals: self mainWindow labelTextForAlbumTree

@@ -1,4 +1,6 @@
-as yet unclassified
+TESTING: accessing
 testLabelForAutoload
 
-	self assert: self settingsWindow labelForAutoload equals: 'Load library on start up'
+	self 
+		assert: self settingsWindow labelForAutoload 
+		equals: 'Load library on start up'

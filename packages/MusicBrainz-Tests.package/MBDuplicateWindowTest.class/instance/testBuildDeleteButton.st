@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildDeleteButton
 	| buttonSpec |
 	self duplicateWindow builder: MorphicToolBuilder new.

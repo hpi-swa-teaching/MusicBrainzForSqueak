@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: request
 testGetMBMetadataForAbout
 
 	| album track |

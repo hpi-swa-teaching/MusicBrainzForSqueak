@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testHasEssentialMetadata
 	| album |
 	album := MBMockData mockAlbum.

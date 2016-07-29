@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: track handling
 testAddTrackToExistingAlbum
 	| testTrack |
 	testTrack := MBMockData mockTrack22.

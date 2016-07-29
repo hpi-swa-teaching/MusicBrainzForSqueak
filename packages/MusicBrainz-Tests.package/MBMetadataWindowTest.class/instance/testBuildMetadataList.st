@@ -1,9 +1,10 @@
-as yet unclassified
+TESTING: building
 testBuildMetadataList
 	| metadataSpec |
 	self metadataWindow builder: MorphicToolBuilder new.
 	metadataSpec := self metadataWindow buildMetadataList.
-	self assert: metadataSpec class = PluggableListSpec;
+	self 
+		 assert: metadataSpec class = PluggableListSpec;
 		 assert: metadataSpec model class = MBMetadataWindow;
 		 assert: metadataSpec frame = (0@0.1 corner: 1@0.9);
 		 assert: metadataSpec list = #getMetadataLabels;

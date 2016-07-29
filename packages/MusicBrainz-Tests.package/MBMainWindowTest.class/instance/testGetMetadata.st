@@ -1,6 +1,7 @@
-as yet unclassified
+TESTING: metadataView
 testGetMetadata
 
 	self mainWindow selectedEntity: MBMockData mockAlbum.
-	self assert: self mainWindow getMetadata
-	equals: #('Media: Digital Media' 'Artist: Kygo' 'Label: Ensis Records' 'Title: Epsilon') asOrderedCollection
+	self 
+		assert: self mainWindow getMetadata
+		equals: #('Media: Digital Media' 'Artist: Kygo' 'Label: Ensis Records' 'Title: Epsilon') asOrderedCollection

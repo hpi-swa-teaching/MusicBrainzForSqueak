@@ -6,6 +6,8 @@ testNotifyMainWindowAndDelete
 	self fileSelectionWindow files: file asOrderedCollection.
 	self fileSelectionWindow mainWindow: (MBMainWindow new).
 	self fileSelectionWindow notifyMainWindowAndClose. 
-	self assert: self fileSelectionWindow mainWindow albums last tracklist first filepath = ((Smalltalk imagePath), '/albums', FileDirectory slash, 'test.mp3').
-	self assert: self fileSelectionWindow mainWindow importWindow isNil.
+	self 
+		assert: self fileSelectionWindow mainWindow albums last tracklist first filepath
+		equals: (Smalltalk imagePath), '/albums', FileDirectory slash, 'test.mp3';
+		assert: self fileSelectionWindow mainWindow importWindow isNil.
 	

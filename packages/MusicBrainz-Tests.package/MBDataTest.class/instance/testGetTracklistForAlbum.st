@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadata-management
 testGetTracklistForAlbum
 	self 
 		assert: (self data getTracklistForAlbum: MBMockData mockAlbum) class

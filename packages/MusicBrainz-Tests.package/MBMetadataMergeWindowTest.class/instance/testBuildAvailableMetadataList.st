@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildAvailableMetadataList
 	| metadataSpec |
 	self metadataMergeWindow builder: MorphicToolBuilder new.

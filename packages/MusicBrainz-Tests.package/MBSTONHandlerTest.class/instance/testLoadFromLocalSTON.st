@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: loading
 testLoadFromLocalSTON
 	| testObject answerString |
 	testObject := MBMockData mockAlbum.

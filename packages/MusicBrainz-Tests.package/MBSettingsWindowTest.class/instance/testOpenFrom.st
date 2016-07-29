@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: resetting
 testOpenFrom
 	| window |
 	window := MBSettingsWindow openFrom: (MBMainWindow new).

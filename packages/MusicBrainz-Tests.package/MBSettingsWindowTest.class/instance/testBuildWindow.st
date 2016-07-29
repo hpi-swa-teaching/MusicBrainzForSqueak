@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testBuildWindow
 	| windowSpec |
 	self settingsWindow builder: MorphicToolBuilder new.

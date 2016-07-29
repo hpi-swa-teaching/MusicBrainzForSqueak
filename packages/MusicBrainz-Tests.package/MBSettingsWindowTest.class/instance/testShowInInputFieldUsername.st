@@ -1,4 +1,6 @@
-as yet unclassified
+TESTING: accessing
 testShowInInputFieldUsername
 
-	self assert: (self settingsWindow showInInputFieldUsername) equals: (self settingsWindow settings at: 'Username')
+	self 
+		assert: (self settingsWindow showInInputFieldUsername) 
+		equals: (self settingsWindow settings at: 'Username')

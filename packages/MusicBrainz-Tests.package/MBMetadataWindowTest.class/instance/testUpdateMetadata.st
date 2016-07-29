@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: metadata actions
 testUpdateMetadata
 	self metadataWindow
 		selectedMetadata: 'Title';

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: accessing
 testGetMBMetadata
 	| index |
 	self metadataMergeWindow mBMetadata: nil.

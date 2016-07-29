@@ -1,4 +1,6 @@
-as yet unclassified
+TESTING: accessing
 testPlayer
-	self mainWindow player: Object new.
-	self assert: self mainWindow player class equals: Object
+	self mainWindow player: MBMP3Player new.
+	self 
+		assert: self mainWindow player class 
+		equals: MBMP3Player

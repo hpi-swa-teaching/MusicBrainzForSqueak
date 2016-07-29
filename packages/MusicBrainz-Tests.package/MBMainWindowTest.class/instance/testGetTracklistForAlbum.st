@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: building
 testGetTracklistForAlbum
 	self 
 		assert: OrderedCollection equals: (self mainWindow getTracklistForAlbum: MBMockData mockAlbum) class;

@@ -1,4 +1,4 @@
-as yet unclassified
+TESTING: saving
 testSaveLibraryToDisk
 	MBSTONHandler saveLibraryToDisk: MBData new albums.
 	self 
