@@ -1,3 +1,0 @@
-accessing
-isAlbum
-	^ self subclassResponsibility 
