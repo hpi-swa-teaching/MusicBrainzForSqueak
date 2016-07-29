@@ -1,3 +1,0 @@
-parsing
-getPictureLength
-	^ self getBigEndianInteger

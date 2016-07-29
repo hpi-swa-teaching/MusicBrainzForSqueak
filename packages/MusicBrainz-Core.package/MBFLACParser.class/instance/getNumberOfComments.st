@@ -1,3 +1,3 @@
 parsing
 getNumberOfComments
-^ self getLittleEndianInteger
+^ self getLittleEndianIntegerLength

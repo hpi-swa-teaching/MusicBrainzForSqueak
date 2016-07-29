@@ -1,5 +1,5 @@
 parsing
-getLittleEndianInteger
+getLittleEndianIntegerLength
 	| length |
 	length := self stream next.
 	length := length + (self stream next << 8).

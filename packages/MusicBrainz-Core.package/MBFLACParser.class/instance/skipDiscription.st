@@ -1,3 +1,3 @@
 parsing
 skipDiscription
-	self skipBytes: self stream uint32 + 16.
+	self skipBytes: self getBlockLength + 16

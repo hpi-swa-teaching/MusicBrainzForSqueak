@@ -1,3 +1,3 @@
 parsing
 skipVendorComments
-	self skipBytes: self getLittleEndianInteger.
+	self skipBytes: self getLittleEndianIntegerLength.

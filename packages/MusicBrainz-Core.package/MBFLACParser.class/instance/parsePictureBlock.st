@@ -2,6 +2,6 @@ parsing
 parsePictureBlock
 	| mime |
 	self skipType.
-	mime := self getUTF8StringSized: self getBigEndianInteger.
+	mime := self getUTF8StringSized: self getBlockLength.
 	self skipDiscription.
-	self parsePictureBlockAs: mime with: self getPictureLength
+	self parsePictureBlockAs: mime with: self getBlockLength
