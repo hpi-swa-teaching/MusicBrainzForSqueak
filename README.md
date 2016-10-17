@@ -1,4 +1,4 @@
-# SWT16-Project-12 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-12.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-12)
+# MusicBrainzForSqueak [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/MusicBrainzForSqueak.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/MusicBrainzForSqueak)
 
 #Installation instructions:
 1. Drag and Drop the .sar-File we will deploy into your image, then click "install sar file". If you don't want to wait for a release, just execute this in your workspace:
@@ -7,7 +7,7 @@
   
     baseline: 'MusicBrainzForSqueak';
   
-    repository: 'github://HPI-SWA-Teaching/SWT16-Project-12:master/packages';
+    repository: 'github://HPI-SWA-Teaching/MusicBrainzForSqueak:master/packages';
   
     onConflict: [:ex | ex allow];
   
